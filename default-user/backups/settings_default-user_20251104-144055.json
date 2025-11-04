@@ -625,7 +625,7 @@
             "comfy_url": "http://127.0.0.1:8188",
             "comfy_workflow": "Default_Comfy_Workflow.json",
             "pollinations_enhance": false,
-            "wand_visible": true,
+            "wand_visible": false,
             "command_visible": false,
             "interactive_visible": false,
             "tool_visible": false,
@@ -740,11 +740,7 @@
                     }
                 ]
             },
-            "characterConfigs": {
-                "范静梅.png": {
-                    "setList": []
-                }
-            }
+            "characterConfigs": {}
         }
     },
     "tags": [
