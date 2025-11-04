@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
         "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}}}}",
@@ -12,7 +12,7 @@
     },
     "currentVersion": "1.13.5",
     "username": "baiyun",
-    "active_character": "Character Card Builder1.png",
+    "active_character": "角色生成.png",
     "active_group": null,
     "user_avatar": "user-default.png",
     "amount_gen": 350,
@@ -213,8 +213,8 @@
         "smooth_streaming_speed": 50,
         "stream_fade_in": false,
         "fast_ui_mode": true,
-        "avatar_style": 0,
-        "chat_display": 0,
+        "avatar_style": 2,
+        "chat_display": 1,
         "toastr_position": "toast-top-center",
         "chat_width": 50,
         "never_resize_avatars": false,
@@ -266,13 +266,13 @@
         "mesIDDisplay_enabled": false,
         "hideChatAvatars_enabled": false,
         "max_context_unlocked": false,
-        "message_token_count_enabled": false,
+        "message_token_count_enabled": true,
         "expand_message_actions": false,
         "enableZenSliders": false,
         "enableLabMode": false,
         "prefer_character_prompt": true,
         "prefer_character_jailbreak": true,
-        "quick_continue": false,
+        "quick_continue": true,
         "quick_impersonate": false,
         "continue_on_send": false,
         "trim_spaces": true,
@@ -730,6 +730,7 @@
             "isEnabled": false,
             "isCombined": false,
             "isPopout": false,
+            "showPopoutButton": true,
             "config": {
                 "setList": [
                     {
@@ -738,14 +739,7 @@
                     }
                 ]
             },
-            "characterConfigs": {
-                "Character Card Builder.png": {
-                    "setList": []
-                },
-                "Character Card Builder1.png": {
-                    "setList": []
-                }
-            }
+            "characterConfigs": {}
         }
     },
     "tags": [
@@ -797,7 +791,7 @@
             "80a19fad-8590-47f8-8e0b-e49408c7ec44",
             "843b8b62-9447-4f75-ab34-52ad0244af0c"
         ],
-        "Character Card Builder1.png": [
+        "角色生成.png": [
             "59cc7822-5c3d-48ac-8970-006dc28e756e",
             "80a19fad-8590-47f8-8e0b-e49408c7ec44",
             "843b8b62-9447-4f75-ab34-52ad0244af0c"
@@ -1346,7 +1340,7 @@
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
         "stream_openai": true,
-        "openai_max_context": 4095,
+        "openai_max_context": 13599,
         "openai_max_tokens": 300,
         "wrap_in_quotes": false,
         "prompts": [
@@ -1606,7 +1600,7 @@
         "openrouter_middleout": "on",
         "reverse_proxy": "",
         "chat_completion_source": "deepseek",
-        "max_context_unlocked": false,
+        "max_context_unlocked": true,
         "show_external_models": true,
         "proxy_password": "",
         "assistant_prefill": "",
@@ -1636,8 +1630,8 @@
         "extensions": {}
     },
     "background": {
-        "name": "__transparent.png",
-        "url": "url(\"backgrounds/__transparent.png\")",
+        "name": "landscape beach day.png",
+        "url": "url(\"backgrounds/landscape%20beach%20day.png\")",
         "fitting": "classic",
         "animation": false,
         "thumbnailColumns": 5
