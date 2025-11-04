@@ -550,7 +550,7 @@
             "prompt_prefix": "best quality, absurdres, masterpiece,",
             "negative_prompt": "lowres, bad anatomy, bad hands, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
             "sampler": "N/A",
-            "model": "stable-image-core",
+            "model": "imagen-3.0-generate-002",
             "restore_faces": true,
             "enable_hr": true,
             "horde": true,
@@ -573,7 +573,7 @@
                 "-2": "The text prompt used to generate the image. Must represent an exhaustive description of the desired image that will allow an artist or a photographer to perfectly recreate it."
             },
             "character_prompts": {},
-            "source": "stability",
+            "source": "google",
             "scheduler": null,
             "vae": null,
             "seed": -1,
