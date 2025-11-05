@@ -4,7 +4,7 @@
         "__migrated": "1",
         "LNavOpened": "false",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}}}}",
         "LNavLockOn": "false",
         "WINavOpened": "true",
@@ -413,10 +413,7 @@
         "apiKey": "",
         "autoConnect": false,
         "notifyUpdates": false,
-        "disabledExtensions": [
-            "caption",
-            "caption"
-        ],
+        "disabledExtensions": [],
         "expressionOverrides": [],
         "memory": {
             "minLongMemory": 16,
@@ -494,8 +491,7 @@
             "llmPrompt": "Ignore previous instructions. Classify the emotion of the last message. Output just one word, e.g. \"joy\" or \"anger\". Choose only one of the following labels: {{labels}}",
             "allowMultiple": true,
             "promptType": "raw",
-            "custom": [],
-            "fallback_expression": "admiration"
+            "custom": []
         },
         "connectionManager": {
             "selectedProfile": "bd3c9e8a-867a-4216-811f-955215fe89aa",
@@ -965,8 +961,8 @@
             "height": 960,
             "prompt_prefix": "best quality, absurdres, masterpiece,",
             "negative_prompt": "lowres, bad anatomy, bad hands, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
-            "sampler": null,
-            "model": null,
+            "sampler": "k_euler_ancestral",
+            "model": "nai-diffusion-4-5-full",
             "restore_faces": true,
             "enable_hr": true,
             "horde": true,
@@ -989,8 +985,8 @@
                 "-2": "The text prompt used to generate the image. Must represent an exhaustive description of the desired image that will allow an artist or a photographer to perfectly recreate it."
             },
             "character_prompts": {},
-            "source": "auto",
-            "scheduler": null,
+            "source": "novel",
+            "scheduler": "karras",
             "vae": null,
             "seed": -1,
             "adetailer_face": false,
@@ -1000,7 +996,7 @@
             "snap": true,
             "free_extend": false,
             "function_tool": false,
-            "auto_url": "https://api.perchance.org/txt2img",
+            "auto_url": "http://localhost:7860",
             "auto_auth": "",
             "vlad_url": "http://localhost:7860",
             "vlad_auth": "",
@@ -1023,7 +1019,7 @@
             "clip_skip_max": 12,
             "clip_skip_step": 1,
             "clip_skip": 1,
-            "novel_anlas_guard": false,
+            "novel_anlas_guard": true,
             "novel_sm": false,
             "novel_sm_dyn": false,
             "novel_decrisper": false,
@@ -1038,13 +1034,13 @@
                     "prefix": "best quality, absurdres, aesthetic,"
                 }
             ],
-            "comfy_url": "https://api.perchance.org/txt2img",
+            "comfy_url": "http://127.0.0.1:8188",
             "comfy_workflow": "Default_Comfy_Workflow.json",
             "pollinations_enhance": false,
             "wand_visible": true,
-            "command_visible": true,
-            "interactive_visible": true,
-            "tool_visible": true,
+            "command_visible": false,
+            "interactive_visible": false,
+            "tool_visible": false,
             "stability_style_preset": "3d-model",
             "bfl_upsampling": false,
             "google_api": "makersuite",
@@ -1171,7 +1167,7 @@
             "allowInterval": 80
         },
         "auto_illustrator": {
-            "enabled": false,
+            "enabled": true,
             "streamingPollInterval": 300,
             "monitorPollingInterval": 300,
             "maxConcurrentGenerations": 1,

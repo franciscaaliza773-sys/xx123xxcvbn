@@ -1171,7 +1171,7 @@
             "allowInterval": 80
         },
         "auto_illustrator": {
-            "enabled": false,
+            "enabled": true,
             "streamingPollInterval": 300,
             "monitorPollingInterval": 300,
             "maxConcurrentGenerations": 1,
