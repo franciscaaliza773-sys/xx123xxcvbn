@@ -12,8 +12,7 @@
         "AllowGlobalStyles-角色生成.png": "true"
     },
     "currentVersion": "1.13.5",
-    "username": "白云",
-    "active_character": "范静梅.png",
+    "username": "baiyun",
     "active_group": null,
     "user_avatar": "user-default.png",
     "amount_gen": 350,
@@ -343,16 +342,16 @@
             "max_additions": 1
         },
         "personas": {
-            "user-default.png": "白云"
+            "user-default.png": "baiyun"
         },
         "default_persona": "user-default.png",
         "persona_descriptions": {
             "user-default.png": {
-                "description": "白云是个18岁的帅气男孩子，他一身壮硕的好身材。喜欢魅魔和丰乳肥臀的冷艳仙子。也喜欢女孩子对他说骚话，说情话，喜欢会撩人的女人",
+                "description": "baiyun是个18岁的帅气男孩子，他一身壮硕的好身材。喜欢魅魔和丰乳肥臀的冷艳仙子。也喜欢女孩子对他说骚话，说情话，会撩人的女人",
                 "position": 0
             }
         },
-        "persona_description": "白云是个18岁的帅气男孩子，他一身壮硕的好身材。喜欢魅魔和丰乳肥臀的冷艳仙子。也喜欢女孩子对他说骚话，说情话，喜欢会撩人的女人",
+        "persona_description": "baiyun是个18岁的帅气男孩子，他一身壮硕的好身材。喜欢魅魔和丰乳肥臀的冷艳仙子。也喜欢女孩子对他说骚话，说情话，会撩人的女人",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -1100,7 +1099,14 @@
                     }
                 ]
             },
-            "characterConfigs": {}
+            "characterConfigs": {
+                "范静梅.png": {
+                    "setList": []
+                },
+                "default_Seraphina.png": {
+                    "setList": []
+                }
+            }
         }
     },
     "tags": [
@@ -1155,6 +1161,9 @@
         }
     ],
     "tag_map": {
+        "default_Seraphina.png": [
+            "1345561466591"
+        ],
         "角色生成.png": [
             "59cc7822-5c3d-48ac-8970-006dc28e756e",
             "80a19fad-8590-47f8-8e0b-e49408c7ec44",
