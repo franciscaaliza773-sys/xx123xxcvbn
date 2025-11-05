@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
         "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}}}}",
@@ -218,7 +218,7 @@
         "smooth_streaming_speed": 50,
         "stream_fade_in": false,
         "fast_ui_mode": true,
-        "avatar_style": 1,
+        "avatar_style": 2,
         "chat_display": 1,
         "toastr_position": "toast-top-center",
         "chat_width": 50,
@@ -283,7 +283,7 @@
         "trim_spaces": true,
         "relaxed_api_urls": false,
         "world_import_dialog": true,
-        "enable_auto_select_input": true,
+        "enable_auto_select_input": false,
         "enable_md_hotkeys": false,
         "tag_import_setting": 1,
         "disable_group_trimming": false,
@@ -1471,7 +1471,7 @@
     },
     "oai_settings": {
         "preset_settings_openai": "Default",
-        "temp_openai": 0.94,
+        "temp_openai": 1,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
         "top_p_openai": 1,
@@ -1760,7 +1760,7 @@
         "names_behavior": 0,
         "continue_postfix": " ",
         "custom_prompt_post_processing": "semi_tools",
-        "show_thoughts": false,
+        "show_thoughts": true,
         "reasoning_effort": "auto",
         "enable_web_search": false,
         "request_images": false,
@@ -1770,8 +1770,8 @@
         "extensions": {}
     },
     "background": {
-        "name": "2.jpg",
-        "url": "url(\"backgrounds/2.jpg\")",
+        "name": "2 (2).jpg",
+        "url": "url(\"backgrounds/2%20(2).jpg\")",
         "fitting": "classic",
         "animation": false,
         "thumbnailColumns": 5

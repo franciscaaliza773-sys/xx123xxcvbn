@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
         "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}}}}",
@@ -214,17 +214,17 @@
         "markdown_escape_strings": "",
         "chat_truncation": 100,
         "streaming_fps": 30,
-        "smooth_streaming": true,
+        "smooth_streaming": false,
         "smooth_streaming_speed": 50,
         "stream_fade_in": false,
         "fast_ui_mode": true,
-        "avatar_style": 1,
+        "avatar_style": 2,
         "chat_display": 1,
         "toastr_position": "toast-top-center",
         "chat_width": 50,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
-        "play_message_sound": true,
+        "play_message_sound": false,
         "play_sound_unfocused": true,
         "auto_save_msg_edits": false,
         "confirm_message_delete": true,
@@ -283,7 +283,7 @@
         "trim_spaces": true,
         "relaxed_api_urls": false,
         "world_import_dialog": true,
-        "enable_auto_select_input": true,
+        "enable_auto_select_input": false,
         "enable_md_hotkeys": false,
         "tag_import_setting": 1,
         "disable_group_trimming": false,
@@ -494,13 +494,12 @@
         },
         "expressions": {
             "showDefault": false,
-            "api": 0,
+            "api": 99,
             "llmPrompt": "Ignore previous instructions. Classify the emotion of the last message. Output just one word, e.g. \"joy\" or \"anger\". Choose only one of the following labels: {{labels}}",
             "allowMultiple": true,
             "promptType": "raw",
             "custom": [],
-            "fallback_expression": "annoyance",
-            "rerollIfSame": true
+            "fallback_expression": "admiration"
         },
         "connectionManager": {
             "selectedProfile": "bd3c9e8a-867a-4216-811f-955215fe89aa",
@@ -1471,7 +1470,7 @@
     },
     "oai_settings": {
         "preset_settings_openai": "Default",
-        "temp_openai": 0.94,
+        "temp_openai": 1,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
         "top_p_openai": 1,
@@ -1760,7 +1759,7 @@
         "names_behavior": 0,
         "continue_postfix": " ",
         "custom_prompt_post_processing": "semi_tools",
-        "show_thoughts": false,
+        "show_thoughts": true,
         "reasoning_effort": "auto",
         "enable_web_search": false,
         "request_images": false,
@@ -1770,8 +1769,8 @@
         "extensions": {}
     },
     "background": {
-        "name": "2.jpg",
-        "url": "url(\"backgrounds/2.jpg\")",
+        "name": "landscape beach day.png",
+        "url": "url(\"backgrounds/landscape%20beach%20day.png\")",
         "fitting": "classic",
         "animation": false,
         "thumbnailColumns": 5
