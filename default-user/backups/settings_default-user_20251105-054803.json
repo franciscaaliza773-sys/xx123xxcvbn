@@ -1101,11 +1101,6 @@
                 ]
             },
             "characterConfigs": {}
-        },
-        "manual_saver": {
-            "enabled": true,
-            "allowTimedSave": true,
-            "allowInterval": 80
         }
     },
     "tags": [
