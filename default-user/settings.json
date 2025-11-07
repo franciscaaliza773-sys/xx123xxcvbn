@@ -29,8 +29,7 @@
         "world_info": {
             "globalSelect": [
                 "[反差婊]我认识的的coser和福利姬们1.4",
-                "XP大全绿灯世界书-v1.4",
-                "声临其境-示例世界书 (3)"
+                "XP大全绿灯世界书-v1.4"
             ]
         },
         "world_info_depth": 2,
@@ -249,7 +248,7 @@
         "shadow_color": "rgba(0, 0, 0, 1)",
         "border_color": "rgba(0, 0, 0, 0.5)",
         "custom_css": "",
-        "waifuMode": false,
+        "waifuMode": true,
         "movingUI": false,
         "movingUIState": {},
         "movingUIPreset": "Default",
@@ -261,7 +260,7 @@
         "auto_swipe_blacklist": [],
         "auto_swipe_blacklist_threshold": 2,
         "auto_scroll_chat_to_bottom": true,
-        "auto_fix_generated_markdown": false,
+        "auto_fix_generated_markdown": true,
         "send_on_enter": 0,
         "console_log_prompts": false,
         "request_token_probabilities": false,
@@ -1007,7 +1006,7 @@
             "highlightOpacity": 0.4,
             "musicStartsWithParagraph": true,
             "seamlessMusic": true,
-            "regexReplace": false,
+            "regexReplace": true,
             "masterVolume": 0.76,
             "musicVolume": 0.1,
             "ambianceVolume": 0.61,
