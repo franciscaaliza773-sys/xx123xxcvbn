@@ -20,7 +20,7 @@
     },
     "currentVersion": "1.13.5",
     "username": "白云",
-    "active_character": "我的剑仙熟女美母恶堕了全新版.png",
+    "active_character": "[反差婊]我认识的coser和福利姬们.png",
     "active_group": null,
     "user_avatar": "user-default.png",
     "amount_gen": 350,
@@ -1248,7 +1248,8 @@
             ],
             "lastUsedPresetName": "剧情索引",
             "promptPresetSelect": "剧情索引",
-            "tavernApiProfileSelect": "bd3c9e8a-867a-4216-811f-955215fe89aa"
+            "tavernApiProfileSelect": "bd3c9e8a-867a-4216-811f-955215fe89aa",
+            "minLength": 0
         }
     },
     "tags": [
