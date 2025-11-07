@@ -12,13 +12,11 @@
         "AllowGlobalStyles-角色生成.png": "true",
         "AlertWI_[乡镇]我的奇怪相亲之旅1.1.png": "true",
         "AlertRegex_[乡镇]我的奇怪相亲之旅1.1.png": "true",
-        "AlertWI_我的剑仙熟女美母恶堕了全新版.png": "true",
-        "AlertWI_[反差婊]我认识的coser和福利姬们.png": "true",
-        "AlertRegex_[反差婊]我认识的coser和福利姬们.png": "true"
+        "AlertWI_我的剑仙熟女美母恶堕了全新版.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "白云",
-    "active_character": "[反差婊]我认识的coser和福利姬们.png",
+    "active_character": "[乡镇]我的奇怪相亲之旅1.1.png",
     "active_group": null,
     "user_avatar": "user-default.png",
     "amount_gen": 350,
@@ -27,8 +25,8 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "[反差婊]我认识的的coser和福利姬们1.4",
-                "XP大全绿灯世界书-v1.4"
+                "XP大全绿灯世界书-v1.4",
+                "我的剑仙熟女美母恶堕了全新版_Worldbooks"
             ]
         },
         "world_info_depth": 2,
@@ -602,8 +600,7 @@
         ],
         "character_allowed_regex": [
             "[乡镇]我的奇怪相亲之旅1.1.png",
-            "我的剑仙熟女美母恶堕了全新版.png",
-            "[反差婊]我认识的coser和福利姬们.png"
+            "我的剑仙熟女美母恶堕了全新版.png"
         ],
         "preset_allowed_regex": {
             "kobold": [
@@ -840,9 +837,6 @@
                 },
                 "我的剑仙熟女美母恶堕了全新版.png": {
                     "setList": []
-                },
-                "[反差婊]我认识的coser和福利姬们.png": {
-                    "setList": []
                 }
             }
         },
@@ -941,8 +935,7 @@
         ],
         "范静梅.png": [],
         "[乡镇]我的奇怪相亲之旅1.1.png": [],
-        "我的剑仙熟女美母恶堕了全新版.png": [],
-        "[反差婊]我认识的coser和福利姬们.png": []
+        "我的剑仙熟女美母恶堕了全新版.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
