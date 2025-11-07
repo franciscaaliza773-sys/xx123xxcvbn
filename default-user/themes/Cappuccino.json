@@ -17,6 +17,7 @@
     "waifuMode": false,
     "avatar_style": 0,
     "chat_display": 1,
+    "toastr_position": "toast-top-center",
     "noShadows": false,
     "chat_width": 50,
     "timer_enabled": false,
@@ -31,6 +32,9 @@
     "hotswap_enabled": true,
     "custom_css": "",
     "bogus_folders": true,
+    "zoomed_avatar_magnification": true,
     "reduced_motion": false,
-    "compact_input_area": true
+    "compact_input_area": true,
+    "show_swipe_num_all_messages": false,
+    "click_to_edit": false
 }

@@ -43,8 +43,8 @@
     "top_a": 0,
     "min_p": 0,
     "repetition_penalty": 1,
-    "openai_max_context": 1919810,
-    "openai_max_tokens": 20000,
+    "openai_max_context": "405627",
+    "openai_max_tokens": 1000,
     "wrap_in_quotes": false,
     "names_behavior": 0,
     "send_if_empty": "",
@@ -61,7 +61,7 @@
     "scenario_format": "[Circumstances and context of the dialogue: {{scenario}}]",
     "personality_format": "[{{char}}'s personality: {{personality}}]",
     "group_nudge_prompt": "[Write the next reply only as {{char}}.]",
-    "stream_openai": true,
+    "stream_openai": false,
     "prompts": [
         {
             "identifier": "8b4c6b33-5301-436c-85e0-bf9fcc00e52c",
