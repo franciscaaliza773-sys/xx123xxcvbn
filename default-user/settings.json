@@ -423,7 +423,8 @@
         "disabledExtensions": [
             "caption",
             "caption",
-            "third-party/sillytavern-auto-illustrator"
+            "third-party/sillytavern-auto-illustrator",
+            "third-party/st-immersive-sound"
         ],
         "expressionOverrides": [],
         "memory": {
