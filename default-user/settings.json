@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
         "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}}}}",
@@ -923,8 +923,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 11,
-                "LAST_RECEIVE_CHARS": 12,
+                "LAST_RECEIVE_TOKENS": 2241,
+                "LAST_RECEIVE_CHARS": 5731,
                 "LAST_SEND_TOKENS": 20638,
                 "LAST_SEND_CHARS": 33334
             }
@@ -1984,9 +1984,9 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": false,
+        "stream_openai": true,
         "openai_max_context": "405627",
-        "openai_max_tokens": 1000,
+        "openai_max_tokens": 2000,
         "wrap_in_quotes": false,
         "prompts": [
             {
