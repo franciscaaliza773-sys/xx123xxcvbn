@@ -30,13 +30,11 @@
         "AlertWI_萧谴写卡助手版_V4.5.1.png": "true",
         "AlertRegex_萧谴写卡助手版_V4.5.1.png": "true",
         "AlertWI_献给挚爱的您的童真乐园.png": "true",
-        "AlertRegex_献给挚爱的您的童真乐园.png": "true",
-        "AlertWI_与炮友系青梅竹马打情骂俏的日常-改.png": "true",
-        "AlertRegex_与炮友系青梅竹马打情骂俏的日常-改.png": "true"
+        "AlertRegex_献给挚爱的您的童真乐园.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "白云",
-    "active_character": "与炮友系青梅竹马打情骂俏的日常-改.png",
+    "active_character": "萧谴写卡助手版_V4.5.1.png",
     "active_group": null,
     "user_avatar": "user-default.png",
     "amount_gen": 350,
@@ -716,8 +714,7 @@
             "斗罗大陆.png",
             "《凡人修仙传V8.92》.png",
             "萧谴写卡助手版_V4.5.1.png",
-            "献给挚爱的您的童真乐园.png",
-            "与炮友系青梅竹马打情骂俏的日常-改.png"
+            "献给挚爱的您的童真乐园.png"
         ],
         "preset_allowed_regex": {
             "kobold": [
@@ -923,8 +920,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 453,
-                "LAST_RECEIVE_CHARS": 1099,
+                "LAST_RECEIVE_TOKENS": 3005,
+                "LAST_RECEIVE_CHARS": 8421,
                 "LAST_SEND_TOKENS": 19302,
                 "LAST_SEND_CHARS": 33341
             }
@@ -987,9 +984,6 @@
                     "setList": []
                 },
                 "献给挚爱的您的童真乐园.png": {
-                    "setList": []
-                },
-                "与炮友系青梅竹马打情骂俏的日常-改.png": {
                     "setList": []
                 }
             }
@@ -1434,13 +1428,10 @@
         "酒馆知识库.png": [],
         "斗罗大陆.png": [],
         "《凡人修仙传V8.92》.png": [],
-        "萧谴写卡助手版_V4.5.1.png": [
-            "c92a7332-565b-434d-8fc0-5df295c22061"
-        ],
+        "萧谴写卡助手版_V4.5.1.png": [],
         "献给挚爱的您的童真乐园.png": [
             "c92a7332-565b-434d-8fc0-5df295c22061"
-        ],
-        "与炮友系青梅竹马打情骂俏的日常-改.png": []
+        ]
     },
     "nai_settings": {
         "temperature": 1.5,
