@@ -16,8 +16,7 @@
         "AlertWI_[反差婊]我认识的coser和福利姬们.png": "true",
         "AlertRegex_[反差婊]我认识的coser和福利姬们.png": "true",
         "extension_update_nag": "Fri Nov 07 2025",
-        "AlertRegex_openai_Izumi · こなた Pro": "true",
-        "response_linter_settings": "{\"enabled\":true,\"autoFix\":true,\"defaultAutoFixAction\":\"apply\",\"rules\":[{\"id\":\"thinking-content-demo\",\"name\":\"思维链与内容格式\",\"description\":\"确保AI回复包含思考过程和内容两个部分\",\"enabled\":true,\"requiredContent\":[\"<thinking>\",\"</thinking>\",\"<content>\",\"</content>\"],\"fixStrategy\":\"thinking-content\",\"createdAt\":\"2025-11-07T10:57:03.935Z\"},{\"id\":1762513235660.9443,\"name\":\"问答格式验证\",\"description\":\"验证问答回复包含问题和答案部分\",\"requiredContent\":[\"## 问题\",\"## 答案\"],\"fixStrategy\":\"positional\",\"positionalOptions\":{\"doubleNewline\":true},\"enabled\":true,\"createdAt\":\"2025-11-07T11:00:35.660Z\",\"updatedAt\":\"2025-11-07T11:00:35.660Z\"},{\"id\":1762513242396.4727,\"name\":\"思维链验证\",\"description\":\"验证AI回复包含正确的思考过程和内容格式\",\"requiredContent\":[\"<thinking>\",\"</thinking>\",\"<content>\",\"</content>\"],\"fixStrategy\":\"positional\",\"positionalOptions\":{\"doubleNewline\":true},\"enabled\":false,\"createdAt\":\"2025-11-07T11:00:42.396Z\",\"updatedAt\":\"2025-11-07T11:00:42.396Z\"},{\"id\":1762513243989.2322,\"name\":\"代码块验证\",\"description\":\"验证代码回复包含正确的代码块标记\",\"requiredContent\":[\"```\",\"```\"],\"fixStrategy\":\"add-missing-tags\",\"enabled\":false,\"createdAt\":\"2025-11-07T11:00:43.989Z\",\"updatedAt\":\"2025-11-07T11:00:43.989Z\"}],\"notifications\":{\"enabled\":true,\"duration\":5,\"showSuccess\":true},\"statistics\":{\"validations\":0,\"fixes\":0,\"successRate\":100}}"
+        "AlertRegex_openai_Izumi · こなた Pro": "true"
     },
     "currentVersion": "1.13.5",
     "username": "白云",
@@ -271,7 +270,7 @@
         "allow_name1_display": true,
         "allow_name2_display": true,
         "hotswap_enabled": true,
-        "timer_enabled": false,
+        "timer_enabled": true,
         "timestamps_enabled": true,
         "timestamp_model_icon": true,
         "mesIDDisplay_enabled": true,
@@ -402,7 +401,7 @@
         "restore_user_input": true,
         "reduced_motion": false,
         "compact_input_area": true,
-        "show_swipe_num_all_messages": false,
+        "show_swipe_num_all_messages": true,
         "auto_connect": true,
         "auto_load_chat": false,
         "forbid_external_media": false,
@@ -1250,84 +1249,6 @@
             "lastUsedPresetName": "剧情索引",
             "promptPresetSelect": "剧情索引",
             "tavernApiProfileSelect": "bd3c9e8a-867a-4216-811f-955215fe89aa"
-        },
-        "response-linter": {
-            "enabled": true,
-            "autoFix": true,
-            "defaultAutoFixAction": "apply",
-            "rules": [
-                {
-                    "id": "thinking-content-demo",
-                    "name": "思维链与内容格式",
-                    "description": "确保AI回复包含思考过程和内容两个部分",
-                    "enabled": true,
-                    "requiredContent": [
-                        "<thinking>",
-                        "</thinking>",
-                        "<content>",
-                        "</content>"
-                    ],
-                    "fixStrategy": "thinking-content",
-                    "createdAt": "2025-11-07T10:57:03.935Z"
-                },
-                {
-                    "id": 1762513235660.9443,
-                    "name": "问答格式验证",
-                    "description": "验证问答回复包含问题和答案部分",
-                    "requiredContent": [
-                        "## 问题",
-                        "## 答案"
-                    ],
-                    "fixStrategy": "positional",
-                    "positionalOptions": {
-                        "doubleNewline": true
-                    },
-                    "enabled": true,
-                    "createdAt": "2025-11-07T11:00:35.660Z",
-                    "updatedAt": "2025-11-07T11:00:35.660Z"
-                },
-                {
-                    "id": 1762513242396.4727,
-                    "name": "思维链验证",
-                    "description": "验证AI回复包含正确的思考过程和内容格式",
-                    "requiredContent": [
-                        "<thinking>",
-                        "</thinking>",
-                        "<content>",
-                        "</content>"
-                    ],
-                    "fixStrategy": "positional",
-                    "positionalOptions": {
-                        "doubleNewline": true
-                    },
-                    "enabled": false,
-                    "createdAt": "2025-11-07T11:00:42.396Z",
-                    "updatedAt": "2025-11-07T11:00:42.396Z"
-                },
-                {
-                    "id": 1762513243989.2322,
-                    "name": "代码块验证",
-                    "description": "验证代码回复包含正确的代码块标记",
-                    "requiredContent": [
-                        "```",
-                        "```"
-                    ],
-                    "fixStrategy": "add-missing-tags",
-                    "enabled": false,
-                    "createdAt": "2025-11-07T11:00:43.989Z",
-                    "updatedAt": "2025-11-07T11:00:43.989Z"
-                }
-            ],
-            "notifications": {
-                "enabled": true,
-                "duration": 5,
-                "showSuccess": true
-            },
-            "statistics": {
-                "validations": 0,
-                "fixes": 0,
-                "successRate": 100
-            }
         }
     },
     "tags": [
