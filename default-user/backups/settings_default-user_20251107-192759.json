@@ -31,7 +31,6 @@
         "world_info": {
             "globalSelect": [
                 "[反差婊]我认识的的coser和福利姬们1.4",
-                "我的剑仙熟女美母恶堕了全新版_Worldbooks",
                 "正文质量究极优化+记忆召回",
                 "XP大全绿灯世界书-v1.4"
             ]
@@ -214,8 +213,8 @@
         "user_prompt_bias": "",
         "show_user_prompt_bias": true,
         "auto_continue": {
-            "enabled": false,
-            "allow_chat_completions": false,
+            "enabled": true,
+            "allow_chat_completions": true,
             "target_length": 120
         },
         "markdown_escape_strings": "",
@@ -1335,8 +1334,7 @@
         {
             "id": "1345561466591",
             "name": "ST Default",
-            "color": "rgba(108, 32, 32, 1)",
-            "color2": ""
+            "color": "rgba(108, 32, 32, 1)"
         },
         {
             "id": "59cc7822-5c3d-48ac-8970-006dc28e756e",
