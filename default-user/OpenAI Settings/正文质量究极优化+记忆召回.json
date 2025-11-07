@@ -1,5 +1,5 @@
 {
-    "chat_completion_source": "makersuite",
+    "chat_completion_source": "deepseek",
     "openai_model": "gpt-4-turbo",
     "claude_model": "claude-sonnet-4-5",
     "openrouter_model": "OR_Website",
