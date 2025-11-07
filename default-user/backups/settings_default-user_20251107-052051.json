@@ -4,7 +4,7 @@
         "__migrated": "1",
         "LNavOpened": "false",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}}}}",
         "LNavLockOn": "false",
         "WINavOpened": "true",
@@ -14,8 +14,7 @@
         "AlertRegex_[乡镇]我的奇怪相亲之旅1.1.png": "true",
         "AlertWI_我的剑仙熟女美母恶堕了全新版.png": "true",
         "AlertWI_[反差婊]我认识的coser和福利姬们.png": "true",
-        "AlertRegex_[反差婊]我认识的coser和福利姬们.png": "true",
-        "extension_update_nag": "Fri Nov 07 2025"
+        "AlertRegex_[反差婊]我认识的coser和福利姬们.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "白云",
@@ -422,8 +421,7 @@
         "notifyUpdates": true,
         "disabledExtensions": [
             "caption",
-            "caption",
-            "third-party/sillytavern-auto-illustrator"
+            "caption"
         ],
         "expressionOverrides": [],
         "memory": {
