@@ -22,11 +22,13 @@
         "AlertRegex_openai_知识库": "true",
         "NavLockOn": "false",
         "AlertWI_酒馆知识库.png": "true",
-        "AlertRegex_酒馆知识库.png": "true"
+        "AlertRegex_酒馆知识库.png": "true",
+        "AlertWI_斗罗大陆.png": "true",
+        "AlertRegex_斗罗大陆.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "白云",
-    "active_character": "角色生成.png",
+    "active_character": "斗罗大陆.png",
     "active_group": null,
     "user_avatar": "user-default.png",
     "amount_gen": 350,
@@ -702,7 +704,8 @@
             "[乡镇]我的奇怪相亲之旅1.1.png",
             "我的剑仙熟女美母恶堕了全新版.png",
             "[反差婊]我认识的coser和福利姬们.png",
-            "酒馆知识库.png"
+            "酒馆知识库.png",
+            "斗罗大陆.png"
         ],
         "preset_allowed_regex": {
             "kobold": [
@@ -908,8 +911,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 250,
-                "LAST_RECEIVE_CHARS": 456,
+                "LAST_RECEIVE_TOKENS": 949,
+                "LAST_RECEIVE_CHARS": 1517,
                 "LAST_SEND_TOKENS": 11996,
                 "LAST_SEND_CHARS": 23261
             }
@@ -960,6 +963,9 @@
                     "setList": []
                 },
                 "酒馆知识库.png": {
+                    "setList": []
+                },
+                "斗罗大陆.png": {
                     "setList": []
                 }
             }
@@ -1433,7 +1439,8 @@
         "[乡镇]我的奇怪相亲之旅1.1.png": [],
         "我的剑仙熟女美母恶堕了全新版.png": [],
         "[反差婊]我认识的coser和福利姬们.png": [],
-        "酒馆知识库.png": []
+        "酒馆知识库.png": [],
+        "斗罗大陆.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
