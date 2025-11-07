@@ -45,7 +45,7 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "献给挚爱的您的童真乐园",
+                "与炮友系青梅竹马打情骂俏的日常-改",
                 "a1融合版反差母猪世界书低token",
                 "XP大全绿灯世界书-v1.4"
             ]
@@ -923,10 +923,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 453,
-                "LAST_RECEIVE_CHARS": 1099,
-                "LAST_SEND_TOKENS": 19302,
-                "LAST_SEND_CHARS": 33341
+                "LAST_RECEIVE_TOKENS": 11,
+                "LAST_RECEIVE_CHARS": 12,
+                "LAST_SEND_TOKENS": 20638,
+                "LAST_SEND_CHARS": 33334
             }
         },
         "attachments": [],
@@ -1975,7 +1975,7 @@
         }
     },
     "oai_settings": {
-        "preset_settings_openai": "XP情境大全（需搭配全绿灯世界书-v1.4）",
+        "preset_settings_openai": "正文质量究极优化+记忆召回",
         "temp_openai": 1.25,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
@@ -1984,9 +1984,9 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": true,
-        "openai_max_context": 405627,
-        "openai_max_tokens": 2000,
+        "stream_openai": false,
+        "openai_max_context": "405627",
+        "openai_max_tokens": 1000,
         "wrap_in_quotes": false,
         "prompts": [
             {
