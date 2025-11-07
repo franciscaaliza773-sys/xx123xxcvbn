@@ -28,13 +28,11 @@
         "AlertWI_《凡人修仙传V8.92》.png": "true",
         "AlertRegex_《凡人修仙传V8.92》.png": "true",
         "AlertWI_萧谴写卡助手版_V4.5.1.png": "true",
-        "AlertRegex_萧谴写卡助手版_V4.5.1.png": "true",
-        "AlertWI_献给挚爱的您的童真乐园.png": "true",
-        "AlertRegex_献给挚爱的您的童真乐园.png": "true"
+        "AlertRegex_萧谴写卡助手版_V4.5.1.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "白云",
-    "active_character": "献给挚爱的您的童真乐园.png",
+    "active_character": "萧谴写卡助手版_V4.5.1.png",
     "active_group": null,
     "user_avatar": "user-default.png",
     "amount_gen": 350,
@@ -43,7 +41,7 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "献给挚爱的您的童真乐园",
+                "萧谴写卡助手版_V4.5.1",
                 "a1融合版反差母猪世界书低token",
                 "XP大全绿灯世界书-v1.4"
             ]
@@ -713,8 +711,7 @@
             "酒馆知识库.png",
             "斗罗大陆.png",
             "《凡人修仙传V8.92》.png",
-            "萧谴写卡助手版_V4.5.1.png",
-            "献给挚爱的您的童真乐园.png"
+            "萧谴写卡助手版_V4.5.1.png"
         ],
         "preset_allowed_regex": {
             "kobold": [
@@ -920,10 +917,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 3005,
-                "LAST_RECEIVE_CHARS": 8421,
-                "LAST_SEND_TOKENS": 19302,
-                "LAST_SEND_CHARS": 33341
+                "LAST_RECEIVE_TOKENS": 4948,
+                "LAST_RECEIVE_CHARS": 12429,
+                "LAST_SEND_TOKENS": 18909,
+                "LAST_SEND_CHARS": 32628
             }
         },
         "attachments": [],
@@ -981,9 +978,6 @@
                     "setList": []
                 },
                 "萧谴写卡助手版_V4.5.1.png": {
-                    "setList": []
-                },
-                "献给挚爱的您的童真乐园.png": {
                     "setList": []
                 }
             }
@@ -1397,6 +1391,45 @@
     },
     "tags": [
         {
+            "id": "1345561466591",
+            "name": "ST Default",
+            "color": "rgba(108, 32, 32, 1)",
+            "color2": ""
+        },
+        {
+            "id": "59cc7822-5c3d-48ac-8970-006dc28e756e",
+            "name": "Helpers",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "is_hidden_on_character_card": false,
+            "color": "",
+            "color2": "",
+            "create_date": 1762259206732
+        },
+        {
+            "id": "80a19fad-8590-47f8-8e0b-e49408c7ec44",
+            "name": "Meta",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "is_hidden_on_character_card": false,
+            "color": "",
+            "color2": "",
+            "create_date": 1762259206732
+        },
+        {
+            "id": "843b8b62-9447-4f75-ab34-52ad0244af0c",
+            "name": "card builder",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "is_hidden_on_character_card": false,
+            "color": "",
+            "color2": "",
+            "create_date": 1762259206732
+        },
+        {
             "id": "50f66fc1-7bda-4f65-b36e-476de0dd86ae",
             "name": "范静梅",
             "folder_type": "NONE",
@@ -1406,21 +1439,14 @@
             "color": "",
             "color2": "",
             "create_date": 1762264262928
-        },
-        {
-            "id": "c92a7332-565b-434d-8fc0-5df295c22061",
-            "name": "普通",
-            "folder_type": "NONE",
-            "filter_state": "UNDEFINED",
-            "sort_order": null,
-            "is_hidden_on_character_card": false,
-            "color": "",
-            "color2": "",
-            "create_date": 1762529195840
         }
     ],
     "tag_map": {
-        "角色生成.png": [],
+        "角色生成.png": [
+            "59cc7822-5c3d-48ac-8970-006dc28e756e",
+            "80a19fad-8590-47f8-8e0b-e49408c7ec44",
+            "843b8b62-9447-4f75-ab34-52ad0244af0c"
+        ],
         "范静梅.png": [],
         "[乡镇]我的奇怪相亲之旅1.1.png": [],
         "我的剑仙熟女美母恶堕了全新版.png": [],
@@ -1428,10 +1454,7 @@
         "酒馆知识库.png": [],
         "斗罗大陆.png": [],
         "《凡人修仙传V8.92》.png": [],
-        "萧谴写卡助手版_V4.5.1.png": [],
-        "献给挚爱的您的童真乐园.png": [
-            "c92a7332-565b-434d-8fc0-5df295c22061"
-        ]
+        "萧谴写卡助手版_V4.5.1.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
