@@ -35,7 +35,9 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "a1融合版反差母猪世界书低token"
+                "我的剑仙熟女美母恶堕了全新版_Worldbooks",
+                "a1融合版反差母猪世界书低token",
+                "XP大全绿灯世界书-v1.4"
             ]
         },
         "world_info_depth": 2,
@@ -906,10 +908,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 322,
-                "LAST_RECEIVE_CHARS": 1410,
-                "LAST_SEND_TOKENS": 5486,
-                "LAST_SEND_CHARS": 17321
+                "LAST_RECEIVE_TOKENS": 250,
+                "LAST_RECEIVE_CHARS": 456,
+                "LAST_SEND_TOKENS": 11996,
+                "LAST_SEND_CHARS": 23261
             }
         },
         "attachments": [],
