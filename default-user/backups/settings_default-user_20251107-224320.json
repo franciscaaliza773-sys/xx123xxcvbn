@@ -24,15 +24,11 @@
         "AlertWI_酒馆知识库.png": "true",
         "AlertRegex_酒馆知识库.png": "true",
         "AlertWI_斗罗大陆.png": "true",
-        "AlertRegex_斗罗大陆.png": "true",
-        "AlertWI_《凡人修仙传V8.92》.png": "true",
-        "AlertRegex_《凡人修仙传V8.92》.png": "true",
-        "AlertWI_萧谴写卡助手版_V4.5.1.png": "true",
-        "AlertRegex_萧谴写卡助手版_V4.5.1.png": "true"
+        "AlertRegex_斗罗大陆.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "白云",
-    "active_character": "萧谴写卡助手版_V4.5.1.png",
+    "active_character": "斗罗大陆.png",
     "active_group": null,
     "user_avatar": "user-default.png",
     "amount_gen": 350,
@@ -41,7 +37,7 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "超现实的修仙传",
+                "我的剑仙熟女美母恶堕了全新版_Worldbooks",
                 "a1融合版反差母猪世界书低token",
                 "XP大全绿灯世界书-v1.4"
             ]
@@ -254,7 +250,7 @@
         "main_text_color": "rgba(240, 240, 240, 1)",
         "italics_text_color": "rgba(215, 215, 215, 1)",
         "underline_text_color": "rgba(110, 190, 220, 1)",
-        "quote_text_color": "rgba(230, 100, 155, 1)",
+        "quote_text_color": "rgba(230, 170, 100, 1)",
         "blur_tint_color": "rgba(30, 30, 35, 0.15)",
         "chat_tint_color": "rgba(28, 28, 33, 0.1)",
         "user_mes_blur_tint_color": "rgba(38, 38, 43, 0.75)",
@@ -709,8 +705,7 @@
             "我的剑仙熟女美母恶堕了全新版.png",
             "[反差婊]我认识的coser和福利姬们.png",
             "酒馆知识库.png",
-            "斗罗大陆.png",
-            "《凡人修仙传V8.92》.png"
+            "斗罗大陆.png"
         ],
         "preset_allowed_regex": {
             "kobold": [
@@ -916,8 +911,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2071,
-                "LAST_RECEIVE_CHARS": 5491,
+                "LAST_RECEIVE_TOKENS": 949,
+                "LAST_RECEIVE_CHARS": 1517,
                 "LAST_SEND_TOKENS": 11996,
                 "LAST_SEND_CHARS": 23261
             }
@@ -971,9 +966,6 @@
                     "setList": []
                 },
                 "斗罗大陆.png": {
-                    "setList": []
-                },
-                "《凡人修仙传V8.92》.png": {
                     "setList": []
                 }
             }
@@ -1448,9 +1440,7 @@
         "我的剑仙熟女美母恶堕了全新版.png": [],
         "[反差婊]我认识的coser和福利姬们.png": [],
         "酒馆知识库.png": [],
-        "斗罗大陆.png": [],
-        "《凡人修仙传V8.92》.png": [],
-        "萧谴写卡助手版_V4.5.1.png": []
+        "斗罗大陆.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -5221,8 +5211,8 @@
         }
     },
     "background": {
-        "name": "landscape beach day.png",
-        "url": "url(\"backgrounds/landscape%20beach%20day.png\")",
+        "name": "54.jpg",
+        "url": "url(\"backgrounds/54.jpg\")",
         "fitting": "classic",
         "animation": false,
         "thumbnailColumns": 5
