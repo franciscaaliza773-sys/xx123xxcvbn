@@ -1004,7 +1004,7 @@
             "highlightOpacity": 0.4,
             "musicStartsWithParagraph": true,
             "seamlessMusic": true,
-            "regexReplace": false,
+            "regexReplace": true,
             "masterVolume": 0.6,
             "musicVolume": 0.13,
             "ambianceVolume": 0.61,
