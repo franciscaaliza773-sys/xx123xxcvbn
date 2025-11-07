@@ -851,7 +851,7 @@
         "manual_saver": {
             "enabled": true,
             "allowTimedSave": true,
-            "allowInterval": 80
+            "allowInterval": 30
         },
         "auto_illustrator": {
             "enabled": false,
