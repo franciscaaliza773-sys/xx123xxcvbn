@@ -37,8 +37,7 @@
         "AlertRegex_性服务中心.png": "true",
         "AlertRegex_与青梅竹马打情骂俏的炮友日常-改.png": "true",
         "AlertWI_【Sgw】又看一集DLC.png": "true",
-        "AlertRegex_【Sgw】又看一集DLC.png": "true",
-        "Proxy_SkipConfirm_8615173742594087": "true"
+        "AlertRegex_【Sgw】又看一集DLC.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "白云",
@@ -532,7 +531,7 @@
             "rerollIfSame": true
         },
         "connectionManager": {
-            "selectedProfile": "279e361d-ddd7-43b0-8d7d-1a4943bd4736",
+            "selectedProfile": "70278e91-d00d-4881-b5d0-8878026e5e91",
             "profiles": [
                 {
                     "id": "bd3c9e8a-867a-4216-811f-955215fe89aa",
@@ -562,25 +561,9 @@
                     "start-reply-with": "",
                     "reasoning-template": "DeepSeek",
                     "prompt-post-processing": "semi_tools",
-                    "secret-id": "6ff59de3-4e4d-4b55-9b31-dfdaaf6595e4",
+                    "secret-id": "54754770-a72b-4a76-9c15-046eb753cfb4",
                     "regex-preset": "a6361d30-256f-4297-8636-68fedd3871d3",
                     "name": "gemini-2.5-pro"
-                },
-                {
-                    "id": "279e361d-ddd7-43b0-8d7d-1a4943bd4736",
-                    "mode": "cc",
-                    "exclude": [],
-                    "api": "google",
-                    "preset": "Izumi · こなた Pro",
-                    "model": "gemini-2.5-pro",
-                    "proxy": "None",
-                    "stop-strings": "[]",
-                    "start-reply-with": "",
-                    "reasoning-template": "DeepSeek",
-                    "prompt-post-processing": "semi_tools",
-                    "secret-id": "6ff59de3-4e4d-4b55-9b31-dfdaaf6595e4",
-                    "regex-preset": "a6361d30-256f-4297-8636-68fedd3871d3",
-                    "name": "google gemini-2.5-pro - 代理"
                 },
                 {
                     "id": "dc9f16e6-ce07-48bd-844b-ab7a106d388e",
@@ -950,8 +933,8 @@
             "global": {
                 "LAST_RECEIVE_TOKENS": 557,
                 "LAST_RECEIVE_CHARS": 1099,
-                "LAST_SEND_TOKENS": 47589,
-                "LAST_SEND_CHARS": 74118,
+                "LAST_SEND_TOKENS": 43617,
+                "LAST_SEND_CHARS": 68918,
                 "content": "继续"
             }
         },
@@ -2005,9 +1988,9 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": true,
-        "openai_max_context": "379989",
-        "openai_max_tokens": 2000,
+        "stream_openai": false,
+        "openai_max_context": 1919810,
+        "openai_max_tokens": 20000,
         "wrap_in_quotes": false,
         "prompts": [
             {
@@ -4724,11 +4707,11 @@
         "openrouter_providers": [],
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
-        "reverse_proxy": "https://gcli.ggchan.dev/",
+        "reverse_proxy": "",
         "chat_completion_source": "makersuite",
         "max_context_unlocked": true,
         "show_external_models": true,
-        "proxy_password": "gg-gcli-public-8ZEJNby9I5ImyIkedUPDHHBTsM7Y0Ij4o0ADn1X4elw",
+        "proxy_password": "",
         "assistant_prefill": "",
         "assistant_impersonation": "",
         "claude_use_sysprompt": false,
@@ -5241,13 +5224,13 @@
     "proxies": [
         {
             "name": "None",
-            "url": "https://gcli.ggchan.dev/",
-            "password": "gg-gcli-public-8ZEJNby9I5ImyIkedUPDHHBTsM7Y0Ij4o0ADn1X4elw"
+            "url": "",
+            "password": ""
         }
     ],
     "selected_proxy": {
         "name": "None",
-        "url": "https://gcli.ggchan.dev/",
-        "password": "gg-gcli-public-8ZEJNby9I5ImyIkedUPDHHBTsM7Y0Ij4o0ADn1X4elw"
+        "url": "",
+        "password": ""
     }
 }

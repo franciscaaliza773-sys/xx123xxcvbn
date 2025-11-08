@@ -950,8 +950,8 @@
             "global": {
                 "LAST_RECEIVE_TOKENS": 557,
                 "LAST_RECEIVE_CHARS": 1099,
-                "LAST_SEND_TOKENS": 47589,
-                "LAST_SEND_CHARS": 74118,
+                "LAST_SEND_TOKENS": 43624,
+                "LAST_SEND_CHARS": 68918,
                 "content": "继续"
             }
         },
@@ -2005,9 +2005,9 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": true,
-        "openai_max_context": "379989",
-        "openai_max_tokens": 2000,
+        "stream_openai": false,
+        "openai_max_context": 1919810,
+        "openai_max_tokens": 20000,
         "wrap_in_quotes": false,
         "prompts": [
             {
@@ -4725,7 +4725,7 @@
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
         "reverse_proxy": "https://gcli.ggchan.dev/",
-        "chat_completion_source": "makersuite",
+        "chat_completion_source": "custom",
         "max_context_unlocked": true,
         "show_external_models": true,
         "proxy_password": "gg-gcli-public-8ZEJNby9I5ImyIkedUPDHHBTsM7Y0Ij4o0ADn1X4elw",
