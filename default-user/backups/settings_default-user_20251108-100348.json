@@ -41,7 +41,7 @@
     },
     "currentVersion": "1.13.5",
     "username": "白云",
-    "active_character": "与青梅竹马打情骂俏的炮友日常-改.png",
+    "active_character": "【Sgw】又看一集DLC.png",
     "active_group": null,
     "user_avatar": "user-default.png",
     "amount_gen": 350,
@@ -931,10 +931,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 557,
-                "LAST_RECEIVE_CHARS": 1099,
-                "LAST_SEND_TOKENS": 43628,
-                "LAST_SEND_CHARS": 68918,
+                "LAST_RECEIVE_TOKENS": 2,
+                "LAST_RECEIVE_CHARS": 1,
+                "LAST_SEND_TOKENS": 39883,
+                "LAST_SEND_CHARS": 62650,
                 "content": "继续"
             }
         },
@@ -975,9 +975,6 @@
                     "setList": []
                 },
                 "【Sgw】又看一集DLC.png": {
-                    "setList": []
-                },
-                "与青梅竹马打情骂俏的炮友日常-改.png": {
                     "setList": []
                 }
             }
@@ -1988,7 +1985,7 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": false,
+        "stream_openai": true,
         "openai_max_context": 1919810,
         "openai_max_tokens": 20000,
         "wrap_in_quotes": false,
