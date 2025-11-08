@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
         "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}}}}",
@@ -44,7 +44,7 @@
     },
     "currentVersion": "1.13.5",
     "username": "白云",
-    "active_character": "萧谴写卡助手版_V4.5.1.png",
+    "active_character": "穿越小马，拉的就是大车.png",
     "active_group": null,
     "user_avatar": "user-default.png",
     "amount_gen": 350,
@@ -967,10 +967,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2115,
-                "LAST_RECEIVE_CHARS": 4876,
-                "LAST_SEND_TOKENS": 30789,
-                "LAST_SEND_CHARS": 59409,
+                "LAST_RECEIVE_TOKENS": 7053,
+                "LAST_RECEIVE_CHARS": 17123,
+                "LAST_SEND_TOKENS": 28157,
+                "LAST_SEND_CHARS": 45408,
                 "content": "继续"
             }
         },
@@ -1018,9 +1018,6 @@
                     "setList": []
                 },
                 "穿越小马，拉的就是大车.png": {
-                    "setList": []
-                },
-                "萧谴写卡助手版_V4.5.1.png": {
                     "setList": []
                 }
             }
