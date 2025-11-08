@@ -53,7 +53,7 @@
             "preventAutoExecute": false,
             "isHidden": true,
             "executeOnStartup": false,
-            "executeOnUser": false,
+            "executeOnUser": true,
             "executeOnAi": false,
             "executeOnChatChange": false,
             "executeOnGroupMemberDraft": false,

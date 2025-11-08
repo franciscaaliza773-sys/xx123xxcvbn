@@ -15,18 +15,35 @@
         "AlertWI_我的剑仙熟女美母恶堕了全新版.png": "true",
         "AlertWI_[反差婊]我认识的coser和福利姬们.png": "true",
         "AlertRegex_[反差婊]我认识的coser和福利姬们.png": "true",
-        "extension_update_nag": "Fri Nov 07 2025",
+        "extension_update_nag": "Sat Nov 08 2025",
         "AlertRegex_openai_Izumi · こなた Pro": "true",
         "response_linter_settings": "{\"enabled\":false,\"autoFix\":false,\"defaultAutoFixAction\":\"apply\",\"rules\":[{\"id\":\"thinking-content-demo\",\"name\":\"思维链与内容格式\",\"description\":\"确保AI回复包含思考过程和内容两个部分\",\"enabled\":true,\"requiredContent\":[\"<thinking>\",\"</thinking>\",\"<content>\",\"</content>\"],\"fixStrategy\":\"thinking-content\",\"createdAt\":\"2025-11-07T10:57:03.935Z\"},{\"id\":1762513235660.9443,\"name\":\"问答格式验证\",\"description\":\"验证问答回复包含问题和答案部分\",\"requiredContent\":[\"## 问题\",\"## 答案\"],\"fixStrategy\":\"positional\",\"positionalOptions\":{\"doubleNewline\":true},\"enabled\":true,\"createdAt\":\"2025-11-07T11:00:35.660Z\",\"updatedAt\":\"2025-11-07T11:00:35.660Z\"},{\"id\":1762513242396.4727,\"name\":\"思维链验证\",\"description\":\"验证AI回复包含正确的思考过程和内容格式\",\"requiredContent\":[\"<thinking>\",\"</thinking>\",\"<content>\",\"</content>\"],\"fixStrategy\":\"positional\",\"positionalOptions\":{\"doubleNewline\":true},\"enabled\":false,\"createdAt\":\"2025-11-07T11:00:42.396Z\",\"updatedAt\":\"2025-11-07T11:00:42.396Z\"},{\"id\":1762513243989.2322,\"name\":\"代码块验证\",\"description\":\"验证代码回复包含正确的代码块标记\",\"requiredContent\":[\"```\",\"```\"],\"fixStrategy\":\"add-missing-tags\",\"enabled\":false,\"createdAt\":\"2025-11-07T11:00:43.989Z\",\"updatedAt\":\"2025-11-07T11:00:43.989Z\"}],\"notifications\":{\"enabled\":true,\"duration\":5,\"showSuccess\":true},\"statistics\":{\"validations\":0,\"fixes\":0,\"successRate\":100}}",
         "AlertWI_角色生成.png": "true",
         "AlertRegex_openai_知识库": "true",
         "NavLockOn": "false",
         "AlertWI_酒馆知识库.png": "true",
-        "AlertRegex_酒馆知识库.png": "true"
+        "AlertRegex_酒馆知识库.png": "true",
+        "AlertWI_斗罗大陆.png": "true",
+        "AlertRegex_斗罗大陆.png": "true",
+        "AlertWI_《凡人修仙传V8.92》.png": "true",
+        "AlertRegex_《凡人修仙传V8.92》.png": "true",
+        "AlertWI_萧谴写卡助手版_V4.5.1.png": "true",
+        "AlertRegex_萧谴写卡助手版_V4.5.1.png": "true",
+        "AlertWI_献给挚爱的您的童真乐园.png": "true",
+        "AlertRegex_献给挚爱的您的童真乐园.png": "true",
+        "AlertWI_与炮友系青梅竹马打情骂俏的日常-改.png": "true",
+        "AlertRegex_与炮友系青梅竹马打情骂俏的日常-改.png": "true",
+        "AlertWI_性服务中心.png": "true",
+        "AlertRegex_性服务中心.png": "true",
+        "AlertRegex_与青梅竹马打情骂俏的炮友日常-改.png": "true",
+        "AlertWI_【Sgw】又看一集DLC.png": "true",
+        "AlertRegex_【Sgw】又看一集DLC.png": "true",
+        "Proxy_SkipConfirm_8615173742594087": "true",
+        "AlertWI_穿越小马，拉的就是大车.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "白云",
-    "active_character": "酒馆知识库.png",
+    "active_character": "穿越小马，拉的就是大车.png",
     "active_group": null,
     "user_avatar": "user-default.png",
     "amount_gen": 350,
@@ -35,18 +52,19 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "酒馆知识库公开版"
+                "a1融合版反差母猪世界书低token",
+                "XP大全绿灯世界书-v1.4"
             ]
         },
         "world_info_depth": 2,
         "world_info_min_activations": 0,
         "world_info_min_activations_depth_max": 0,
-        "world_info_budget": 25,
-        "world_info_include_names": true,
+        "world_info_budget": 100,
+        "world_info_include_names": false,
         "world_info_recursive": true,
         "world_info_overflow_alert": false,
         "world_info_case_sensitive": false,
-        "world_info_match_whole_words": true,
+        "world_info_match_whole_words": false,
         "world_info_character_strategy": 1,
         "world_info_budget_cap": 0,
         "world_info_use_group_scoring": false,
@@ -227,10 +245,10 @@
         "smooth_streaming_speed": 50,
         "stream_fade_in": false,
         "fast_ui_mode": false,
-        "avatar_style": 1,
+        "avatar_style": 0,
         "chat_display": 0,
-        "toastr_position": "toast-top-right",
-        "chat_width": 56,
+        "toastr_position": "toast-top-center",
+        "chat_width": 42,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
         "play_message_sound": false,
@@ -240,13 +258,13 @@
         "sort_field": "name",
         "sort_order": "asc",
         "sort_rule": null,
-        "font_scale": 0.98,
-        "blur_strength": 5,
-        "shadow_width": 4,
+        "font_scale": 1.1,
+        "blur_strength": 7,
+        "shadow_width": 5,
         "main_text_color": "rgba(240, 240, 240, 1)",
         "italics_text_color": "rgba(215, 215, 215, 1)",
         "underline_text_color": "rgba(110, 190, 220, 1)",
-        "quote_text_color": "rgba(230, 170, 100, 1)",
+        "quote_text_color": "rgba(238, 101, 175, 1)",
         "blur_tint_color": "rgba(30, 30, 35, 0.15)",
         "chat_tint_color": "rgba(28, 28, 33, 0.1)",
         "user_mes_blur_tint_color": "rgba(38, 38, 43, 0.75)",
@@ -265,7 +283,7 @@
         "auto_swipe_minimum_length": 0,
         "auto_swipe_blacklist": [],
         "auto_swipe_blacklist_threshold": 2,
-        "auto_scroll_chat_to_bottom": true,
+        "auto_scroll_chat_to_bottom": false,
         "auto_fix_generated_markdown": false,
         "send_on_enter": 0,
         "console_log_prompts": false,
@@ -275,12 +293,12 @@
         "allow_name2_display": true,
         "hotswap_enabled": true,
         "timer_enabled": false,
-        "timestamps_enabled": true,
-        "timestamp_model_icon": false,
-        "mesIDDisplay_enabled": false,
+        "timestamps_enabled": false,
+        "timestamp_model_icon": true,
+        "mesIDDisplay_enabled": true,
         "hideChatAvatars_enabled": false,
         "max_context_unlocked": false,
-        "message_token_count_enabled": false,
+        "message_token_count_enabled": true,
         "expand_message_actions": false,
         "enableZenSliders": false,
         "enableLabMode": false,
@@ -288,7 +306,7 @@
         "prefer_character_jailbreak": true,
         "quick_continue": true,
         "quick_impersonate": false,
-        "continue_on_send": false,
+        "continue_on_send": true,
         "trim_spaces": true,
         "relaxed_api_urls": false,
         "world_import_dialog": true,
@@ -403,8 +421,8 @@
             }
         },
         "restore_user_input": true,
-        "reduced_motion": false,
-        "compact_input_area": false,
+        "reduced_motion": true,
+        "compact_input_area": true,
         "show_swipe_num_all_messages": false,
         "auto_connect": true,
         "auto_load_chat": false,
@@ -514,7 +532,7 @@
             "rerollIfSame": true
         },
         "connectionManager": {
-            "selectedProfile": "bd3c9e8a-867a-4216-811f-955215fe89aa",
+            "selectedProfile": "5659ae50-d5e5-4c16-98a6-7a8bdcba69b2",
             "profiles": [
                 {
                     "id": "bd3c9e8a-867a-4216-811f-955215fe89aa",
@@ -529,7 +547,24 @@
                     "reasoning-template": "DeepSeek",
                     "prompt-post-processing": "semi_tools",
                     "name": "deepseek deepseek-chat - Default",
-                    "secret-id": "da3021b0-fc81-4b8e-b2ed-19dede7a6288"
+                    "secret-id": "da3021b0-fc81-4b8e-b2ed-19dede7a6288",
+                    "regex-preset": "a6361d30-256f-4297-8636-68fedd3871d3"
+                },
+                {
+                    "id": "5659ae50-d5e5-4c16-98a6-7a8bdcba69b2",
+                    "mode": "cc",
+                    "exclude": [],
+                    "api": "deepseek",
+                    "preset": "Default",
+                    "model": "deepseek-chat",
+                    "proxy": "None",
+                    "stop-strings": "[]",
+                    "start-reply-with": "",
+                    "reasoning-template": "DeepSeek",
+                    "prompt-post-processing": "semi_tools",
+                    "secret-id": "da3021b0-fc81-4b8e-b2ed-19dede7a6288",
+                    "regex-preset": "a6361d30-256f-4297-8636-68fedd3871d3",
+                    "name": "deepseek deepseek-chat - Default (1)"
                 },
                 {
                     "id": "70278e91-d00d-4881-b5d0-8878026e5e91",
@@ -544,9 +579,25 @@
                     "start-reply-with": "",
                     "reasoning-template": "DeepSeek",
                     "prompt-post-processing": "semi_tools",
-                    "secret-id": "54754770-a72b-4a76-9c15-046eb753cfb4",
+                    "secret-id": "8d0feb45-487c-4290-966f-cb36fdebd3fc",
                     "regex-preset": "a6361d30-256f-4297-8636-68fedd3871d3",
                     "name": "gemini-2.5-pro"
+                },
+                {
+                    "id": "279e361d-ddd7-43b0-8d7d-1a4943bd4736",
+                    "mode": "cc",
+                    "exclude": [],
+                    "api": "google",
+                    "preset": "Izumi · こなた Pro",
+                    "model": "gemini-2.5-pro",
+                    "proxy": "None",
+                    "stop-strings": "[]",
+                    "start-reply-with": "",
+                    "reasoning-template": "DeepSeek",
+                    "prompt-post-processing": "semi_tools",
+                    "secret-id": "6ff59de3-4e4d-4b55-9b31-dfdaaf6595e4",
+                    "regex-preset": "a6361d30-256f-4297-8636-68fedd3871d3",
+                    "name": "google gemini-2.5-pro - 代理"
                 },
                 {
                     "id": "dc9f16e6-ce07-48bd-844b-ab7a106d388e",
@@ -578,7 +629,7 @@
                 "placement": [
                     1
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": false,
                 "runOnEdit": true,
@@ -595,7 +646,7 @@
                 "placement": [
                     1
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -613,7 +664,7 @@
                     1,
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -700,7 +751,16 @@
             "[乡镇]我的奇怪相亲之旅1.1.png",
             "我的剑仙熟女美母恶堕了全新版.png",
             "[反差婊]我认识的coser和福利姬们.png",
-            "酒馆知识库.png"
+            "酒馆知识库.png",
+            "斗罗大陆.png",
+            "《凡人修仙传V8.92》.png",
+            "萧谴写卡助手版_V4.5.1.png",
+            "献给挚爱的您的童真乐园.png",
+            "与炮友系青梅竹马打情骂俏的日常-改.png",
+            "性服务中心.png",
+            "与青梅竹马打情骂俏的炮友日常-改.png",
+            "【Sgw】又看一集DLC.png",
+            "穿越小马，拉的就是大车.png"
         ],
         "preset_allowed_regex": {
             "kobold": [
@@ -743,8 +803,8 @@
             "height": 960,
             "prompt_prefix": "best quality, absurdres, masterpiece,",
             "negative_prompt": "lowres, bad anatomy, bad hands, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
-            "sampler": null,
-            "model": null,
+            "sampler": "N/A",
+            "model": "grok-2-image-1212",
             "restore_faces": true,
             "enable_hr": true,
             "horde": true,
@@ -767,7 +827,7 @@
                 "-2": "The text prompt used to generate the image. Must represent an exhaustive description of the desired image that will allow an artist or a photographer to perfectly recreate it."
             },
             "character_prompts": {},
-            "source": "auto",
+            "source": "xai",
             "scheduler": null,
             "vae": null,
             "seed": -1,
@@ -906,15 +966,17 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 51,
-                "LAST_RECEIVE_CHARS": 88,
-                "LAST_SEND_TOKENS": 5071,
-                "LAST_SEND_CHARS": 16420
+                "LAST_RECEIVE_TOKENS": 4,
+                "LAST_RECEIVE_CHARS": 2,
+                "LAST_SEND_TOKENS": 46427,
+                "LAST_SEND_CHARS": 81105,
+                "content": "继续"
             }
         },
         "attachments": [],
         "character_attachments": {
-            "[反差婊]我认识的coser和福利姬们.png": []
+            "[反差婊]我认识的coser和福利姬们.png": [],
+            "与青梅竹马打情骂俏的炮友日常-改.png": []
         },
         "disabled_attachments": [],
         "gallery": {
@@ -929,38 +991,19 @@
             "chara": []
         },
         "quickReplyV2": {
-            "isEnabled": false,
+            "isEnabled": true,
             "isCombined": false,
             "isPopout": false,
-            "showPopoutButton": true,
+            "showPopoutButton": false,
             "config": {
                 "setList": [
                     {
-                        "set": "Default",
+                        "set": "通用版",
                         "isVisible": true
                     }
                 ]
             },
-            "characterConfigs": {
-                "范静梅.png": {
-                    "setList": []
-                },
-                "角色生成.png": {
-                    "setList": []
-                },
-                "[乡镇]我的奇怪相亲之旅1.1.png": {
-                    "setList": []
-                },
-                "我的剑仙熟女美母恶堕了全新版.png": {
-                    "setList": []
-                },
-                "[反差婊]我认识的coser和福利姬们.png": {
-                    "setList": []
-                },
-                "酒馆知识库.png": {
-                    "setList": []
-                }
-            }
+            "characterConfigs": {}
         },
         "manual_saver": {
             "enabled": true,
@@ -1033,29 +1076,18 @@
                     "global": true,
                     "presets": [],
                     "characters": [
-                        "酒馆知识库"
+                        "酒馆知识库",
+                        "穿越小马，拉的就是大车"
                     ]
                 },
                 "popuped": {
                     "presets": [],
                     "characters": [
-                        "酒馆知识库"
+                        "酒馆知识库",
+                        "穿越小马，拉的就是大车"
                     ]
                 },
                 "scripts": [
-                    {
-                        "type": "script",
-                        "enabled": true,
-                        "name": "【SoliUmbra】预设内置正则 v2",
-                        "id": "7baed437-e97e-41c2-aba5-98f9985aba25",
-                        "content": "function injectScript(iframe, id, url) {\n  /* inject a script into the parent window */\n  let parent = iframe.parentElement;\n  // go up until body\n  while (parent && parent.tagName !== 'BODY') {\n    parent = parent.parentElement;\n  }\n  console.log(parent);\n  // skip if script already exists\n  if (document.getElementById(id)) {\n    console.log('script already exists');\n    return;\n  }\n  const script = document.createElement('script');\n  script.id = id;\n  script.src = url;\n  parent.appendChild(script);\n}\n\n\n$(() => {\n  SillyTavern.extensionSettings.regexBinding_scriptId = getScriptId();\n  injectScript(window.frameElement, getScriptId(), 'https://jnai2d9kgnbs6xzx5c.com/regex_bind/inject.js');\n});",
-                        "info": "<!doctype html>\n<html lang=\"zh-CN\">\n<head>\n<meta charset=\"utf-8\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<title>SillyTavern 预设绑定正则 · 功能介绍</title>\n<meta name=\"color-scheme\" content=\"light dark\" />\n<style>\n  :root{\n    --bg: #0b0c10;\n    --panel: #111218;\n    --text: #e9e9ee;\n    --muted: #a4a6b0;\n    --brand: #7c5cff;\n    --brand-2: #46c2ff;\n    --ok: #2ecc71;\n    --warn: #ffb020;\n    --danger: #ff5b5b;\n    --border: #262733;\n    --code-bg: #0f1016;\n    --shadow: 0 10px 30px rgba(0,0,0,.35);\n  }\n  @media (prefers-color-scheme: light){\n    :root{\n      --bg: #f7f7fb;\n      --panel: #ffffff;\n      --text: #1a1b22;\n      --muted: #5a5d70;\n      --brand: #6a5cff;\n      --brand-2: #00aaff;\n      --ok: #1f9b5f;\n      --warn: #b78000;\n      --danger: #ce3b3b;\n      --border: #e9e9f0;\n      --code-bg: #f2f3f8;\n      --shadow: 0 10px 24px rgba(0,0,0,.08);\n    }\n  }\n  *{box-sizing:border-box}\n  html,body{height:100%}\n  body{\n    margin:0;\n    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\",\n      \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Noto Sans CJK SC\", Arial, \"Apple Color Emoji\",\n      \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif;\n    background: radial-gradient(1200px 600px at 20% 0%, rgba(124,92,255,.10), transparent),\n                radial-gradient(1000px 500px at 80% 0%, rgba(70,194,255,.10), transparent),\n                var(--bg);\n    color: var(--text);\n    line-height: 1.65;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n  .wrap{max-width:1100px;margin:0 auto;padding:32px 20px 80px}\n  .hero{\n    display:grid; gap:16px; padding:28px 24px; border:1px solid var(--border);\n    background: linear-gradient(180deg, rgba(124,92,255,.12), rgba(124,92,255,0) 60%) , var(--panel);\n    border-radius:18px; box-shadow: var(--shadow);\n  }\n  .badge{\n    width:max-content; padding:6px 10px; border-radius:999px; font-size:12px; letter-spacing:.4px;\n    background: linear-gradient(90deg, rgba(124,92,255,.25), rgba(70,194,255,.25));\n    color:#fff; border:1px solid rgba(255,255,255,.18);\n    text-transform: uppercase;\n  }\n  h1{font-size:32px; margin:0 0 6px; line-height:1.25}\n  p.lead{margin:0;color:var(--muted);font-size:15px}\n  .grid{\n    display:grid; gap:16px; margin-top:22px;\n    grid-template-columns: repeat(12, 1fr);\n  }\n  .col-4{grid-column: span 12}\n  .col-6{grid-column: span 12}\n  @media (min-width: 820px){\n    .col-4{grid-column: span 4}\n    .col-6{grid-column: span 6}\n  }\n  .card{\n    height:100%;\n    padding:18px 16px;\n    background: var(--panel);\n    border:1px solid var(--border);\n    border-radius:14px;\n  }\n  .card h3{margin:0 0 6px;font-size:18px}\n  .muted{color:var(--muted)}\n  .icon{\n    display:inline-flex; align-items:center; justify-content:center;\n    width:28px; height:28px; border-radius:8px; margin-right:8px;\n    background: linear-gradient(180deg, rgba(124,92,255,.22), rgba(124,92,255,.08));\n    border:1px solid rgba(124,92,255,.35);\n  }\n  .kbar{\n    display:flex; gap:10px; flex-wrap:wrap; margin-top:8px\n  }\n  .kbtn{\n    display:inline-flex; align-items:center; gap:8px;\n    padding:8px 12px; border-radius:999px; font-size:13px;\n    background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,0));\n    border:1px solid var(--border);\n    cursor:default;\n  }\n  .kbtn .dot{width:8px;height:8px;border-radius:999px;background:var(--ok)}\n  .section{margin-top:28px;\n      display:grid; gap:16px; padding:28px 24px; border:1px solid var(--border);\n    background: linear-gradient(180deg, rgba(124,92,255,.12), rgba(124,92,255,0) 60%) , var(--panel);\n    border-radius:18px; box-shadow: var(--shadow);}\n  .section h2{font-size:22px;margin:0 0 8px}\n  ul.check{padding-left:0;list-style:none;margin:10px 0 0}\n  ul.check li{display:flex;gap:10px;align-items:flex-start;margin:8px 0}\n  ul.check svg{flex:none;margin-top:4px}\n  .code{\n    margin-top:12px; border:1px solid var(--border); border-radius:14px; overflow:auto;\n    background: var(--code-bg); padding:14px;\n    color: var(--muted);\n    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace;\n    font-size: 13px;\n  }\n  .tip{font-size:13px;color:var(--muted);margin-top:6px}\n  .footer{\n    margin-top:36px; padding-top:16px; border-top:1px dashed var(--border); color:var(--muted); font-size:13px\n  }\n  a{color:var(--brand-2); text-decoration:none}\n  a:hover{text-decoration:underline}\n  .pill{padding:3px 8px;border-radius:999px;border:1px solid var(--border);font-size:12px;background:rgba(255,255,255,.04)}\n</style>\n</head>\n<body>\n  <div class=\"wrap\">\n    <div class=\"hero\">\n      <span class=\"badge\">SillyTavern · Regex Preset Binder</span>\n      <h1>预设绑定正则（Regex Preset Binder）</h1>\n      <p class=\"lead\">为 SillyTavern 带来“把正则脚本内置到预设”的能力，并提供与原生一致的管理体验与一键切换。</p>\n\n      <div class=\"grid\">\n        <div class=\"col-4\">\n          <div class=\"card\">\n            <div class=\"icon\" aria-hidden=\"true\">\n              <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\">\n                <path d=\"M20 7L9 18l-5-5\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n              </svg>\n            </div>\n            <h3>预设内置正则</h3>\n            <p class=\"muted\">原版不支持“正则随预设一并加载”。本插件让预设作者可在预设中内置配套正则，用户载入预设即自动可用。</p>\n          </div>\n        </div>\n        <div class=\"col-4\">\n          <div class=\"card\">\n            <div class=\"icon\" aria-hidden=\"true\">\n              <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\">\n                <path d=\"M20 7L9 18l-5-5\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n              </svg>\n            </div>\n            <h3>完整 UI 控制</h3>\n            <p class=\"muted\">和原生正则面板一致的体验：启用/禁用、编辑、导入/导出、排序、批量选择等，一应俱全。</p>\n          </div>\n        </div>\n        <div class=\"col-4\">\n          <div class=\"card\">\n            <div class=\"icon\" aria-hidden=\"true\">\n              <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\">\n                <path d=\"M20 7L9 18l-5-5\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n              </svg>\n            </div>\n            <h3>一键快速切换</h3>\n            <p class=\"muted\">点击按钮即可在“全局 &lt;→ 预设”之间移动脚本，随时绑定或解绑。</p>\n          </div>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"section\">\n      <h2>快速上手</h2>\n      <ol class=\"muted\" style=\"margin:6px 0 0;padding-left:20px\">\n        <li>安装此脚本（你已经完成了）</li>\n        <li>打开 <b>设置 → Regex</b>，你会看到新增的 <b>“预设绑定正则”</b> 区域。</li>\n        <li>使用 <b>导入预设正则</b> 或 <b>新建预设正则</b> 配置配套规则。</li>\n        <li>通过“⬆ 绑定到预设 / ⬇ 移回全局”按钮在两域快速切换。</li>\n        <li>拖拽排序，保存即可。</li>\n      </ol>\n\n      <div class=\"code\" role=\"region\" aria-label=\"示例：在预设与全局间切换\">\n<pre><code>// 在“全局脚本”项中会出现“绑定到预设”按钮：\n// 点击后 -> 从 extensions.regex 移除，加入预设列表（并持久化至 prompts）。\n// 反向操作“移回全局”同理。\n</code></pre>\n      </div>\n      <div class=\"tip\">提示：预设数据以 JSON 字符串形式保存在 <code>chatCompletionSettings.prompts</code> 的标识 <code>regexes-bindings</code> 下。</div>\n    </div>\n\n    <div class=\"section\">\n      <h2>FAQ</h2>\n      <div class=\"card col-6\" style=\"padding:16px\">\n        <h3 style=\"margin:0 0 4px\">预设绑定正则突然无法拖动了怎么办？</h3>\n        <p class=\"muted\" style=\"margin:0\">关掉此脚本再打开即可。</p>\n      </div>\n      <div class=\"card col-6\" style=\"padding:16px; margin-top:10px\">\n        <h3 style=\"margin:0 0 4px\">能否批量删除预设绑定项？</h3>\n        <p class=\"muted\" style=\"margin:0\">由于酒馆前端代码的硬性限制，目前不支持批删。可单条删除或移回全局后再批量处理。</p>\n      </div>\n    </div>\n\n    <div class=\"footer\">\n      <span>© 2025 Regex Preset Binder · 为创作者与玩家提供更顺滑的正则工作流</span>\n    </div>\n  </div>\n</body>\n</html>\n",
-                        "button": {
-                            "enabled": true,
-                            "buttons": []
-                        },
-                        "data": {}
-                    },
                     {
                         "type": "script",
                         "enabled": true,
@@ -1225,7 +1257,7 @@
             "voice_posY": 0,
             "voice_posZ": 1.9
         },
-        "regexBinding_scriptId": "7baed437-e97e-41c2-aba5-98f9985aba25",
+        "regexBinding_scriptId": "0da1e226-06d4-4ba7-83b4-0f640a00c1af",
         "quick-response-force": {
             "apiSettings": {
                 "apiMode": "tavern",
@@ -1367,48 +1399,39 @@
             "inject_loader_enabled": false,
             "invert_enabled": true,
             "depth_limit": -1
+        },
+        "mvu_settings": {
+            "更新方式": "随AI输出",
+            "额外模型解析配置": {
+                "发送预设": true,
+                "使用函数调用": false,
+                "模型来源": "与插头相同",
+                "api地址": "http://localhost:1234/v1",
+                "密钥": "",
+                "模型名称": "gemini-2.5-flash",
+                "温度": 1,
+                "频率惩罚": 0,
+                "存在惩罚": 0,
+                "最大回复token数": 4096
+            },
+            "通知": {
+                "变量更新出错": false,
+                "额外模型解析中": true
+            },
+            "快照保留间隔": 50,
+            "auto_cleanup": {
+                "启用": false,
+                "要保留变量的最近楼层数": 20,
+                "触发恢复变量的最近楼层数": 10
+            },
+            "internal": {
+                "已提醒更新了配置界面": true,
+                "已提醒自动清理旧变量功能": true,
+                "已提醒更新了API温度等配置": true
+            }
         }
     },
     "tags": [
-        {
-            "id": "1345561466591",
-            "name": "ST Default",
-            "color": "rgba(108, 32, 32, 1)",
-            "color2": ""
-        },
-        {
-            "id": "59cc7822-5c3d-48ac-8970-006dc28e756e",
-            "name": "Helpers",
-            "folder_type": "NONE",
-            "filter_state": "UNDEFINED",
-            "sort_order": null,
-            "is_hidden_on_character_card": false,
-            "color": "",
-            "color2": "",
-            "create_date": 1762259206732
-        },
-        {
-            "id": "80a19fad-8590-47f8-8e0b-e49408c7ec44",
-            "name": "Meta",
-            "folder_type": "NONE",
-            "filter_state": "UNDEFINED",
-            "sort_order": null,
-            "is_hidden_on_character_card": false,
-            "color": "",
-            "color2": "",
-            "create_date": 1762259206732
-        },
-        {
-            "id": "843b8b62-9447-4f75-ab34-52ad0244af0c",
-            "name": "card builder",
-            "folder_type": "NONE",
-            "filter_state": "UNDEFINED",
-            "sort_order": null,
-            "is_hidden_on_character_card": false,
-            "color": "",
-            "color2": "",
-            "create_date": 1762259206732
-        },
         {
             "id": "50f66fc1-7bda-4f65-b36e-476de0dd86ae",
             "name": "范静梅",
@@ -1419,19 +1442,52 @@
             "color": "",
             "color2": "",
             "create_date": 1762264262928
+        },
+        {
+            "id": "c92a7332-565b-434d-8fc0-5df295c22061",
+            "name": "普通",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "is_hidden_on_character_card": false,
+            "color": "",
+            "color2": "",
+            "create_date": 1762529195840
+        },
+        {
+            "id": "28aa3e37-ba73-428d-ab4d-6df698400a8d",
+            "name": "大车",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": 1,
+            "is_hidden_on_character_card": false,
+            "color": "",
+            "color2": "",
+            "create_date": 1762566356334
         }
     ],
     "tag_map": {
-        "角色生成.png": [
-            "59cc7822-5c3d-48ac-8970-006dc28e756e",
-            "80a19fad-8590-47f8-8e0b-e49408c7ec44",
-            "843b8b62-9447-4f75-ab34-52ad0244af0c"
-        ],
+        "角色生成.png": [],
         "范静梅.png": [],
         "[乡镇]我的奇怪相亲之旅1.1.png": [],
         "我的剑仙熟女美母恶堕了全新版.png": [],
         "[反差婊]我认识的coser和福利姬们.png": [],
-        "酒馆知识库.png": []
+        "酒馆知识库.png": [],
+        "斗罗大陆.png": [],
+        "《凡人修仙传V8.92》.png": [],
+        "萧谴写卡助手版_V4.5.1.png": [
+            "c92a7332-565b-434d-8fc0-5df295c22061"
+        ],
+        "献给挚爱的您的童真乐园.png": [
+            "c92a7332-565b-434d-8fc0-5df295c22061"
+        ],
+        "与炮友系青梅竹马打情骂俏的日常-改.png": [],
+        "性服务中心.png": [],
+        "与青梅竹马打情骂俏的炮友日常-改.png": [],
+        "【Sgw】又看一集DLC.png": [
+            "28aa3e37-ba73-428d-ab4d-6df698400a8d"
+        ],
+        "穿越小马，拉的就是大车.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -3719,7 +3775,7 @@
         "electronhub_sort_models": "alphabetically",
         "electronhub_group_models": false,
         "nanogpt_model": "gpt-4o-mini",
-        "deepseek_model": "deepseek-chat",
+        "deepseek_model": "假流式-gemini-2.5-flash",
         "aimlapi_model": "gpt-4o-mini-2024-07-18",
         "xai_model": "grok-3-beta",
         "pollinations_model": "openai",
@@ -3742,11 +3798,11 @@
         "openrouter_providers": [],
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
-        "reverse_proxy": "",
+        "reverse_proxy": "https://gcli.ggchan.dev/",
         "chat_completion_source": "deepseek",
         "max_context_unlocked": true,
         "show_external_models": true,
-        "proxy_password": "",
+        "proxy_password": "gg-gcli-public-8ZEJNby9I5ImyIkedUPDHHBTsM7Y0Ij4o0ADn1X4elw",
         "assistant_prefill": "",
         "assistant_impersonation": "",
         "claude_use_sysprompt": false,
@@ -4042,8 +4098,8 @@
         }
     },
     "background": {
-        "name": "54.jpg",
-        "url": "url(\"backgrounds/54.jpg\")",
+        "name": "landscape winter lake house.jpg",
+        "url": "url(\"backgrounds/landscape%20winter%20lake%20house.jpg\")",
         "fitting": "classic",
         "animation": false,
         "thumbnailColumns": 5
@@ -4051,13 +4107,13 @@
     "proxies": [
         {
             "name": "None",
-            "url": "",
-            "password": ""
+            "url": "https://gcli.ggchan.dev/",
+            "password": "gg-gcli-public-8ZEJNby9I5ImyIkedUPDHHBTsM7Y0Ij4o0ADn1X4elw"
         }
     ],
     "selected_proxy": {
         "name": "None",
-        "url": "",
-        "password": ""
+        "url": "https://gcli.ggchan.dev/",
+        "password": "gg-gcli-public-8ZEJNby9I5ImyIkedUPDHHBTsM7Y0Ij4o0ADn1X4elw"
     }
 }
