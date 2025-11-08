@@ -39,7 +39,8 @@
         "AlertWI_【Sgw】又看一集DLC.png": "true",
         "AlertRegex_【Sgw】又看一集DLC.png": "true",
         "Proxy_SkipConfirm_8615173742594087": "true",
-        "AlertWI_穿越小马，拉的就是大车.png": "true"
+        "AlertWI_穿越小马，拉的就是大车.png": "true",
+        "AlertRegex_穿越小马，拉的就是大车.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "白云",
@@ -52,6 +53,7 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
+                "小马拉大车",
                 "XP大全绿灯世界书-v1.4"
             ]
         },
@@ -967,8 +969,8 @@
             "global": {
                 "LAST_RECEIVE_TOKENS": 7053,
                 "LAST_RECEIVE_CHARS": 17123,
-                "LAST_SEND_TOKENS": 24904,
-                "LAST_SEND_CHARS": 47029,
+                "LAST_SEND_TOKENS": 30185,
+                "LAST_SEND_CHARS": 57324,
                 "content": "继续"
             }
         },
@@ -1002,7 +1004,26 @@
                     }
                 ]
             },
-            "characterConfigs": {}
+            "characterConfigs": {
+                "性服务中心.png": {
+                    "setList": []
+                },
+                "与炮友系青梅竹马打情骂俏的日常-改.png": {
+                    "setList": []
+                },
+                "【Sgw】又看一集DLC.png": {
+                    "setList": []
+                },
+                "与青梅竹马打情骂俏的炮友日常-改.png": {
+                    "setList": []
+                },
+                "穿越小马，拉的就是大车.png": {
+                    "setList": []
+                },
+                "萧谴写卡助手版_V4.5.1.png": {
+                    "setList": []
+                }
+            }
         },
         "manual_saver": {
             "enabled": true,
