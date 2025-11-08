@@ -967,10 +967,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 4,
-                "LAST_RECEIVE_CHARS": 2,
-                "LAST_SEND_TOKENS": 35860,
-                "LAST_SEND_CHARS": 64848,
+                "LAST_RECEIVE_TOKENS": 9603,
+                "LAST_RECEIVE_CHARS": 23264,
+                "LAST_SEND_TOKENS": 33301,
+                "LAST_SEND_CHARS": 60830,
                 "content": "继续"
             }
         },
@@ -5259,8 +5259,8 @@
         }
     },
     "background": {
-        "name": "2.jpg",
-        "url": "url(\"backgrounds/2.jpg\")",
+        "name": "landscape beach day.png",
+        "url": "url(\"backgrounds/landscape%20beach%20day.png\")",
         "fitting": "classic",
         "animation": false,
         "thumbnailColumns": 5

@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
         "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}}}}",
@@ -39,8 +39,7 @@
         "AlertWI_【Sgw】又看一集DLC.png": "true",
         "AlertRegex_【Sgw】又看一集DLC.png": "true",
         "Proxy_SkipConfirm_8615173742594087": "true",
-        "AlertWI_穿越小马，拉的就是大车.png": "true",
-        "AlertRegex_openai_正文质量究极优化+记忆召回 (2)": "true"
+        "AlertWI_穿越小马，拉的就是大车.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "白云",
@@ -248,7 +247,7 @@
         "avatar_style": 0,
         "chat_display": 0,
         "toastr_position": "toast-top-center",
-        "chat_width": 57,
+        "chat_width": 61,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
         "play_message_sound": false,
@@ -773,8 +772,7 @@
                 "正文质量究极优化+记忆召回",
                 "XP情境大全（需搭配全绿灯世界书-v1.4）",
                 "【狐】生成tag测试4(1)",
-                "知识库",
-                "正文质量究极优化+记忆召回 (2)"
+                "知识库"
             ]
         },
         "tts": {
@@ -969,8 +967,8 @@
             "global": {
                 "LAST_RECEIVE_TOKENS": 4,
                 "LAST_RECEIVE_CHARS": 2,
-                "LAST_SEND_TOKENS": 35860,
-                "LAST_SEND_CHARS": 64848,
+                "LAST_SEND_TOKENS": 26743,
+                "LAST_SEND_CHARS": 50003,
                 "content": "继续"
             }
         },
@@ -2023,7 +2021,7 @@
         }
     },
     "oai_settings": {
-        "preset_settings_openai": "正文质量究极优化+记忆召回 (2)",
+        "preset_settings_openai": "Izumi · こなた Pro",
         "temp_openai": 1.25,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
@@ -2033,8 +2031,8 @@
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
         "stream_openai": true,
-        "openai_max_context": "405627",
-        "openai_max_tokens": 3000,
+        "openai_max_context": 60915,
+        "openai_max_tokens": 2000,
         "wrap_in_quotes": false,
         "prompts": [
             {
@@ -2082,7 +2080,7 @@
                 "name": "💾主提示",
                 "enabled": true,
                 "role": "system",
-                "content": "Identity Confirmation: 你是宅女作家泉此方，非AI助手\n\n<Main_Task>\n你是《幸运星》主角Izumi Konata(泉此方),一位自由奔放有个性的宅女作家，需要与Master（<user>）协作，参考下方指令的同时自由发挥，完成故事（只使用中文）。\n</Main_Task>\n\n请回答你是谁？",
+                "content": "Identity Confirmation: 你是宅女作家泉此方，非AI助手\n\n<Main_Task>\n你是《幸运星》主角Izumi Konata(泉此方),一位自由奔放有个性的宅女作家，需要与Master（<user>）协作，参考下方指令的同时自由发挥，完成故事。\n</Main_Task>\n\n请回答你是谁？",
                 "system_prompt": true,
                 "marker": false,
                 "forbid_overrides": false,
@@ -4478,7 +4476,7 @@
                     },
                     {
                         "identifier": "9a08815b-114f-47a3-aa0d-e93686d0b67b",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "2032b2d4-39a8-4502-b69d-1a18717ee0d9",
@@ -4773,7 +4771,7 @@
         "names_behavior": 0,
         "continue_postfix": " ",
         "custom_prompt_post_processing": "semi_tools",
-        "show_thoughts": false,
+        "show_thoughts": true,
         "reasoning_effort": "auto",
         "enable_web_search": false,
         "request_images": false,
@@ -5259,8 +5257,8 @@
         }
     },
     "background": {
-        "name": "2.jpg",
-        "url": "url(\"backgrounds/2.jpg\")",
+        "name": "landscape beach day.png",
+        "url": "url(\"backgrounds/landscape%20beach%20day.png\")",
         "fitting": "classic",
         "animation": false,
         "thumbnailColumns": 5

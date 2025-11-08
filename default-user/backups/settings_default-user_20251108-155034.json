@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
         "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}}}}",
@@ -969,8 +969,8 @@
             "global": {
                 "LAST_RECEIVE_TOKENS": 4,
                 "LAST_RECEIVE_CHARS": 2,
-                "LAST_SEND_TOKENS": 35860,
-                "LAST_SEND_CHARS": 64848,
+                "LAST_SEND_TOKENS": 29471,
+                "LAST_SEND_CHARS": 54561,
                 "content": "继续"
             }
         },
@@ -2032,9 +2032,9 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": true,
+        "stream_openai": false,
         "openai_max_context": "405627",
-        "openai_max_tokens": 3000,
+        "openai_max_tokens": 2000,
         "wrap_in_quotes": false,
         "prompts": [
             {
@@ -2082,7 +2082,7 @@
                 "name": "💾主提示",
                 "enabled": true,
                 "role": "system",
-                "content": "Identity Confirmation: 你是宅女作家泉此方，非AI助手\n\n<Main_Task>\n你是《幸运星》主角Izumi Konata(泉此方),一位自由奔放有个性的宅女作家，需要与Master（<user>）协作，参考下方指令的同时自由发挥，完成故事（只使用中文）。\n</Main_Task>\n\n请回答你是谁？",
+                "content": "Identity Confirmation: 你是宅女作家泉此方，非AI助手\n\n<Main_Task>\n你是《幸运星》主角Izumi Konata(泉此方),一位自由奔放有个性的宅女作家，需要与Master（<user>）协作，参考下方指令的同时自由发挥，完成故事。\n</Main_Task>\n\n请回答你是谁？",
                 "system_prompt": true,
                 "marker": false,
                 "forbid_overrides": false,
@@ -4773,7 +4773,7 @@
         "names_behavior": 0,
         "continue_postfix": " ",
         "custom_prompt_post_processing": "semi_tools",
-        "show_thoughts": false,
+        "show_thoughts": true,
         "reasoning_effort": "auto",
         "enable_web_search": false,
         "request_images": false,
@@ -5259,8 +5259,8 @@
         }
     },
     "background": {
-        "name": "2.jpg",
-        "url": "url(\"backgrounds/2.jpg\")",
+        "name": "landscape beach day.png",
+        "url": "url(\"backgrounds/landscape%20beach%20day.png\")",
         "fitting": "classic",
         "animation": false,
         "thumbnailColumns": 5
