@@ -15,7 +15,7 @@
         "AlertWI_我的剑仙熟女美母恶堕了全新版.png": "true",
         "AlertWI_[反差婊]我认识的coser和福利姬们.png": "true",
         "AlertRegex_[反差婊]我认识的coser和福利姬们.png": "true",
-        "extension_update_nag": "Sun Nov 09 2025",
+        "extension_update_nag": "Sat Nov 08 2025",
         "AlertRegex_openai_Izumi · こなた Pro": "true",
         "response_linter_settings": "{\"enabled\":false,\"autoFix\":false,\"defaultAutoFixAction\":\"apply\",\"rules\":[{\"id\":\"thinking-content-demo\",\"name\":\"思维链与内容格式\",\"description\":\"确保AI回复包含思考过程和内容两个部分\",\"enabled\":true,\"requiredContent\":[\"<thinking>\",\"</thinking>\",\"<content>\",\"</content>\"],\"fixStrategy\":\"thinking-content\",\"createdAt\":\"2025-11-07T10:57:03.935Z\"},{\"id\":1762513235660.9443,\"name\":\"问答格式验证\",\"description\":\"验证问答回复包含问题和答案部分\",\"requiredContent\":[\"## 问题\",\"## 答案\"],\"fixStrategy\":\"positional\",\"positionalOptions\":{\"doubleNewline\":true},\"enabled\":true,\"createdAt\":\"2025-11-07T11:00:35.660Z\",\"updatedAt\":\"2025-11-07T11:00:35.660Z\"},{\"id\":1762513242396.4727,\"name\":\"思维链验证\",\"description\":\"验证AI回复包含正确的思考过程和内容格式\",\"requiredContent\":[\"<thinking>\",\"</thinking>\",\"<content>\",\"</content>\"],\"fixStrategy\":\"positional\",\"positionalOptions\":{\"doubleNewline\":true},\"enabled\":false,\"createdAt\":\"2025-11-07T11:00:42.396Z\",\"updatedAt\":\"2025-11-07T11:00:42.396Z\"},{\"id\":1762513243989.2322,\"name\":\"代码块验证\",\"description\":\"验证代码回复包含正确的代码块标记\",\"requiredContent\":[\"```\",\"```\"],\"fixStrategy\":\"add-missing-tags\",\"enabled\":false,\"createdAt\":\"2025-11-07T11:00:43.989Z\",\"updatedAt\":\"2025-11-07T11:00:43.989Z\"}],\"notifications\":{\"enabled\":true,\"duration\":5,\"showSuccess\":true},\"statistics\":{\"validations\":0,\"fixes\":0,\"successRate\":100}}",
         "AlertWI_角色生成.png": "true",
@@ -804,8 +804,8 @@
             "height": 960,
             "prompt_prefix": "best quality, absurdres, masterpiece,",
             "negative_prompt": "lowres, bad anatomy, bad hands, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
-            "sampler": "N/A",
-            "model": "flux",
+            "sampler": "k_euler_ancestral",
+            "model": "nai-diffusion-4-5-full",
             "restore_faces": true,
             "enable_hr": true,
             "horde": true,
@@ -828,8 +828,8 @@
                 "-2": "The text prompt used to generate the image. Must represent an exhaustive description of the desired image that will allow an artist or a photographer to perfectly recreate it."
             },
             "character_prompts": {},
-            "source": "pollinations",
-            "scheduler": null,
+            "source": "novel",
+            "scheduler": "karras",
             "vae": null,
             "seed": -1,
             "adetailer_face": false,
@@ -879,11 +879,11 @@
             ],
             "comfy_url": "https://api.perchance.org/txt2img",
             "comfy_workflow": "Default_Comfy_Workflow.json",
-            "pollinations_enhance": true,
+            "pollinations_enhance": false,
             "wand_visible": true,
             "command_visible": true,
-            "interactive_visible": false,
-            "tool_visible": false,
+            "interactive_visible": true,
+            "tool_visible": true,
             "stability_style_preset": "3d-model",
             "bfl_upsampling": false,
             "google_api": "makersuite",
@@ -967,10 +967,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1446,
-                "LAST_RECEIVE_CHARS": 2248,
-                "LAST_SEND_TOKENS": 41545,
-                "LAST_SEND_CHARS": 66117,
+                "LAST_RECEIVE_TOKENS": 4,
+                "LAST_RECEIVE_CHARS": 2,
+                "LAST_SEND_TOKENS": 38059,
+                "LAST_SEND_CHARS": 60760,
                 "content": "继续"
             }
         },
@@ -1004,11 +1004,7 @@
                     }
                 ]
             },
-            "characterConfigs": {
-                "与青梅竹马打情骂俏的炮友日常-改.png": {
-                    "setList": []
-                }
-            }
+            "characterConfigs": {}
         },
         "manual_saver": {
             "enabled": true,
@@ -2037,7 +2033,7 @@
         "top_a_openai": 1,
         "repetition_penalty_openai": 1,
         "stream_openai": true,
-        "openai_max_context": 754903,
+        "openai_max_context": "754903",
         "openai_max_tokens": 8192,
         "wrap_in_quotes": false,
         "prompts": [
