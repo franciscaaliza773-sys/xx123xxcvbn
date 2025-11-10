@@ -11,7 +11,7 @@
     "openrouter_middleout": "on",
     "ai21_model": "jamba-large",
     "mistralai_model": "mistral-large-latest",
-    "cohere_model": "command-r-plus",
+    "cohere_model": "command-r7b-12-2024",
     "perplexity_model": "sonar-pro",
     "groq_model": "llama-3.3-70b-versatile",
     "xai_model": "grok-3-beta",
@@ -43,8 +43,8 @@
     "top_a": 0,
     "min_p": 0,
     "repetition_penalty": 1,
-    "openai_max_context": "405627",
-    "openai_max_tokens": 1000,
+    "openai_max_context": "261744",
+    "openai_max_tokens": 8092,
     "wrap_in_quotes": false,
     "names_behavior": 0,
     "send_if_empty": "",
@@ -61,7 +61,7 @@
     "scenario_format": "[Circumstances and context of the dialogue: {{scenario}}]",
     "personality_format": "[{{char}}'s personality: {{personality}}]",
     "group_nudge_prompt": "[Write the next reply only as {{char}}.]",
-    "stream_openai": false,
+    "stream_openai": true,
     "prompts": [
         {
             "identifier": "8b4c6b33-5301-436c-85e0-bf9fcc00e52c",
