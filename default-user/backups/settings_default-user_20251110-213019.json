@@ -230,10 +230,10 @@
         "charListGrid": true,
         "tokenizer": 99,
         "token_padding": 64,
-        "collapse_newlines": true,
+        "collapse_newlines": false,
         "pin_examples": false,
         "strip_examples": false,
-        "trim_sentences": true,
+        "trim_sentences": false,
         "always_force_name2": true,
         "user_prompt_bias": "",
         "show_user_prompt_bias": true,
@@ -343,8 +343,7 @@
             "last_input_sequence": "",
             "sequences_as_stop_strings": true,
             "story_string_prefix": "",
-            "story_string_suffix": "",
-            "bind_to_context": true
+            "story_string_suffix": ""
         },
         "context": {
             "preset": "DeepSeek-V2.5",
@@ -357,8 +356,8 @@
             "story_string_depth": 1,
             "story_string_role": 0
         },
-        "instruct_derived": true,
-        "context_derived": true,
+        "instruct_derived": false,
+        "context_derived": false,
         "context_size_derived": false,
         "model_templates_mappings": {},
         "chat_template_hash": "",
@@ -976,8 +975,8 @@
             "global": {
                 "LAST_RECEIVE_TOKENS": 4,
                 "LAST_RECEIVE_CHARS": 2,
-                "LAST_SEND_TOKENS": 1779,
-                "LAST_SEND_CHARS": 3277,
+                "LAST_SEND_TOKENS": 3176,
+                "LAST_SEND_CHARS": 5904,
                 "content": "继续"
             }
         },
