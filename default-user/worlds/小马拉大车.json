@@ -78,6 +78,11 @@
                 "match_creator_notes": false,
                 "triggers": [],
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "1": {
@@ -155,6 +160,11 @@
                 "match_creator_notes": false,
                 "triggers": [],
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "2": {
@@ -232,6 +242,11 @@
                 "match_creator_notes": false,
                 "triggers": [],
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "3": {
@@ -309,6 +324,11 @@
                 "match_creator_notes": false,
                 "triggers": [],
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "4": {
@@ -386,6 +406,11 @@
                 "match_creator_notes": false,
                 "triggers": [],
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "5": {
@@ -463,6 +488,11 @@
                 "match_creator_notes": false,
                 "triggers": [],
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "6": {
@@ -540,6 +570,11 @@
                 "match_creator_notes": false,
                 "triggers": [],
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "7": {
@@ -615,6 +650,11 @@
                 "match_creator_notes": false,
                 "triggers": [],
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "9": {
@@ -690,6 +730,11 @@
                 "match_creator_notes": false,
                 "triggers": [],
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "10": {
@@ -765,6 +810,11 @@
                 "match_creator_notes": false,
                 "triggers": [],
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "11": {
@@ -840,6 +890,11 @@
                 "match_creator_notes": false,
                 "triggers": [],
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "12": {
@@ -854,7 +909,7 @@
             "addMemo": true,
             "order": 999,
             "position": 4,
-            "disable": false,
+            "disable": true,
             "ignoreBudget": false,
             "excludeRecursion": true,
             "preventRecursion": true,
@@ -990,6 +1045,11 @@
                 "match_creator_notes": false,
                 "triggers": [],
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "14": {
@@ -1065,6 +1125,11 @@
                 "match_creator_notes": false,
                 "triggers": [],
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "15": {
@@ -1215,6 +1280,11 @@
                 "match_creator_notes": false,
                 "triggers": [],
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "17": {
@@ -1290,6 +1360,11 @@
                 "match_creator_notes": false,
                 "triggers": [],
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "18": {
@@ -1445,6 +1520,11 @@
                 "match_creator_notes": false,
                 "triggers": [],
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         }
     },

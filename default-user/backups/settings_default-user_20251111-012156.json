@@ -978,10 +978,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 14957,
-                "LAST_RECEIVE_CHARS": 38427,
-                "LAST_SEND_TOKENS": 37426,
-                "LAST_SEND_CHARS": 64894,
+                "LAST_RECEIVE_TOKENS": 13451,
+                "LAST_RECEIVE_CHARS": 37819,
+                "LAST_SEND_TOKENS": 36467,
+                "LAST_SEND_CHARS": 63328,
                 "content": "继续"
             }
         },
