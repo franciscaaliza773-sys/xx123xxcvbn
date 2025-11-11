@@ -1076,7 +1076,7 @@
                 "duration": 1000
             },
             "macro": {
-                "enabled": false
+                "enabled": true
             },
             "render": {
                 "enabled": true,
@@ -1087,9 +1087,7 @@
             "script": {
                 "enabled": {
                     "global": true,
-                    "presets": [
-                        "明月秋青写卡预设11.10 (1)"
-                    ],
+                    "presets": [],
                     "characters": [
                         "酒馆知识库",
                         "穿越小马，拉的就是大车"
@@ -1131,19 +1129,6 @@
                                     "visible": false
                                 }
                             ]
-                        },
-                        "data": {}
-                    },
-                    {
-                        "type": "script",
-                        "enabled": false,
-                        "name": "标签补全",
-                        "id": "209f4ee4-3fd9-4ead-a7ca-bc5c0e02fad2",
-                        "content": "$(()=>{toastr.success('思维链标签修复脚本已加载'),eventOn(tavern_events.MESSAGE_RECEIVED,async n=>{try{const e=getChatMessages(n);if(0===e.length)return;const i=e[0];if('assistant'!==i.role)return;let t=i.message;const s=t;t=function(n){if(!n.includes('<content>'))return n;let e=n;const i=(e.match(/<thinking>/g)||[]).length;if(0===i)e='<thinking>\\n'+e;else if(1===i){if(!e.trimStart().startsWith('<thinking>')){const n=e.indexOf('<thinking>'),i=e.slice(0,n).trimStart(),t=e.slice(n);e=t+(i?'\\n'+i:'')}}else if(e.trimStart().startsWith('<thinking>')){const n=e.indexOf('<thinking>'),i=e.slice(0,n+10),t=e.slice(n+10);e=i+t.replace(/<thinking>/g,'')}else e=e.replace(/<thinking>/g,''),e='<thinking>\\n'+e;const t=(e.match(/<\\/thinking>/g)||[]).length,s=e.indexOf('<content>');if(0===t)e=e.slice(0,s)+'</thinking>\\n'+e.slice(s);else if(1===t){if(e.indexOf('</thinking>')>s){e=e.replace('</thinking>','');const n=e.indexOf('<content>');e=e.slice(0,n)+'</thinking>\\n'+e.slice(n)}}else{const n=e.indexOf('</thinking>');if(n<s){const i=e.slice(0,n+11),t=e.slice(n+11);e=i+t.replace(/<\\/thinking>/g,'')}else{e=e.replace(/<\\/thinking>/g,'');const n=e.indexOf('<content>');e=e.slice(0,n)+'</thinking>\\n'+e.slice(n)}}const c=(e.match(/<thinking>/g)||[]).length,g=(e.match(/<\\/thinking>/g)||[]).length;if(1!==c||1!==g)return console.warn('[思维链标签修复] 修复后 thinking 标签数量不正确，保持原内容'),n;const l=e.indexOf('<thinking>'),o=e.indexOf('</thinking>'),r=e.indexOf('<content>');if(l>o||o>r)return console.warn('[思维链标签修复] 修复后标签顺序不正确，保持原内容'),n;return e}(t),t=function(n){const e=n.indexOf('<thinking>'),i=n.indexOf('</thinking>');if(-1===e||-1===i)return n;const t=n.slice(0,e+10),s=n.slice(e+10,i),c=n.slice(i),g=s.replace(/<[\\\\/]*UpdateVariable[\\\\/]*>/gi,'');return t+g+c}(t),t!==s&&(await setChatMessages([{message_id:n,message:t}],{refresh:'affected'}),console.log(`[思维链标签修复] 已修复第 ${n} 楼的标签`))}catch(n){console.error('[思维链标签修复] 处理消息时出错:',n)}}),console.log('[思维链标签修复] 脚本初始化完成')}),$(window).on('pagehide',()=>{console.log('[思维链标签修复] 脚本已卸载')});",
-                        "info": "",
-                        "button": {
-                            "enabled": true,
-                            "buttons": []
                         },
                         "data": {}
                     }
@@ -1409,7 +1394,7 @@
             }
         },
         "EjsTemplate": {
-            "enabled": false,
+            "enabled": true,
             "generate_enabled": true,
             "generate_loader_enabled": true,
             "render_enabled": true,
@@ -3555,30 +3540,13 @@
                     "substituteRegex": 0,
                     "minDepth": null,
                     "maxDepth": null
-                },
-                {
-                    "id": "90f8eae5-4f09-40d6-a40a-90f6260e14cf",
-                    "scriptName": "01-去杂七杂八标签",
-                    "findRegex": "/(<content>|<\\/content>)|(.*?<\\/think(ing)?>(\\n)?)|(<think(ing)?>[\\s\\S]*?<\\/think(ing)?>(\\n)?)|(<safe>[\\s\\S]*?<\\/safe>)|(<recap>|<\\/recap>|<theater>|<\\/theater>)/gs",
-                    "replaceString": "",
-                    "trimStrings": [],
-                    "placement": [
-                        2
-                    ],
-                    "disabled": false,
-                    "markdownOnly": true,
-                    "promptOnly": true,
-                    "runOnEdit": true,
-                    "substituteRegex": 0,
-                    "minDepth": null,
-                    "maxDepth": null
                 }
             ],
             "tavern_helper": {
                 "scripts": [
                     {
                         "type": "script",
-                        "enabled": true,
+                        "enabled": false,
                         "name": "标签补全",
                         "id": "bbd48f27-8dc8-4247-b5fb-1b8a16bf8e12",
                         "content": "$(()=>{toastr.success('思维链标签修复脚本已加载'),eventOn(tavern_events.MESSAGE_RECEIVED,async n=>{try{const e=getChatMessages(n);if(0===e.length)return;const i=e[0];if('assistant'!==i.role)return;let t=i.message;const s=t;t=function(n){if(!n.includes('<content>'))return n;let e=n;const i=(e.match(/<thinking>/g)||[]).length;if(0===i)e='<thinking>\\n'+e;else if(1===i){if(!e.trimStart().startsWith('<thinking>')){const n=e.indexOf('<thinking>'),i=e.slice(0,n).trimStart(),t=e.slice(n);e=t+(i?'\\n'+i:'')}}else if(e.trimStart().startsWith('<thinking>')){const n=e.indexOf('<thinking>'),i=e.slice(0,n+10),t=e.slice(n+10);e=i+t.replace(/<thinking>/g,'')}else e=e.replace(/<thinking>/g,''),e='<thinking>\\n'+e;const t=(e.match(/<\\/thinking>/g)||[]).length,s=e.indexOf('<content>');if(0===t)e=e.slice(0,s)+'</thinking>\\n'+e.slice(s);else if(1===t){if(e.indexOf('</thinking>')>s){e=e.replace('</thinking>','');const n=e.indexOf('<content>');e=e.slice(0,n)+'</thinking>\\n'+e.slice(n)}}else{const n=e.indexOf('</thinking>');if(n<s){const i=e.slice(0,n+11),t=e.slice(n+11);e=i+t.replace(/<\\/thinking>/g,'')}else{e=e.replace(/<\\/thinking>/g,'');const n=e.indexOf('<content>');e=e.slice(0,n)+'</thinking>\\n'+e.slice(n)}}const c=(e.match(/<thinking>/g)||[]).length,g=(e.match(/<\\/thinking>/g)||[]).length;if(1!==c||1!==g)return console.warn('[思维链标签修复] 修复后 thinking 标签数量不正确，保持原内容'),n;const l=e.indexOf('<thinking>'),o=e.indexOf('</thinking>'),r=e.indexOf('<content>');if(l>o||o>r)return console.warn('[思维链标签修复] 修复后标签顺序不正确，保持原内容'),n;return e}(t),t=function(n){const e=n.indexOf('<thinking>'),i=n.indexOf('</thinking>');if(-1===e||-1===i)return n;const t=n.slice(0,e+10),s=n.slice(e+10,i),c=n.slice(i),g=s.replace(/<[\\\\/]*UpdateVariable[\\\\/]*>/gi,'');return t+g+c}(t),t!==s&&(await setChatMessages([{message_id:n,message:t}],{refresh:'affected'}),console.log(`[思维链标签修复] 已修复第 ${n} 楼的标签`))}catch(n){console.error('[思维链标签修复] 处理消息时出错:',n)}}),console.log('[思维链标签修复] 脚本初始化完成')}),$(window).on('pagehide',()=>{console.log('[思维链标签修复] 脚本已卸载')});",
@@ -3586,99 +3554,6 @@
                         "button": {
                             "enabled": true,
                             "buttons": []
-                        },
-                        "data": {}
-                    },
-                    {
-                        "type": "script",
-                        "enabled": true,
-                        "name": "预设引导切换",
-                        "id": "bf9619bb-9e64-4aab-aeb3-532183d0d403",
-                        "content": "const t='in_use',e=['📋 世界观协作设计','📋 世界观正式输出','📋 角色基础模板','📋 语料设计模板','📋 角色缺点模板','📋 独立人格模板','📋 兴趣爱好模板','📋 衣柜模板','📋 NSFW档案模板','📋 NSFW语料模板','📋 演绎指导模板','📋 NPC设计模板','📋 角色速览','📋 自由创作助手','📋 开场白创作','📌 世界书配置指南'],n='📋 EJS模板库';async function s(e,n){await updatePresetWith(t,t=>{const s=t.prompts.find(t=>t.name===e);return s?s.enabled=n:toastr.warning(`未找到条目: ${e}`,'切换条目'),t}).then(()=>toastr.success(`已${n?'启用':'禁用'} '${e}'`,'切换条目成功'),t=>toastr.error(`${t}`,'切换条目失败'))}async function a(n){await updatePresetWith(t,t=>{e.forEach(e=>{const n=t.prompts.find(t=>t.name===e);n&&(n.enabled=!1)});const s=t.prompts.find(t=>t.name===n);return s&&(s.enabled=!0),t}).then(()=>toastr.success(`已切换到 '${n}'<br>完成后点击\"自查条目\"检查`,'切换步骤成功',{timeOut:3e3,escapeHtml:!1}),t=>toastr.error(`${t}`,'切换步骤失败'))}function r(t){for(const n of e){const e=t.prompts.find(t=>t.name===n);if(e&&e.enabled)return n}return null}const o={prev_step:{name:'←',function:async function(){const t=r(getPreset('in_use'));if(!t)return void toastr.info('未检测到当前步骤','写卡导航');const n=e.indexOf(t);if(n<=0)return void toastr.info('已经是第一步了','写卡导航');const s=e[n-1];await a(s)}},current_step:{name:'',function:async()=>{const t=r(getPreset('in_use'));if(t){const n=`${e.indexOf(t)+1}/${e.length}`;toastr.info(`当前步骤 (${n}): ${t}<br>完成后点击\"自查条目\"检查`,'写卡导航',{timeOut:5e3,escapeHtml:!1})}else toastr.warning('未检测到当前步骤','写卡导航')}},next_step:{name:'→',function:async function(){const t=r(getPreset('in_use'));if(!t)return toastr.info('未检测到当前步骤，请从世界观协作设计开始','写卡导航'),void await a(e[0]);const n=e.indexOf(t);if(-1===n||n===e.length-1)return void toastr.info('已经是最后一步了','写卡导航');const s=e[n+1];await a(s)}},all_steps:{name:'所有条目',function:async function(){const t=[...e,'📋 MVU初始变量创作','📋 变量规则创作','📋 前端美化状态栏','📋 EJS代码创作','📋 多阶段人设创作','📋 多阶段控制器创作'],n=await triggerSlash(`/buttons labels=${JSON.stringify(t)} 选择要开启的条目`);n&&(e.includes(n)?await a(n):await s(n,!0))}},self_check_steps:{name:'自查条目',function:async function(){const t=getPreset('in_use'),e=['🔍 自查工作流程','🔍 MVU初始变量自查','🔍 变量规则自查','🔍 前端美化状态栏自查','🔍 EJS代码自查'].map(e=>{const n=t.prompts.find(t=>t.name===e);return`${n?.enabled?'✅':'❌'} ${e}`}),n=await triggerSlash(`/buttons labels=${JSON.stringify(e)} 选择要切换的自查条目`);if(!n)return;const a=n.replace(/^[✅❌]\\s*/,''),r=t.prompts.find(t=>t.name===a);r&&await s(a,!r.enabled)}},toggle_ejs_library:{name:'EJS模板库',function:async()=>{const t=getPreset('in_use').prompts.find(t=>t.name===n);t&&await s(n,!t.enabled)}}};function i(t){t.forEach(t=>{eventClearEvent(getButtonEvent(t.name)),eventOn(getButtonEvent(t.name),t.function)}),replaceScriptButtons(t.map(t=>({name:t.name,visible:!0})))}function c(){const t=r(getPreset('in_use'));if(t){const e=t.replace(/^[📋📌🔍]\\s*/u,'');o.current_step.name=e}else o.current_step.name='当前步骤';return[o.prev_step,o.current_step,o.next_step,o.all_steps,o.self_check_steps,o.toggle_ejs_library]}$(()=>{toastr.success('写卡预设助手已加载<br>提示：完成步骤后点击\"自查条目\"检查内容','明月秋青写卡预设',{timeOut:4e3,escapeHtml:!1});i(c());const t=_.throttle(()=>{i(c())},1e3);eventOn(tavern_events.SETTINGS_UPDATED,t)}),$(window).on('pagehide',()=>{replaceScriptButtons([]),toastr.info('写卡预设助手已卸载','明月秋青写卡预设')});",
-                        "info": "用于在不同的创作引导阶段之间切换，自动打开和关闭相应的提示词条目。支持子阶段循环切换。",
-                        "button": {
-                            "enabled": true,
-                            "buttons": [
-                                {
-                                    "name": "←",
-                                    "visible": true
-                                },
-                                {
-                                    "name": "世界观协作设计",
-                                    "visible": true
-                                },
-                                {
-                                    "name": "→",
-                                    "visible": true
-                                },
-                                {
-                                    "name": "所有条目",
-                                    "visible": true
-                                },
-                                {
-                                    "name": "自查条目",
-                                    "visible": true
-                                },
-                                {
-                                    "name": "EJS模板库",
-                                    "visible": true
-                                }
-                            ]
-                        },
-                        "data": {}
-                    },
-                    {
-                        "type": "script",
-                        "enabled": true,
-                        "name": "自动检测提示词模板是否安装",
-                        "id": "39892ea5-ae04-4aa1-88db-f8331ac107b7",
-                        "content": "import 'https://fastly.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/自动安装插件/index.js'",
-                        "info": "",
-                        "button": {
-                            "enabled": true,
-                            "buttons": []
-                        },
-                        "data": {
-                            "自动安装插件": {}
-                        }
-                    },
-                    {
-                        "type": "script",
-                        "enabled": true,
-                        "name": "简体繁体切换",
-                        "id": "c7685044-3750-4223-aa7e-c3b7230a45b6",
-                        "content": "import 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/世界书繁简互换/index.js'",
-                        "info": "# 世界书繁简互换\n\n- **作者:** 青空莉想做舞台少女的狗\n- **版本:** 2025/11/10\n- **源文件:** [点此跳转](https://gitgud.io/StageDog/tavern_resource/-/tree/main/src)\n- **说明:** 启用后输入框将会显示两个按钮 \"将世界书翻译成简体\" 和 \"将世界书翻译成繁体\", 点击使用即可\n",
-                        "button": {
-                            "enabled": true,
-                            "buttons": [
-                                {
-                                    "name": "将世界书翻译成简体",
-                                    "visible": true
-                                },
-                                {
-                                    "name": "将世界书翻译成繁体",
-                                    "visible": true
-                                }
-                            ]
-                        },
-                        "data": {}
-                    },
-                    {
-                        "type": "script",
-                        "enabled": true,
-                        "name": "写卡脚本",
-                        "id": "627385ba-b0ee-4e98-bad9-53d15c0901d8",
-                        "content": " import 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/禁用酒馆助手宏和提示词模板/index.js'",
-                        "info": "# 禁用酒馆助手宏和提示词模板\n\n- **作者:** 青空莉想做舞台少女的狗\n- **版本:** 2025/10/04\n- **源文件:** [点此跳转](https://gitgud.io/StageDog/tavern_resource/-/tree/main/src)\n\n一些写卡助手可能会帮助你制作带有 `{{get_message_variable::stat_data.xxx}}` 等酒馆助手宏和 `<%_ _%>` 等 EJS 提示词模板的提示词. 则此时的酒馆助手宏和 EJS 提示词模板只是作为纯文本提示词, 不应该被真的执行.\n\n为此, 本脚本提供了一键禁用酒馆助手宏和提示词模板的功能:\n\n- 当启用/关闭脚本时, 脚本将禁用/启用酒馆助手宏和提示词模板. 这样, 你可以将脚本放置在某个空角色卡的脚本库里, 将这个空角色卡作为写卡界面: 切换成这个卡就会禁用酒馆助手宏和提示词模板, 切换成其他卡时又启用酒馆助手宏和提示词模板.\n- 脚本还提供了 \"启用/禁用酒馆助手宏和提示词模板\" 按钮, 你可以通过它了解当前开关情况, 并可通过点击它来快捷开关. 如果你不需要按钮, 则可以编辑脚本将按钮取消勾选.\n- 禁用手动开关酒馆助手宏和提示词模板, 仅允许通过本脚本开关\n",
-                        "button": {
-                            "enabled": true,
-                            "buttons": [
-                                {
-                                    "name": "启用酒馆助手宏和提示词模板",
-                                    "visible": true
-                                }
-                            ]
                         },
                         "data": {}
                     }
