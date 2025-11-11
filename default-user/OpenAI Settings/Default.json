@@ -274,7 +274,7 @@
     "continue_prefill": false,
     "continue_postfix": " ",
     "function_calling": true,
-    "show_thoughts": true,
+    "show_thoughts": false,
     "reasoning_effort": "auto",
     "enable_web_search": false,
     "request_images": false,
