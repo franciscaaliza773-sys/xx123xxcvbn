@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
         "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}},\"1547467663366332\":{\"fieldsWarned\":{}}}}",
@@ -993,10 +993,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2,
-                "LAST_RECEIVE_CHARS": 2,
-                "LAST_SEND_TOKENS": 168925,
-                "LAST_SEND_CHARS": 259569,
+                "LAST_RECEIVE_TOKENS": 1276,
+                "LAST_RECEIVE_CHARS": 1878,
+                "LAST_SEND_TOKENS": 162686,
+                "LAST_SEND_CHARS": 249604,
                 "content": "继续"
             }
         },
@@ -1520,7 +1520,7 @@
             "optimizationMode": "intercept",
             "optimizationTargetTag": "content",
             "optimizationEnabled": true,
-            "optimizationExclusionEnabled": false,
+            "optimizationExclusionEnabled": true,
             "optimizationExclusionRules": [],
             "greetingOptimizationEnabled": false,
             "lorebookTarget": "character_main",
@@ -1604,10 +1604,7 @@
         },
         "hanlinyuan-rag-core": {
             "condensationHistory": {},
-            "knowledgeBases": {
-                "__char__": {},
-                "_global": {}
-            },
+            "knowledgeBases": {},
             "queryPreprocessing": {
                 "enabled": false,
                 "tagExtractionEnabled": false,
@@ -1615,7 +1612,7 @@
                 "exclusionRules": []
             },
             "retrieval": {
-                "enabled": false,
+                "enabled": true,
                 "apiEndpoint": "openai",
                 "customApiUrl": "https://api.siliconflow.cn/v1",
                 "apiKey": "",
@@ -1669,7 +1666,7 @@
                 "exclusionRules": []
             },
             "rerank": {
-                "enabled": false,
+                "enabled": true,
                 "url": "https://api.siliconflow.cn/v1",
                 "apiKey": "",
                 "model": "Pro/BAAI/bge-reranker-v2-m3",
@@ -1698,8 +1695,7 @@
                         }
                     }
                 }
-            },
-            "settingsVersion": 2
+            }
         }
     },
     "tags": [
