@@ -2,9 +2,9 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}},\"1547467663366332\":{\"fieldsWarned\":{}}}}",
         "LNavLockOn": "false",
         "WINavOpened": "true",
@@ -252,7 +252,7 @@
         "avatar_style": 1,
         "chat_display": 2,
         "toastr_position": "toast-top-center",
-        "chat_width": 53,
+        "chat_width": 56,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
         "play_message_sound": false,
@@ -549,7 +549,7 @@
             "rerollIfSame": true
         },
         "connectionManager": {
-            "selectedProfile": "279e361d-ddd7-43b0-8d7d-1a4943bd4736",
+            "selectedProfile": "5659ae50-d5e5-4c16-98a6-7a8bdcba69b2",
             "profiles": [
                 {
                     "id": "bd3c9e8a-867a-4216-811f-955215fe89aa",
@@ -988,10 +988,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2,
-                "LAST_RECEIVE_CHARS": 2,
-                "LAST_SEND_TOKENS": 109459,
-                "LAST_SEND_CHARS": 157266,
+                "LAST_RECEIVE_TOKENS": 508,
+                "LAST_RECEIVE_CHARS": 921,
+                "LAST_SEND_TOKENS": 100988,
+                "LAST_SEND_CHARS": 165273,
                 "content": "继续"
             }
         },
@@ -1014,7 +1014,7 @@
         },
         "quickReplyV2": {
             "isEnabled": true,
-            "isCombined": true,
+            "isCombined": false,
             "isPopout": false,
             "showPopoutButton": true,
             "config": {
@@ -1025,7 +1025,17 @@
                     }
                 ]
             },
-            "characterConfigs": {}
+            "characterConfigs": {
+                "角色生成.png": {
+                    "setList": []
+                },
+                "范静梅2.png": {
+                    "setList": []
+                },
+                "珠矶，写作助手，文风提取.png": {
+                    "setList": []
+                }
+            }
         },
         "manual_saver": {
             "enabled": true,
@@ -2307,7 +2317,7 @@
         }
     },
     "oai_settings": {
-        "preset_settings_openai": "Izumi ·泉此方",
+        "preset_settings_openai": "正文质量究极优化+记忆召回",
         "temp_openai": 1.25,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
@@ -2317,8 +2327,8 @@
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
         "stream_openai": true,
-        "openai_max_context": 393517,
-        "openai_max_tokens": 7000,
+        "openai_max_context": "261744",
+        "openai_max_tokens": 8092,
         "wrap_in_quotes": false,
         "prompts": [
             {
@@ -5035,11 +5045,11 @@
         "openrouter_providers": [],
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
-        "reverse_proxy": "https://gcli.ggchan.dev/",
-        "chat_completion_source": "makersuite",
+        "reverse_proxy": "",
+        "chat_completion_source": "deepseek",
         "max_context_unlocked": true,
         "show_external_models": true,
-        "proxy_password": "gg-gcli-_lM3Fg99HLxyFduxd56nUtVBM0xWA-kAM0hXwlQBuIs",
+        "proxy_password": "",
         "assistant_prefill": "",
         "assistant_impersonation": "",
         "claude_use_sysprompt": false,
@@ -5057,7 +5067,7 @@
         "names_behavior": 0,
         "continue_postfix": " ",
         "custom_prompt_post_processing": "semi_tools",
-        "show_thoughts": true,
+        "show_thoughts": false,
         "reasoning_effort": "auto",
         "enable_web_search": false,
         "request_images": false,
@@ -5552,13 +5562,13 @@
     "proxies": [
         {
             "name": "None",
-            "url": "https://gcli.ggchan.dev/",
-            "password": "gg-gcli-_lM3Fg99HLxyFduxd56nUtVBM0xWA-kAM0hXwlQBuIs"
+            "url": "",
+            "password": ""
         }
     ],
     "selected_proxy": {
         "name": "None",
-        "url": "https://gcli.ggchan.dev/",
-        "password": "gg-gcli-_lM3Fg99HLxyFduxd56nUtVBM0xWA-kAM0hXwlQBuIs"
+        "url": "",
+        "password": ""
     }
 }

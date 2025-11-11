@@ -988,10 +988,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2,
-                "LAST_RECEIVE_CHARS": 2,
-                "LAST_SEND_TOKENS": 109459,
-                "LAST_SEND_CHARS": 157266,
+                "LAST_RECEIVE_TOKENS": 5,
+                "LAST_RECEIVE_CHARS": 7,
+                "LAST_SEND_TOKENS": 106489,
+                "LAST_SEND_CHARS": 153164,
                 "content": "继续"
             }
         },
@@ -1014,7 +1014,7 @@
         },
         "quickReplyV2": {
             "isEnabled": true,
-            "isCombined": true,
+            "isCombined": false,
             "isPopout": false,
             "showPopoutButton": true,
             "config": {
@@ -1025,7 +1025,17 @@
                     }
                 ]
             },
-            "characterConfigs": {}
+            "characterConfigs": {
+                "角色生成.png": {
+                    "setList": []
+                },
+                "范静梅2.png": {
+                    "setList": []
+                },
+                "珠矶，写作助手，文风提取.png": {
+                    "setList": []
+                }
+            }
         },
         "manual_saver": {
             "enabled": true,

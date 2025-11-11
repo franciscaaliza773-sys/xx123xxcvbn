@@ -28,7 +28,7 @@
     "custom_include_body": "",
     "custom_exclude_body": "",
     "custom_include_headers": "",
-    "custom_prompt_post_processing": "semi_tools",
+    "custom_prompt_post_processing": "strict",
     "google_model": "gemini-2.5-pro",
     "vertexai_model": "gemini-2.5-pro",
     "azure_base_url": "",
@@ -1230,7 +1230,7 @@
                 },
                 {
                     "identifier": "4f21b3c7-11f0-41f1-9428-a87850565aa0",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "2ee8714b-e0ef-4f56-87d0-ab696b2c1a8b",
@@ -1242,11 +1242,11 @@
                 },
                 {
                     "identifier": "f6dabc8f-8744-4510-8c87-b12bb82517eb",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "a49db8de-5800-49b1-9d08-5ded0f0f5217",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "4e58acb4-944f-4b26-8ba5-bb96b8c4f0b5",
