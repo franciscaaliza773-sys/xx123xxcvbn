@@ -988,10 +988,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2,
-                "LAST_RECEIVE_CHARS": 2,
-                "LAST_SEND_TOKENS": 113401,
-                "LAST_SEND_CHARS": 162424,
+                "LAST_RECEIVE_TOKENS": 26,
+                "LAST_RECEIVE_CHARS": 29,
+                "LAST_SEND_TOKENS": 100290,
+                "LAST_SEND_CHARS": 143638,
                 "content": "继续"
             }
         },
