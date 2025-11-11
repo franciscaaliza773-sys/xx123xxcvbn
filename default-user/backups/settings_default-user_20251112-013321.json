@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
         "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}},\"1547467663366332\":{\"fieldsWarned\":{}}}}",
@@ -997,10 +997,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2,
-                "LAST_RECEIVE_CHARS": 2,
-                "LAST_SEND_TOKENS": 163393,
-                "LAST_SEND_CHARS": 252016,
+                "LAST_RECEIVE_TOKENS": 6342,
+                "LAST_RECEIVE_CHARS": 14074,
+                "LAST_SEND_TOKENS": 144639,
+                "LAST_SEND_CHARS": 219879,
                 "content": "继续"
             }
         },
@@ -1025,16 +1025,35 @@
             "isEnabled": true,
             "isCombined": true,
             "isPopout": false,
-            "showPopoutButton": true,
+            "showPopoutButton": false,
             "config": {
                 "setList": [
                     {
-                        "set": "通用版",
-                        "isVisible": true
+                        "set": "XP情境大全（需搭配全绿灯世界书-v1.4）",
+                        "isVisible": false
                     }
                 ]
             },
-            "characterConfigs": {}
+            "characterConfigs": {
+                "[反差婊]我认识的coser和福利姬们.png": {
+                    "setList": []
+                },
+                "温知夏.png": {
+                    "setList": []
+                },
+                "酒馆知识库.png": {
+                    "setList": []
+                },
+                "献给挚爱的您的童真乐园.png": {
+                    "setList": []
+                },
+                "【Sgw】又看一集DLC.png": {
+                    "setList": []
+                },
+                "{{char}}.png": {
+                    "setList": []
+                }
+            }
         },
         "manual_saver": {
             "enabled": true,
