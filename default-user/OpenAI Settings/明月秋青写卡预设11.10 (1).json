@@ -43,7 +43,7 @@
     "top_a": 0,
     "min_p": 0,
     "repetition_penalty": 1,
-    "openai_max_context": "575711",
+    "openai_max_context": "920921",
     "openai_max_tokens": 8190,
     "wrap_in_quotes": false,
     "names_behavior": 0,
