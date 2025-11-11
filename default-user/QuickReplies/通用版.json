@@ -36,7 +36,7 @@
             "isHidden": true,
             "executeOnStartup": false,
             "executeOnUser": false,
-            "executeOnAi": true,
+            "executeOnAi": false,
             "executeOnChatChange": false,
             "executeOnGroupMemberDraft": false,
             "executeOnNewChat": false,
