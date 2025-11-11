@@ -43,7 +43,7 @@
     "top_a": 1,
     "min_p": 0,
     "repetition_penalty": 1,
-    "openai_max_context": 100000,
+    "openai_max_context": "377990",
     "openai_max_tokens": 8192,
     "wrap_in_quotes": false,
     "names_behavior": 0,
@@ -1013,6 +1013,19 @@
             "injection_order": 100,
             "injection_trigger": [],
             "forbid_overrides": false
+        },
+        {
+            "identifier": "SPresetSettings",
+            "system_prompt": false,
+            "enabled": false,
+            "marker": false,
+            "name": "SPreset配置",
+            "role": "system",
+            "content": "{\"ChatSquash\":{\"enabled\":false,\"separate_chat_history\":false,\"parse_clewd\":true,\"role\":\"assistant\",\"stop_string\":\"User:\",\"user_prefix\":\"\\n\\nUser:\",\"user_suffix\":\"\",\"char_prefix\":\"\\n\\nAssistant:\",\"char_suffix\":\"\",\"prefix_system\":\"\",\"suffix_system\":\"\",\"enable_squashed_separator\":false,\"squashed_separator_regex\":false,\"squashed_separator_string\":\"\",\"squashed_post_script_enable\":false,\"squashed_post_script\":\"\"},\"RegexBinding\":{\"regexes\":[]},\"MacroNest\":false}",
+            "injection_position": 0,
+            "injection_depth": 4,
+            "injection_order": 100,
+            "forbid_overrides": false
         }
     ],
     "prompt_order": [
@@ -1464,5 +1477,31 @@
     "request_images": false,
     "seed": -1,
     "n": 1,
-    "extensions": {}
+    "extensions": {
+        "SPreset": {
+            "ChatSquash": {
+                "enabled": false,
+                "separate_chat_history": false,
+                "parse_clewd": true,
+                "role": "assistant",
+                "stop_string": "User:",
+                "user_prefix": "\n\nUser:",
+                "user_suffix": "",
+                "char_prefix": "\n\nAssistant:",
+                "char_suffix": "",
+                "prefix_system": "",
+                "suffix_system": "",
+                "enable_squashed_separator": false,
+                "squashed_separator_regex": false,
+                "squashed_separator_string": "",
+                "squashed_post_script_enable": false,
+                "squashed_post_script": ""
+            },
+            "RegexBinding": {
+                "regexes": []
+            },
+            "MacroNest": false
+        },
+        "regex_scripts": []
+    }
 }

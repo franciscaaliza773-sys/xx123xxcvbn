@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
         "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}},\"1547467663366332\":{\"fieldsWarned\":{}}}}",
@@ -15,7 +15,7 @@
         "AlertWI_我的剑仙熟女美母恶堕了全新版.png": "true",
         "AlertWI_[反差婊]我认识的coser和福利姬们.png": "true",
         "AlertRegex_[反差婊]我认识的coser和福利姬们.png": "true",
-        "extension_update_nag": "Wed Nov 12 2025",
+        "extension_update_nag": "Tue Nov 11 2025",
         "response_linter_settings": "{\"enabled\":false,\"autoFix\":false,\"defaultAutoFixAction\":\"apply\",\"rules\":[{\"id\":\"thinking-content-demo\",\"name\":\"思维链与内容格式\",\"description\":\"确保AI回复包含思考过程和内容两个部分\",\"enabled\":true,\"requiredContent\":[\"<thinking>\",\"</thinking>\",\"<content>\",\"</content>\"],\"fixStrategy\":\"thinking-content\",\"createdAt\":\"2025-11-07T10:57:03.935Z\"},{\"id\":1762513235660.9443,\"name\":\"问答格式验证\",\"description\":\"验证问答回复包含问题和答案部分\",\"requiredContent\":[\"## 问题\",\"## 答案\"],\"fixStrategy\":\"positional\",\"positionalOptions\":{\"doubleNewline\":true},\"enabled\":true,\"createdAt\":\"2025-11-07T11:00:35.660Z\",\"updatedAt\":\"2025-11-07T11:00:35.660Z\"},{\"id\":1762513242396.4727,\"name\":\"思维链验证\",\"description\":\"验证AI回复包含正确的思考过程和内容格式\",\"requiredContent\":[\"<thinking>\",\"</thinking>\",\"<content>\",\"</content>\"],\"fixStrategy\":\"positional\",\"positionalOptions\":{\"doubleNewline\":true},\"enabled\":false,\"createdAt\":\"2025-11-07T11:00:42.396Z\",\"updatedAt\":\"2025-11-07T11:00:42.396Z\"},{\"id\":1762513243989.2322,\"name\":\"代码块验证\",\"description\":\"验证代码回复包含正确的代码块标记\",\"requiredContent\":[\"```\",\"```\"],\"fixStrategy\":\"add-missing-tags\",\"enabled\":false,\"createdAt\":\"2025-11-07T11:00:43.989Z\",\"updatedAt\":\"2025-11-07T11:00:43.989Z\"}],\"notifications\":{\"enabled\":true,\"duration\":5,\"showSuccess\":true},\"statistics\":{\"validations\":0,\"fixes\":0,\"successRate\":100}}",
         "AlertWI_角色生成.png": "true",
         "AlertRegex_openai_知识库": "true",
@@ -44,14 +44,11 @@
         "AlertRegex_openai_Izumi ·泉此方": "true",
         "AlertRegex_openai_梦梦K2T1.1.12th丨喵喵电波@ameng 好": "true",
         "AlertWI_{{char}}.png": "true",
-        "AlertRegex_{{char}}.png": "true",
-        "AlertWI_温知夏.png": "true",
-        "AlertRegex_温知夏.png": "true",
-        "AlertTasks_温知夏.png": "true"
+        "AlertRegex_{{char}}.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "白云",
-    "active_character": "温知夏.png",
+    "active_character": "{{char}}.png",
     "active_group": null,
     "user_avatar": "1762852293666-.png",
     "amount_gen": 350,
@@ -786,8 +783,7 @@
             "珠矶.png",
             "珠矶，写作助手，文风提取.png",
             "XP大全 v1.4.png",
-            "{{char}}.png",
-            "温知夏.png"
+            "{{char}}.png"
         ],
         "preset_allowed_regex": {
             "kobold": [
@@ -803,8 +799,7 @@
                 "Izumi ·泉此方",
                 "明月秋青写卡预设11.10 (1)",
                 "梦梦K2T1.1.12th丨喵喵电波@ameng 好",
-                "A.U.T.O.预设 v0.9",
-                "gemini-1.3.7-preview 内置Sigon智能引擎 (2)"
+                "A.U.T.O.预设 v0.9"
             ]
         },
         "tts": {
@@ -999,8 +994,8 @@
             "global": {
                 "LAST_RECEIVE_TOKENS": 2,
                 "LAST_RECEIVE_CHARS": 2,
-                "LAST_SEND_TOKENS": 161436,
-                "LAST_SEND_CHARS": 249071,
+                "LAST_SEND_TOKENS": 168925,
+                "LAST_SEND_CHARS": 259569,
                 "content": "继续"
             }
         },
@@ -1034,14 +1029,7 @@
                     }
                 ]
             },
-            "characterConfigs": {
-                "[反差婊]我认识的coser和福利姬们.png": {
-                    "setList": []
-                },
-                "温知夏.png": {
-                    "setList": []
-                }
-            }
+            "characterConfigs": {}
         },
         "manual_saver": {
             "enabled": true,
@@ -1167,7 +1155,7 @@
                     },
                     {
                         "type": "script",
-                        "enabled": false,
+                        "enabled": true,
                         "name": "标签补全",
                         "id": "209f4ee4-3fd9-4ead-a7ca-bc5c0e02fad2",
                         "content": "$(()=>{toastr.success('思维链标签修复脚本已加载'),eventOn(tavern_events.MESSAGE_RECEIVED,async n=>{try{const e=getChatMessages(n);if(0===e.length)return;const i=e[0];if('assistant'!==i.role)return;let t=i.message;const s=t;t=function(n){if(!n.includes('<content>'))return n;let e=n;const i=(e.match(/<thinking>/g)||[]).length;if(0===i)e='<thinking>\\n'+e;else if(1===i){if(!e.trimStart().startsWith('<thinking>')){const n=e.indexOf('<thinking>'),i=e.slice(0,n).trimStart(),t=e.slice(n);e=t+(i?'\\n'+i:'')}}else if(e.trimStart().startsWith('<thinking>')){const n=e.indexOf('<thinking>'),i=e.slice(0,n+10),t=e.slice(n+10);e=i+t.replace(/<thinking>/g,'')}else e=e.replace(/<thinking>/g,''),e='<thinking>\\n'+e;const t=(e.match(/<\\/thinking>/g)||[]).length,s=e.indexOf('<content>');if(0===t)e=e.slice(0,s)+'</thinking>\\n'+e.slice(s);else if(1===t){if(e.indexOf('</thinking>')>s){e=e.replace('</thinking>','');const n=e.indexOf('<content>');e=e.slice(0,n)+'</thinking>\\n'+e.slice(n)}}else{const n=e.indexOf('</thinking>');if(n<s){const i=e.slice(0,n+11),t=e.slice(n+11);e=i+t.replace(/<\\/thinking>/g,'')}else{e=e.replace(/<\\/thinking>/g,'');const n=e.indexOf('<content>');e=e.slice(0,n)+'</thinking>\\n'+e.slice(n)}}const c=(e.match(/<thinking>/g)||[]).length,g=(e.match(/<\\/thinking>/g)||[]).length;if(1!==c||1!==g)return console.warn('[思维链标签修复] 修复后 thinking 标签数量不正确，保持原内容'),n;const l=e.indexOf('<thinking>'),o=e.indexOf('</thinking>'),r=e.indexOf('<content>');if(l>o||o>r)return console.warn('[思维链标签修复] 修复后标签顺序不正确，保持原内容'),n;return e}(t),t=function(n){const e=n.indexOf('<thinking>'),i=n.indexOf('</thinking>');if(-1===e||-1===i)return n;const t=n.slice(0,e+10),s=n.slice(e+10,i),c=n.slice(i),g=s.replace(/<[\\\\/]*UpdateVariable[\\\\/]*>/gi,'');return t+g+c}(t),t!==s&&(await setChatMessages([{message_id:n,message:t}],{refresh:'affected'}),console.log(`[思维链标签修复] 已修复第 ${n} 楼的标签`))}catch(n){console.error('[思维链标签修复] 处理消息时出错:',n)}}),console.log('[思维链标签修复] 脚本初始化完成')}),$(window).on('pagehide',()=>{console.log('[思维链标签修复] 脚本已卸载')});",
@@ -1316,7 +1304,7 @@
             "voice_posY": 0,
             "voice_posZ": 1.9
         },
-        "regexBinding_scriptId": "0da1e226-06d4-4ba7-83b4-0f640a00c1af",
+        "regexBinding_scriptId": "9bda9a37-6be3-4449-9f3d-76103ecf5a7c",
         "quick-response-force": {
             "apiSettings": {
                 "apiMode": "tavern",
@@ -1723,12 +1711,10 @@
                 "characterBindings": {}
             },
             "tasks": {
-                "enabled": false,
+                "enabled": true,
                 "globalTasks": [],
                 "processedMessages": [],
-                "character_allowed_tasks": [
-                    "温知夏.png"
-                ]
+                "character_allowed_tasks": []
             },
             "scriptAssistant": {
                 "enabled": false
@@ -1927,8 +1913,7 @@
         "范静梅2.png": [],
         "{{char}}.png": [
             "f8861db2-5049-46c7-9fba-63575c55fb76"
-        ],
-        "温知夏.png": []
+        ]
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -2463,7 +2448,7 @@
         }
     },
     "oai_settings": {
-        "preset_settings_openai": "gemini-1.3.7-preview 内置Sigon智能引擎 (2)",
+        "preset_settings_openai": "Ny-gemini-1.3.7-preview 内置Sigon智能引擎 (2)",
         "temp_openai": 1.1,
         "freq_pen_openai": 0.3,
         "pres_pen_openai": 0.2,
@@ -2473,7 +2458,7 @@
         "top_a_openai": 1,
         "repetition_penalty_openai": 1,
         "stream_openai": true,
-        "openai_max_context": "377990",
+        "openai_max_context": 100000,
         "openai_max_tokens": 8192,
         "wrap_in_quotes": false,
         "prompts": [
@@ -3427,19 +3412,6 @@
                 "injection_order": 100,
                 "injection_trigger": [],
                 "forbid_overrides": false
-            },
-            {
-                "identifier": "SPresetSettings",
-                "system_prompt": false,
-                "enabled": false,
-                "marker": false,
-                "name": "SPreset配置",
-                "role": "system",
-                "content": "{\"ChatSquash\":{\"enabled\":false,\"separate_chat_history\":false,\"parse_clewd\":true,\"role\":\"assistant\",\"stop_string\":\"User:\",\"user_prefix\":\"\\n\\nUser:\",\"user_suffix\":\"\",\"char_prefix\":\"\\n\\nAssistant:\",\"char_suffix\":\"\",\"prefix_system\":\"\",\"suffix_system\":\"\",\"enable_squashed_separator\":false,\"squashed_separator_regex\":false,\"squashed_separator_string\":\"\",\"squashed_post_script_enable\":false,\"squashed_post_script\":\"\"},\"RegexBinding\":{\"regexes\":[]},\"MacroNest\":false}",
-                "injection_position": 0,
-                "injection_depth": 4,
-                "injection_order": 100,
-                "forbid_overrides": false
             }
         ],
         "prompt_order": [
@@ -3970,33 +3942,7 @@
         "seed": -1,
         "n": 1,
         "bind_preset_to_connection": false,
-        "extensions": {
-            "SPreset": {
-                "ChatSquash": {
-                    "enabled": false,
-                    "separate_chat_history": false,
-                    "parse_clewd": true,
-                    "role": "assistant",
-                    "stop_string": "User:",
-                    "user_prefix": "\n\nUser:",
-                    "user_suffix": "",
-                    "char_prefix": "\n\nAssistant:",
-                    "char_suffix": "",
-                    "prefix_system": "",
-                    "suffix_system": "",
-                    "enable_squashed_separator": false,
-                    "squashed_separator_regex": false,
-                    "squashed_separator_string": "",
-                    "squashed_post_script_enable": false,
-                    "squashed_post_script": ""
-                },
-                "RegexBinding": {
-                    "regexes": []
-                },
-                "MacroNest": false
-            },
-            "regex_scripts": []
-        }
+        "extensions": {}
     },
     "background": {
         "name": "cityscape medieval market.jpg",
