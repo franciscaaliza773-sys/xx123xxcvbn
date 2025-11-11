@@ -4,7 +4,7 @@
         "__migrated": "1",
         "LNavOpened": "true",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}},\"1547467663366332\":{\"fieldsWarned\":{}}}}",
         "LNavLockOn": "false",
         "WINavOpened": "true",
@@ -993,10 +993,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2,
-                "LAST_RECEIVE_CHARS": 2,
-                "LAST_SEND_TOKENS": 129459,
-                "LAST_SEND_CHARS": 196134,
+                "LAST_RECEIVE_TOKENS": 10,
+                "LAST_RECEIVE_CHARS": 13,
+                "LAST_SEND_TOKENS": 127207,
+                "LAST_SEND_CHARS": 192121,
                 "content": "继续"
             }
         },

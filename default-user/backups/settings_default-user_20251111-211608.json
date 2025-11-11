@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
         "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}},\"1547467663366332\":{\"fieldsWarned\":{}}}}",
@@ -993,10 +993,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2,
-                "LAST_RECEIVE_CHARS": 2,
-                "LAST_SEND_TOKENS": 129459,
-                "LAST_SEND_CHARS": 196134,
+                "LAST_RECEIVE_TOKENS": 567,
+                "LAST_RECEIVE_CHARS": 883,
+                "LAST_SEND_TOKENS": 108253,
+                "LAST_SEND_CHARS": 155233,
                 "content": "继续"
             }
         },
@@ -1021,7 +1021,7 @@
             "isEnabled": true,
             "isCombined": true,
             "isPopout": false,
-            "showPopoutButton": false,
+            "showPopoutButton": true,
             "config": {
                 "setList": [
                     {
@@ -1753,17 +1753,6 @@
             "color": "",
             "color2": "",
             "create_date": 1762777098505
-        },
-        {
-            "id": "f8861db2-5049-46c7-9fba-63575c55fb76",
-            "name": "写卡助手",
-            "folder_type": "NONE",
-            "filter_state": "UNDEFINED",
-            "sort_order": 4,
-            "is_hidden_on_character_card": false,
-            "color": "",
-            "color2": "",
-            "create_date": 1762867003909
         }
     ],
     "tag_map": {
@@ -1791,9 +1780,7 @@
         "珠矶，写作助手，文风提取.png": [],
         "【Amily2号助手】客服.png": [],
         "范静梅2.png": [],
-        "{{char}}.png": [
-            "f8861db2-5049-46c7-9fba-63575c55fb76"
-        ]
+        "{{char}}.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
