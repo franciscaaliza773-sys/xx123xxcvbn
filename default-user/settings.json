@@ -46,9 +46,9 @@
     },
     "currentVersion": "1.13.5",
     "username": "白云",
-    "active_character": "范静梅2.png",
+    "active_character": "珠矶，写作助手，文风提取.png",
     "active_group": null,
-    "user_avatar": "user-default.png",
+    "user_avatar": "1762852293666-.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -379,16 +379,25 @@
             "max_additions": 1
         },
         "personas": {
-            "user-default.png": "白云"
+            "user-default.png": "白云",
+            "1762852293666-.png": "白云"
         },
         "default_persona": "user-default.png",
         "persona_descriptions": {
             "user-default.png": {
                 "description": "白云是个18岁的帅气男孩子，他一身壮硕的好身材。喜欢魅魔和丰乳肥臀的冷艳仙子。也喜欢女孩子对他说骚话，说情话，喜欢会撩人的女人",
                 "position": 0
+            },
+            "1762852293666-.png": {
+                "description": "{{user}}是个18岁的男人",
+                "position": 0,
+                "depth": 2,
+                "role": 0,
+                "lorebook": "",
+                "title": ""
             }
         },
-        "persona_description": "白云是个18岁的帅气男孩子，他一身壮硕的好身材。喜欢魅魔和丰乳肥臀的冷艳仙子。也喜欢女孩子对他说骚话，说情话，喜欢会撩人的女人",
+        "persona_description": "{{user}}是个18岁的男人",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -979,10 +988,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 4,
-                "LAST_RECEIVE_CHARS": 2,
-                "LAST_SEND_TOKENS": 13389,
-                "LAST_SEND_CHARS": 21649,
+                "LAST_RECEIVE_TOKENS": 42,
+                "LAST_RECEIVE_CHARS": 67,
+                "LAST_SEND_TOKENS": 92349,
+                "LAST_SEND_CHARS": 148834,
                 "content": "继续"
             }
         },
@@ -1021,6 +1030,9 @@
                     "setList": []
                 },
                 "范静梅2.png": {
+                    "setList": []
+                },
+                "珠矶，写作助手，文风提取.png": {
                     "setList": []
                 }
             }
@@ -2316,7 +2328,7 @@
         "stream_openai": true,
         "openai_max_context": "403107",
         "openai_max_tokens": 8190,
-        "wrap_in_quotes": false,
+        "wrap_in_quotes": true,
         "prompts": [
             {
                 "identifier": "ae3a799f-249f-4765-8936-243593347dec",
@@ -3715,12 +3727,12 @@
         "inline_image_quality": "auto",
         "video_inlining": false,
         "bypass_status_check": true,
-        "continue_prefill": false,
+        "continue_prefill": true,
         "function_calling": true,
         "names_behavior": 0,
         "continue_postfix": " ",
         "custom_prompt_post_processing": "semi_tools",
-        "show_thoughts": true,
+        "show_thoughts": false,
         "reasoning_effort": "auto",
         "enable_web_search": false,
         "request_images": false,
