@@ -993,10 +993,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1242,
-                "LAST_RECEIVE_CHARS": 1837,
-                "LAST_SEND_TOKENS": 151104,
-                "LAST_SEND_CHARS": 231098,
+                "LAST_RECEIVE_TOKENS": 37,
+                "LAST_RECEIVE_CHARS": 55,
+                "LAST_SEND_TOKENS": 146635,
+                "LAST_SEND_CHARS": 223853,
                 "content": "继续"
             }
         },
@@ -1090,7 +1090,7 @@
                 "duration": 1000
             },
             "macro": {
-                "enabled": false
+                "enabled": true
             },
             "render": {
                 "enabled": true,
