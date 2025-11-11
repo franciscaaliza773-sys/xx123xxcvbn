@@ -997,10 +997,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2017,
-                "LAST_RECEIVE_CHARS": 2998,
-                "LAST_SEND_TOKENS": 166637,
-                "LAST_SEND_CHARS": 258496,
+                "LAST_RECEIVE_TOKENS": 2,
+                "LAST_RECEIVE_CHARS": 2,
+                "LAST_SEND_TOKENS": 163393,
+                "LAST_SEND_CHARS": 252016,
                 "content": "继续"
             }
         },
@@ -1022,7 +1022,7 @@
             "chara": []
         },
         "quickReplyV2": {
-            "isEnabled": false,
+            "isEnabled": true,
             "isCombined": true,
             "isPopout": false,
             "showPopoutButton": true,
