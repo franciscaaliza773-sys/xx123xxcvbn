@@ -988,10 +988,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 26,
-                "LAST_RECEIVE_CHARS": 29,
-                "LAST_SEND_TOKENS": 100290,
-                "LAST_SEND_CHARS": 143638,
+                "LAST_RECEIVE_TOKENS": 3,
+                "LAST_RECEIVE_CHARS": 3,
+                "LAST_SEND_TOKENS": 108253,
+                "LAST_SEND_CHARS": 155233,
                 "content": "继续"
             }
         },
@@ -1021,7 +1021,7 @@
                 "setList": [
                     {
                         "set": "XP情境大全（需搭配全绿灯世界书-v1.4）",
-                        "isVisible": true
+                        "isVisible": false
                     }
                 ]
             },
@@ -5543,8 +5543,8 @@
         }
     },
     "background": {
-        "name": "2.jpg",
-        "url": "url(\"backgrounds/2.jpg\")",
+        "name": "cityscape medieval market.jpg",
+        "url": "url(\"backgrounds/cityscape%20medieval%20market.jpg\")",
         "fitting": "classic",
         "animation": false,
         "thumbnailColumns": 5
