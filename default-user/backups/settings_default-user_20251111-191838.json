@@ -988,10 +988,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 6849,
-                "LAST_RECEIVE_CHARS": 13517,
-                "LAST_SEND_TOKENS": 111669,
-                "LAST_SEND_CHARS": 160227,
+                "LAST_RECEIVE_TOKENS": 5893,
+                "LAST_RECEIVE_CHARS": 11266,
+                "LAST_SEND_TOKENS": 109460,
+                "LAST_SEND_CHARS": 157264,
                 "content": "继续"
             }
         },
@@ -1021,7 +1021,7 @@
                 "setList": [
                     {
                         "set": "通用版",
-                        "isVisible": false
+                        "isVisible": true
                     }
                 ]
             },
