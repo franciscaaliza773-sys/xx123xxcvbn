@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
         "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}},\"1547467663366332\":{\"fieldsWarned\":{}}}}",
@@ -59,7 +59,11 @@
     "main_api": "openai",
     "world_info_settings": {
         "world_info": {
-            "globalSelect": []
+            "globalSelect": [
+                "蓝灯__XP大全 v1.4",
+                "珠矶",
+                "A.U.T.O预设 0.9"
+            ]
         },
         "world_info_depth": 2,
         "world_info_min_activations": 0,
@@ -993,8 +997,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 451,
-                "LAST_RECEIVE_CHARS": 691,
+                "LAST_RECEIVE_TOKENS": 3056,
+                "LAST_RECEIVE_CHARS": 4438,
                 "LAST_SEND_TOKENS": 168056,
                 "LAST_SEND_CHARS": 260785,
                 "content": "继续"
@@ -1030,11 +1034,7 @@
                     }
                 ]
             },
-            "characterConfigs": {
-                "{{char}}.png": {
-                    "setList": []
-                }
-            }
+            "characterConfigs": {}
         },
         "manual_saver": {
             "enabled": true,
@@ -1309,7 +1309,7 @@
             "voice_posY": 0,
             "voice_posZ": 1.9
         },
-        "regexBinding_scriptId": "0da1e226-06d4-4ba7-83b4-0f640a00c1af",
+        "regexBinding_scriptId": "9bda9a37-6be3-4449-9f3d-76103ecf5a7c",
         "quick-response-force": {
             "apiSettings": {
                 "apiMode": "tavern",
@@ -1433,7 +1433,7 @@
             }
         },
         "EjsTemplate": {
-            "enabled": false,
+            "enabled": true,
             "generate_enabled": true,
             "generate_loader_enabled": true,
             "render_enabled": true,
@@ -4488,7 +4488,7 @@
                     },
                     {
                         "identifier": "9376366e-bf35-446f-babe-438959ccc452",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "94e2bf01-18df-4be8-9377-aa12d53e654a",
