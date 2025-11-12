@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
         "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}},\"1547467663366332\":{\"fieldsWarned\":{}}}}",
@@ -4764,7 +4764,7 @@
         "continue_postfix": " ",
         "custom_prompt_post_processing": "semi_tools",
         "show_thoughts": false,
-        "reasoning_effort": "min",
+        "reasoning_effort": "auto",
         "enable_web_search": false,
         "request_images": false,
         "seed": -1,
