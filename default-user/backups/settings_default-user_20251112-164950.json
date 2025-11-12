@@ -59,9 +59,7 @@
     "main_api": "openai",
     "world_info_settings": {
         "world_info": {
-            "globalSelect": [
-                "蓝灯__XP大全 v1.4"
-            ]
+            "globalSelect": []
         },
         "world_info_depth": 2,
         "world_info_min_activations": 0,
@@ -1020,7 +1018,7 @@
             "chara": []
         },
         "quickReplyV2": {
-            "isEnabled": false,
+            "isEnabled": true,
             "isCombined": true,
             "isPopout": false,
             "showPopoutButton": true,
@@ -2463,7 +2461,7 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": false,
+        "stream_openai": true,
         "openai_max_context": 813673,
         "openai_max_tokens": 10000,
         "wrap_in_quotes": false,
@@ -4306,7 +4304,7 @@
                     },
                     {
                         "identifier": "a9d0c060-e1cf-454b-9303-9166197c3d2a",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "37fe071f-bda4-4b89-923e-976db179280a",
@@ -4314,7 +4312,7 @@
                     },
                     {
                         "identifier": "1903cd6d-14b4-4220-9309-b652ee5098ca",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "a35a6daf-528d-4d81-839d-41bc5e944f8c",

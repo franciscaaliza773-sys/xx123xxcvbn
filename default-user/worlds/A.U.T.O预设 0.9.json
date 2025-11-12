@@ -1178,11 +1178,6 @@
                 "triggers": [],
                 "outlet_name": "",
                 "ignore_budget": false
-            },
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
             }
         },
         "15": {

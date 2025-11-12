@@ -43,7 +43,7 @@
     "top_a": 0,
     "min_p": 0,
     "repetition_penalty": 1,
-    "openai_max_context": "813673",
+    "openai_max_context": 813673,
     "openai_max_tokens": 10000,
     "wrap_in_quotes": false,
     "names_behavior": -1,
@@ -794,7 +794,7 @@
             "marker": false,
             "name": "设计模块开始⬇️",
             "role": "system",
-            "content": "",
+            "content": "开始设计",
             "injection_position": 0,
             "injection_depth": 4,
             "injection_order": 100,
@@ -1901,7 +1901,7 @@
                 },
                 {
                     "identifier": "a9d0c060-e1cf-454b-9303-9166197c3d2a",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "37fe071f-bda4-4b89-923e-976db179280a",
@@ -1909,7 +1909,7 @@
                 },
                 {
                     "identifier": "1903cd6d-14b4-4220-9309-b652ee5098ca",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "a35a6daf-528d-4d81-839d-41bc5e944f8c",
@@ -2021,11 +2021,11 @@
                 },
                 {
                     "identifier": "0b166044-370f-428d-ba4c-35531287b921",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "10f932fb-8899-4482-a8d3-bf8cfbf16231",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "d021d3b4-08cc-4f03-9533-652cda89f10b",
@@ -2081,63 +2081,63 @@
                 },
                 {
                     "identifier": "9376366e-bf35-446f-babe-438959ccc452",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "94e2bf01-18df-4be8-9377-aa12d53e654a",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "ac469228-bd1a-444b-a61e-fa91bea00042",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "91be7e14-4169-4e4e-b0b2-c4a32c8809f0",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "e9b91a84-50d3-40db-b642-084797782bc6",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "bb9bb9b7-3b3d-4b1a-8eb9-0a23ed3d799d",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "2eeba189-911a-4d15-bf46-7caba49581b7",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "07688972-a290-4b22-a210-3f9df7ef0781",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "430d57cf-d2ea-46ce-b83d-624ca2300f2b",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "6ab76630-4988-4dcb-a1b7-2e2635ec7a00",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "c6a34ba6-393f-48c7-993d-86c47de6a35c",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "324e85a9-0fc1-4e8b-85cf-1ff9851f5b03",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "35ea2ccc-99c5-4731-a25a-0693614b07fa",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "ca6d2266-d37f-4596-bd2b-b61ac0f7ba49",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "d491235e-9535-48b0-8b15-6c0e777114fb",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "60b1db7c-30d4-4a86-bd41-67e13c5084e0",
@@ -2161,7 +2161,7 @@
                 },
                 {
                     "identifier": "d6d362c4-5556-4bd0-a08c-067afb3424b1",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "268aa2ec-491c-4232-827d-8dbe291d4917",
@@ -2177,31 +2177,31 @@
                 },
                 {
                     "identifier": "8e61cf0a-a30c-45ff-89d8-6b371e90c767",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "53cfc7f6-b030-4553-9bd5-781c102c1e39",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "487bb55b-da3f-4ee7-8f6d-0c23b5591bc2",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "399f98bd-0bfb-4e72-881c-0086099f4a6b",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "5472b214-c260-4ce8-97c2-7e9831cce93d",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "06d05ed6-0695-4cff-b2ac-1d7fa46ba031",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "89afd1c7-a37f-4bf5-b73f-abbe60026218",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "6ba124e7-1b24-4452-bea3-3aed1877a0ff",
@@ -2233,7 +2233,7 @@
                 },
                 {
                     "identifier": "4c789119-ca1f-4413-b3c2-8edfd2cdc056",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "b3bb7133-7161-4b76-b7be-dabd38f76f19",
@@ -2279,7 +2279,7 @@
     "continue_postfix": " ",
     "function_calling": false,
     "show_thoughts": false,
-    "reasoning_effort": "min",
+    "reasoning_effort": "auto",
     "enable_web_search": false,
     "request_images": false,
     "seed": -1,
