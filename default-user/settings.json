@@ -4,7 +4,7 @@
         "__migrated": "1",
         "LNavOpened": "true",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}},\"1547467663366332\":{\"fieldsWarned\":{}}}}",
         "LNavLockOn": "false",
         "WINavOpened": "true",
@@ -60,6 +60,7 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
+                "范静梅",
                 "蓝灯__XP大全 v1.4"
             ]
         },
@@ -995,10 +996,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 668,
-                "LAST_RECEIVE_CHARS": 915,
-                "LAST_SEND_TOKENS": 6867,
-                "LAST_SEND_CHARS": 11100,
+                "LAST_RECEIVE_TOKENS": 913,
+                "LAST_RECEIVE_CHARS": 1213,
+                "LAST_SEND_TOKENS": 21432,
+                "LAST_SEND_CHARS": 31686,
                 "content": "继续"
             }
         },
