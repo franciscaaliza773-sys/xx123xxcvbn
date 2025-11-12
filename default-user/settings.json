@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
         "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}},\"1547467663366332\":{\"fieldsWarned\":{}}}}",
@@ -1523,7 +1523,7 @@
             "suppressToast": false,
             "optimizationMode": "intercept",
             "optimizationTargetTag": "content",
-            "optimizationEnabled": true,
+            "optimizationEnabled": false,
             "optimizationExclusionEnabled": false,
             "optimizationExclusionRules": [],
             "greetingOptimizationEnabled": false,
@@ -4492,43 +4492,43 @@
                     },
                     {
                         "identifier": "94e2bf01-18df-4be8-9377-aa12d53e654a",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "ac469228-bd1a-444b-a61e-fa91bea00042",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "91be7e14-4169-4e4e-b0b2-c4a32c8809f0",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "e9b91a84-50d3-40db-b642-084797782bc6",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "bb9bb9b7-3b3d-4b1a-8eb9-0a23ed3d799d",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "2eeba189-911a-4d15-bf46-7caba49581b7",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "07688972-a290-4b22-a210-3f9df7ef0781",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "430d57cf-d2ea-46ce-b83d-624ca2300f2b",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "6ab76630-4988-4dcb-a1b7-2e2635ec7a00",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "c6a34ba6-393f-48c7-993d-86c47de6a35c",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "324e85a9-0fc1-4e8b-85cf-1ff9851f5b03",
@@ -4568,7 +4568,7 @@
                     },
                     {
                         "identifier": "d6d362c4-5556-4bd0-a08c-067afb3424b1",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "268aa2ec-491c-4232-827d-8dbe291d4917",
