@@ -3201,7 +3201,7 @@
                 "marker": false,
                 "name": "设计模块开始⬇️",
                 "role": "system",
-                "content": "",
+                "content": "开始设计",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "injection_order": 100,
@@ -4428,11 +4428,11 @@
                     },
                     {
                         "identifier": "0b166044-370f-428d-ba4c-35531287b921",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "10f932fb-8899-4482-a8d3-bf8cfbf16231",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "d021d3b4-08cc-4f03-9533-652cda89f10b",
@@ -4532,19 +4532,19 @@
                     },
                     {
                         "identifier": "324e85a9-0fc1-4e8b-85cf-1ff9851f5b03",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "35ea2ccc-99c5-4731-a25a-0693614b07fa",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "ca6d2266-d37f-4596-bd2b-b61ac0f7ba49",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "d491235e-9535-48b0-8b15-6c0e777114fb",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "60b1db7c-30d4-4a86-bd41-67e13c5084e0",
@@ -4588,23 +4588,23 @@
                     },
                     {
                         "identifier": "53cfc7f6-b030-4553-9bd5-781c102c1e39",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "487bb55b-da3f-4ee7-8f6d-0c23b5591bc2",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "399f98bd-0bfb-4e72-881c-0086099f4a6b",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "5472b214-c260-4ce8-97c2-7e9831cce93d",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "06d05ed6-0695-4cff-b2ac-1d7fa46ba031",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "89afd1c7-a37f-4bf5-b73f-abbe60026218",
@@ -4640,7 +4640,7 @@
                     },
                     {
                         "identifier": "4c789119-ca1f-4413-b3c2-8edfd2cdc056",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "b3bb7133-7161-4b76-b7be-dabd38f76f19",
