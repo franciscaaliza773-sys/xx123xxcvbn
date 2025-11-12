@@ -51,7 +51,7 @@
     },
     "currentVersion": "1.13.5",
     "username": "白云",
-    "active_character": "{{char}}.png",
+    "active_character": "范静梅2.png",
     "active_group": null,
     "user_avatar": "1762852293666-.png",
     "amount_gen": 350,
@@ -60,8 +60,8 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
+                "范静梅",
                 "蓝灯__XP大全 v1.4",
-                "A.U.T.O预设 0.9",
                 "a1融合版反差母猪世界书低token"
             ]
         },
@@ -3956,7 +3956,7 @@
         "names_behavior": 0,
         "continue_postfix": " ",
         "custom_prompt_post_processing": "semi_tools",
-        "show_thoughts": true,
+        "show_thoughts": false,
         "reasoning_effort": "auto",
         "enable_web_search": false,
         "request_images": false,
