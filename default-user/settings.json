@@ -256,7 +256,7 @@
         "avatar_style": 1,
         "chat_display": 2,
         "toastr_position": "toast-top-center",
-        "chat_width": 53,
+        "chat_width": 75,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
         "play_message_sound": false,
@@ -996,10 +996,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1654,
-                "LAST_RECEIVE_CHARS": 2159,
-                "LAST_SEND_TOKENS": 26289,
-                "LAST_SEND_CHARS": 38400,
+                "LAST_RECEIVE_TOKENS": 4269,
+                "LAST_RECEIVE_CHARS": 6035,
+                "LAST_SEND_TOKENS": 280854,
+                "LAST_SEND_CHARS": 512684,
                 "content": "继续"
             }
         },
@@ -1100,11 +1100,11 @@
                 "duration": 1000
             },
             "macro": {
-                "enabled": false
+                "enabled": true
             },
             "render": {
                 "enabled": true,
-                "collapse_code_block": "none",
+                "collapse_code_block": "frontend_only",
                 "use_blob_url": false,
                 "depth": 0
             },
@@ -1439,7 +1439,7 @@
             }
         },
         "EjsTemplate": {
-            "enabled": false,
+            "enabled": true,
             "generate_enabled": true,
             "generate_loader_enabled": true,
             "render_enabled": true,
@@ -4812,8 +4812,8 @@
         }
     },
     "background": {
-        "name": "cityscape medieval market.jpg",
-        "url": "url(\"backgrounds/cityscape%20medieval%20market.jpg\")",
+        "name": "2.jpg",
+        "url": "url(\"backgrounds/2.jpg\")",
         "fitting": "classic",
         "animation": false,
         "thumbnailColumns": 5
