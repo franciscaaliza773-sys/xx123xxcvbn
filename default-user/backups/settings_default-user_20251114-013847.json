@@ -4,7 +4,7 @@
         "__migrated": "1",
         "LNavOpened": "false",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}},\"1547467663366332\":{\"fieldsWarned\":{}}}}",
         "LNavLockOn": "false",
         "WINavOpened": "true",
@@ -15,7 +15,7 @@
         "AlertWI_我的剑仙熟女美母恶堕了全新版.png": "true",
         "AlertWI_[反差婊]我认识的coser和福利姬们.png": "true",
         "AlertRegex_[反差婊]我认识的coser和福利姬们.png": "true",
-        "extension_update_nag": "Wed Nov 12 2025",
+        "extension_update_nag": "Thu Nov 13 2025",
         "response_linter_settings": "{\"enabled\":false,\"autoFix\":false,\"defaultAutoFixAction\":\"apply\",\"rules\":[{\"id\":\"thinking-content-demo\",\"name\":\"思维链与内容格式\",\"description\":\"确保AI回复包含思考过程和内容两个部分\",\"enabled\":true,\"requiredContent\":[\"<thinking>\",\"</thinking>\",\"<content>\",\"</content>\"],\"fixStrategy\":\"thinking-content\",\"createdAt\":\"2025-11-07T10:57:03.935Z\"},{\"id\":1762513235660.9443,\"name\":\"问答格式验证\",\"description\":\"验证问答回复包含问题和答案部分\",\"requiredContent\":[\"## 问题\",\"## 答案\"],\"fixStrategy\":\"positional\",\"positionalOptions\":{\"doubleNewline\":true},\"enabled\":true,\"createdAt\":\"2025-11-07T11:00:35.660Z\",\"updatedAt\":\"2025-11-07T11:00:35.660Z\"},{\"id\":1762513242396.4727,\"name\":\"思维链验证\",\"description\":\"验证AI回复包含正确的思考过程和内容格式\",\"requiredContent\":[\"<thinking>\",\"</thinking>\",\"<content>\",\"</content>\"],\"fixStrategy\":\"positional\",\"positionalOptions\":{\"doubleNewline\":true},\"enabled\":false,\"createdAt\":\"2025-11-07T11:00:42.396Z\",\"updatedAt\":\"2025-11-07T11:00:42.396Z\"},{\"id\":1762513243989.2322,\"name\":\"代码块验证\",\"description\":\"验证代码回复包含正确的代码块标记\",\"requiredContent\":[\"```\",\"```\"],\"fixStrategy\":\"add-missing-tags\",\"enabled\":false,\"createdAt\":\"2025-11-07T11:00:43.989Z\",\"updatedAt\":\"2025-11-07T11:00:43.989Z\"}],\"notifications\":{\"enabled\":true,\"duration\":5,\"showSuccess\":true},\"statistics\":{\"validations\":0,\"fixes\":0,\"successRate\":100}}",
         "AlertWI_角色生成.png": "true",
         "AlertRegex_openai_知识库": "true",
@@ -60,9 +60,8 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "蓝灯__XP大全 v1.4",
-                "珠矶",
-                "A.U.T.O预设 0.9"
+                "范静梅2  乱星海篇",
+                "蓝灯__XP大全 v1.4"
             ]
         },
         "world_info_depth": 2,
@@ -257,7 +256,7 @@
         "avatar_style": 1,
         "chat_display": 2,
         "toastr_position": "toast-top-center",
-        "chat_width": 53,
+        "chat_width": 70,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
         "play_message_sound": false,
@@ -997,10 +996,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2,
-                "LAST_RECEIVE_CHARS": 2,
-                "LAST_SEND_TOKENS": 163393,
-                "LAST_SEND_CHARS": 252016,
+                "LAST_RECEIVE_TOKENS": 991,
+                "LAST_RECEIVE_CHARS": 1287,
+                "LAST_SEND_TOKENS": 42199,
+                "LAST_SEND_CHARS": 66445,
                 "content": "继续"
             }
         },
@@ -1022,7 +1021,7 @@
             "chara": []
         },
         "quickReplyV2": {
-            "isEnabled": true,
+            "isEnabled": false,
             "isCombined": true,
             "isPopout": false,
             "showPopoutButton": true,
@@ -1034,7 +1033,14 @@
                     }
                 ]
             },
-            "characterConfigs": {}
+            "characterConfigs": {
+                "范静梅2.png": {
+                    "setList": []
+                },
+                "{{char}}.png": {
+                    "setList": []
+                }
+            }
         },
         "manual_saver": {
             "enabled": true,
@@ -1094,11 +1100,11 @@
                 "duration": 1000
             },
             "macro": {
-                "enabled": false
+                "enabled": true
             },
             "render": {
                 "enabled": true,
-                "collapse_code_block": "all",
+                "collapse_code_block": "frontend_only",
                 "use_blob_url": false,
                 "depth": 0
             },
@@ -1160,7 +1166,7 @@
                     },
                     {
                         "type": "script",
-                        "enabled": false,
+                        "enabled": true,
                         "name": "标签补全",
                         "id": "209f4ee4-3fd9-4ead-a7ca-bc5c0e02fad2",
                         "content": "$(()=>{toastr.success('思维链标签修复脚本已加载'),eventOn(tavern_events.MESSAGE_RECEIVED,async n=>{try{const e=getChatMessages(n);if(0===e.length)return;const i=e[0];if('assistant'!==i.role)return;let t=i.message;const s=t;t=function(n){if(!n.includes('<content>'))return n;let e=n;const i=(e.match(/<thinking>/g)||[]).length;if(0===i)e='<thinking>\\n'+e;else if(1===i){if(!e.trimStart().startsWith('<thinking>')){const n=e.indexOf('<thinking>'),i=e.slice(0,n).trimStart(),t=e.slice(n);e=t+(i?'\\n'+i:'')}}else if(e.trimStart().startsWith('<thinking>')){const n=e.indexOf('<thinking>'),i=e.slice(0,n+10),t=e.slice(n+10);e=i+t.replace(/<thinking>/g,'')}else e=e.replace(/<thinking>/g,''),e='<thinking>\\n'+e;const t=(e.match(/<\\/thinking>/g)||[]).length,s=e.indexOf('<content>');if(0===t)e=e.slice(0,s)+'</thinking>\\n'+e.slice(s);else if(1===t){if(e.indexOf('</thinking>')>s){e=e.replace('</thinking>','');const n=e.indexOf('<content>');e=e.slice(0,n)+'</thinking>\\n'+e.slice(n)}}else{const n=e.indexOf('</thinking>');if(n<s){const i=e.slice(0,n+11),t=e.slice(n+11);e=i+t.replace(/<\\/thinking>/g,'')}else{e=e.replace(/<\\/thinking>/g,'');const n=e.indexOf('<content>');e=e.slice(0,n)+'</thinking>\\n'+e.slice(n)}}const c=(e.match(/<thinking>/g)||[]).length,g=(e.match(/<\\/thinking>/g)||[]).length;if(1!==c||1!==g)return console.warn('[思维链标签修复] 修复后 thinking 标签数量不正确，保持原内容'),n;const l=e.indexOf('<thinking>'),o=e.indexOf('</thinking>'),r=e.indexOf('<content>');if(l>o||o>r)return console.warn('[思维链标签修复] 修复后标签顺序不正确，保持原内容'),n;return e}(t),t=function(n){const e=n.indexOf('<thinking>'),i=n.indexOf('</thinking>');if(-1===e||-1===i)return n;const t=n.slice(0,e+10),s=n.slice(e+10,i),c=n.slice(i),g=s.replace(/<[\\\\/]*UpdateVariable[\\\\/]*>/gi,'');return t+g+c}(t),t!==s&&(await setChatMessages([{message_id:n,message:t}],{refresh:'affected'}),console.log(`[思维链标签修复] 已修复第 ${n} 楼的标签`))}catch(n){console.error('[思维链标签修复] 处理消息时出错:',n)}}),console.log('[思维链标签修复] 脚本初始化完成')}),$(window).on('pagehide',()=>{console.log('[思维链标签修复] 脚本已卸载')});",
@@ -1309,7 +1315,7 @@
             "voice_posY": 0,
             "voice_posZ": 1.9
         },
-        "regexBinding_scriptId": "9bda9a37-6be3-4449-9f3d-76103ecf5a7c",
+        "regexBinding_scriptId": "0da1e226-06d4-4ba7-83b4-0f640a00c1af",
         "quick-response-force": {
             "apiSettings": {
                 "apiMode": "tavern",
@@ -1506,7 +1512,7 @@
             "plotOpt_worldbookSource": "character",
             "plotOpt_worldbookCharLimit": 60000,
             "plotOpt_contextLimit": 4,
-            "plotOpt_ejsEnabled": false,
+            "plotOpt_ejsEnabled": true,
             "plotOpt_rateMain": 0.7,
             "plotOpt_ratePersonal": 0.1,
             "plotOpt_rateErotic": 0.2,
@@ -1523,7 +1529,7 @@
             "suppressToast": false,
             "optimizationMode": "intercept",
             "optimizationTargetTag": "content",
-            "optimizationEnabled": true,
+            "optimizationEnabled": false,
             "optimizationExclusionEnabled": false,
             "optimizationExclusionRules": [],
             "greetingOptimizationEnabled": false,
@@ -1578,7 +1584,7 @@
             "cwb_worldbook_target": "primary",
             "cwb_custom_worldbook": null,
             "render_on_every_message": false,
-            "render_enabled": false,
+            "render_enabled": true,
             "table_worldbook_enabled": false,
             "table_worldbook_char_limit": 30000,
             "table_worldbook_source": "character",
@@ -1604,7 +1610,14 @@
             "collapsible_正文优化_collapsed": false,
             "autoHideSummarizedEnabled": false,
             "ngmsEnabled": false,
-            "optEnabled": true
+            "optEnabled": true,
+            "plotOpt_amily2JqyhEnabled": true,
+            "jqyhEnabled": true,
+            "plotOpt_amily2JqyhApiMode": "sillytavern_preset",
+            "jqyhApiMode": "sillytavern_preset",
+            "plotOpt_amily2JqyhTavernProfile": "279e361d-ddd7-43b0-8d7d-1a4943bd4736",
+            "jqyhTavernProfile": "279e361d-ddd7-43b0-8d7d-1a4943bd4736",
+            "optEjsEnabled": true
         },
         "hanlinyuan-rag-core": {
             "condensationHistory": {},
@@ -2466,7 +2479,7 @@
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
         "stream_openai": true,
-        "openai_max_context": "813673",
+        "openai_max_context": 813673,
         "openai_max_tokens": 10000,
         "wrap_in_quotes": false,
         "prompts": [
@@ -3201,7 +3214,7 @@
                 "marker": false,
                 "name": "设计模块开始⬇️",
                 "role": "system",
-                "content": "",
+                "content": "开始设计",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "injection_order": 100,
@@ -4304,7 +4317,7 @@
                     },
                     {
                         "identifier": "nsfw",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "a9d0c060-e1cf-454b-9303-9166197c3d2a",
@@ -4428,11 +4441,11 @@
                     },
                     {
                         "identifier": "0b166044-370f-428d-ba4c-35531287b921",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "10f932fb-8899-4482-a8d3-bf8cfbf16231",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "d021d3b4-08cc-4f03-9533-652cda89f10b",
@@ -4484,7 +4497,7 @@
                     },
                     {
                         "identifier": "35a058fe-c7b8-41a7-94b7-1bff0bb3a84e",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "9376366e-bf35-446f-babe-438959ccc452",
@@ -4604,11 +4617,11 @@
                     },
                     {
                         "identifier": "06d05ed6-0695-4cff-b2ac-1d7fa46ba031",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "89afd1c7-a37f-4bf5-b73f-abbe60026218",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "6ba124e7-1b24-4452-bea3-3aed1877a0ff",
@@ -4640,7 +4653,7 @@
                     },
                     {
                         "identifier": "4c789119-ca1f-4413-b3c2-8edfd2cdc056",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "b3bb7133-7161-4b76-b7be-dabd38f76f19",
@@ -4764,7 +4777,7 @@
         "continue_postfix": " ",
         "custom_prompt_post_processing": "semi_tools",
         "show_thoughts": false,
-        "reasoning_effort": "min",
+        "reasoning_effort": "auto",
         "enable_web_search": false,
         "request_images": false,
         "seed": -1,
@@ -4799,8 +4812,8 @@
         }
     },
     "background": {
-        "name": "cityscape medieval market.jpg",
-        "url": "url(\"backgrounds/cityscape%20medieval%20market.jpg\")",
+        "name": "2.jpg",
+        "url": "url(\"backgrounds/2.jpg\")",
         "fitting": "classic",
         "animation": false,
         "thumbnailColumns": 5
