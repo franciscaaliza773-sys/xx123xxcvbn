@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
         "NavOpened": "false",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}},\"1547467663366332\":{\"fieldsWarned\":{}}}}",
@@ -60,6 +60,7 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
+                "范静梅2  乱星海篇",
                 "蓝灯__XP大全 v1.4"
             ]
         },
@@ -1103,7 +1104,7 @@
             },
             "render": {
                 "enabled": true,
-                "collapse_code_block": "all",
+                "collapse_code_block": "none",
                 "use_blob_url": false,
                 "depth": 0
             },
@@ -4516,11 +4517,11 @@
                     },
                     {
                         "identifier": "e9b91a84-50d3-40db-b642-084797782bc6",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "bb9bb9b7-3b3d-4b1a-8eb9-0a23ed3d799d",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "2eeba189-911a-4d15-bf46-7caba49581b7",
@@ -4528,7 +4529,7 @@
                     },
                     {
                         "identifier": "07688972-a290-4b22-a210-3f9df7ef0781",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "430d57cf-d2ea-46ce-b83d-624ca2300f2b",
