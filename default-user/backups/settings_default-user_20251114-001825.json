@@ -256,7 +256,7 @@
         "avatar_style": 1,
         "chat_display": 2,
         "toastr_position": "toast-top-center",
-        "chat_width": 70,
+        "chat_width": 51,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
         "play_message_sound": false,
@@ -996,10 +996,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 713,
-                "LAST_RECEIVE_CHARS": 968,
-                "LAST_SEND_TOKENS": 58739,
-                "LAST_SEND_CHARS": 89462,
+                "LAST_RECEIVE_TOKENS": 1190,
+                "LAST_RECEIVE_CHARS": 1506,
+                "LAST_SEND_TOKENS": 44113,
+                "LAST_SEND_CHARS": 68816,
                 "content": "继续"
             }
         },
@@ -1500,7 +1500,7 @@
             "contextMessages": 2,
             "promptPresets": [],
             "lastUsedPresetName": "",
-            "plotOpt_enabled": true,
+            "plotOpt_enabled": false,
             "plotOpt_max_tokens": 20000,
             "plotOpt_temperature": 0.7,
             "plotOpt_top_p": 0.95,
@@ -1512,7 +1512,7 @@
             "plotOpt_worldbookSource": "character",
             "plotOpt_worldbookCharLimit": 60000,
             "plotOpt_contextLimit": 4,
-            "plotOpt_ejsEnabled": true,
+            "plotOpt_ejsEnabled": false,
             "plotOpt_rateMain": 0.7,
             "plotOpt_ratePersonal": 0.1,
             "plotOpt_rateErotic": 0.2,
@@ -1610,14 +1610,14 @@
             "collapsible_正文优化_collapsed": false,
             "autoHideSummarizedEnabled": false,
             "ngmsEnabled": false,
-            "optEnabled": true,
+            "optEnabled": false,
             "plotOpt_amily2JqyhEnabled": true,
             "jqyhEnabled": true,
             "plotOpt_amily2JqyhApiMode": "sillytavern_preset",
             "jqyhApiMode": "sillytavern_preset",
             "plotOpt_amily2JqyhTavernProfile": "279e361d-ddd7-43b0-8d7d-1a4943bd4736",
             "jqyhTavernProfile": "279e361d-ddd7-43b0-8d7d-1a4943bd4736",
-            "optEjsEnabled": true
+            "optEjsEnabled": false
         },
         "hanlinyuan-rag-core": {
             "condensationHistory": {},
