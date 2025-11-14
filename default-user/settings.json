@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
         "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}},\"1547467663366332\":{\"fieldsWarned\":{}}}}",
@@ -61,6 +61,7 @@
         "world_info": {
             "globalSelect": [
                 "-【基本】XP兼特征兼行为兼规则兼世界观世界书·第二册",
+                "-【基本】XP兼特征兼行为兼规则兼世界观世界书·第三册",
                 "-【基本】XP兼特征兼行为兼规则兼世界观世界书·第一册",
                 "部位特写",
                 "范静梅2  乱星海篇",
@@ -259,7 +260,7 @@
         "avatar_style": 1,
         "chat_display": 2,
         "toastr_position": "toast-top-center",
-        "chat_width": 68,
+        "chat_width": 48,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
         "play_message_sound": false,
@@ -269,7 +270,7 @@
         "sort_field": "name",
         "sort_order": "asc",
         "sort_rule": null,
-        "font_scale": 0.68,
+        "font_scale": 0.89,
         "blur_strength": 5,
         "shadow_width": 5,
         "main_text_color": "rgba(240, 240, 240, 1)",
@@ -1017,10 +1018,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1232,
-                "LAST_RECEIVE_CHARS": 1648,
-                "LAST_SEND_TOKENS": 59017,
-                "LAST_SEND_CHARS": 88022,
+                "LAST_RECEIVE_TOKENS": 1641,
+                "LAST_RECEIVE_CHARS": 2185,
+                "LAST_SEND_TOKENS": 185557,
+                "LAST_SEND_CHARS": 285760,
                 "content": "继续"
             }
         },
@@ -2497,7 +2498,7 @@
         "top_a_openai": 1,
         "repetition_penalty_openai": 1,
         "stream_openai": true,
-        "openai_max_context": "377990",
+        "openai_max_context": 377990,
         "openai_max_tokens": 8192,
         "wrap_in_quotes": false,
         "prompts": [
@@ -3804,11 +3805,11 @@
                     },
                     {
                         "identifier": "6bd48052-3934-41e6-b120-7fceb8986c11",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "e6a810a2-4fef-4640-849c-4950a17bf6e5",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "7bc08c3d-d6aa-4586-aff5-ffaf0caff06f",
@@ -3852,11 +3853,11 @@
                     },
                     {
                         "identifier": "8976f8f2-dad0-417e-86ab-b97678b568ab",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "94b712f9-2300-4296-b61e-2e026b014673",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "a2f48752-985c-4d3e-b3ad-0fc75f9ed6dd",
@@ -3872,7 +3873,7 @@
                     },
                     {
                         "identifier": "d0471fba-de9c-4c48-9378-7af2d21ed11b",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "jailbreak",

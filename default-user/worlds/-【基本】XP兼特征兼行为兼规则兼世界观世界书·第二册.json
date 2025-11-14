@@ -110,7 +110,7 @@
             "addMemo": true,
             "order": 652,
             "position": 4,
-            "disable": false,
+            "disable": true,
             "excludeRecursion": false,
             "preventRecursion": false,
             "matchPersonaDescription": false,
@@ -4574,7 +4574,7 @@
             "addMemo": true,
             "order": 738,
             "position": 4,
-            "disable": false,
+            "disable": true,
             "excludeRecursion": false,
             "preventRecursion": false,
             "matchPersonaDescription": false,
@@ -4624,7 +4624,7 @@
             "addMemo": true,
             "order": 743,
             "position": 4,
-            "disable": false,
+            "disable": true,
             "excludeRecursion": false,
             "preventRecursion": false,
             "matchPersonaDescription": false,
@@ -4674,7 +4674,7 @@
             "addMemo": true,
             "order": 744,
             "position": 4,
-            "disable": false,
+            "disable": true,
             "excludeRecursion": false,
             "preventRecursion": false,
             "matchPersonaDescription": false,
@@ -4724,7 +4724,7 @@
             "addMemo": true,
             "order": 745,
             "position": 4,
-            "disable": false,
+            "disable": true,
             "excludeRecursion": false,
             "preventRecursion": false,
             "matchPersonaDescription": false,
@@ -4803,12 +4803,7 @@
             "uid": 99,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "100": {
             "key": [

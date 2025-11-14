@@ -43,7 +43,7 @@
     "top_a": 1,
     "min_p": 0,
     "repetition_penalty": 1,
-    "openai_max_context": "377990",
+    "openai_max_context": 377990,
     "openai_max_tokens": 8192,
     "wrap_in_quotes": false,
     "names_behavior": 0,
@@ -1250,7 +1250,7 @@
                 },
                 {
                     "identifier": "42d33c82-9953-4b47-a6a5-1efe916e243a",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "87ade5ee-d598-48e3-8dbf-86cf8adf7d93",
@@ -1266,11 +1266,11 @@
                 },
                 {
                     "identifier": "976e5165-5d22-4d1f-9b4c-bfd17f2b65ac",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "ffde20f1-808e-4c26-87aa-fb727e287033",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "f7505ab0-b3ce-4e0c-b56a-fcbcf5c908f5",
@@ -1330,7 +1330,7 @@
                 },
                 {
                     "identifier": "7b6f5320-093d-425b-8d8f-e5c016c3c445",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "d0d7cebf-54a8-40e8-8aaa-0039b0d935b3",
@@ -1358,7 +1358,7 @@
                 },
                 {
                     "identifier": "89049660-069d-4dbd-ad4f-d122f3439be9",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "2d15d3bb-85bb-4c25-99f3-3028e3020a2f",
@@ -1414,11 +1414,11 @@
                 },
                 {
                     "identifier": "8976f8f2-dad0-417e-86ab-b97678b568ab",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "94b712f9-2300-4296-b61e-2e026b014673",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "a2f48752-985c-4d3e-b3ad-0fc75f9ed6dd",

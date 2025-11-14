@@ -139,7 +139,12 @@
             "uid": 2,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "4": {
             "key": [
@@ -334,7 +339,12 @@
             "uid": 9,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "10": {
             "key": [
@@ -379,7 +389,12 @@
             "uid": 10,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "11": {
             "key": [
@@ -424,7 +439,12 @@
             "uid": 11,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "12": {
             "key": [
@@ -469,7 +489,12 @@
             "uid": 12,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "13": {
             "key": [
@@ -660,7 +685,12 @@
             "uid": 16,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "17": {
             "key": [
@@ -705,7 +735,12 @@
             "uid": 17,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "18": {
             "key": [
@@ -750,7 +785,12 @@
             "uid": 18,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "19": {
             "key": [
@@ -1041,7 +1081,12 @@
             "uid": 24,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "25": {
             "key": [
@@ -1086,7 +1131,12 @@
             "uid": 25,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "26": {
             "key": [
@@ -1898,7 +1948,7 @@
             "addMemo": true,
             "order": 841,
             "position": 4,
-            "disable": false,
+            "disable": true,
             "excludeRecursion": false,
             "preventRecursion": false,
             "matchPersonaDescription": false,
@@ -1948,7 +1998,7 @@
             "addMemo": true,
             "order": 842,
             "position": 4,
-            "disable": false,
+            "disable": true,
             "excludeRecursion": false,
             "preventRecursion": false,
             "matchPersonaDescription": false,
@@ -2277,7 +2327,12 @@
             "uid": 49,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "50": {
             "key": [
@@ -2372,7 +2427,12 @@
             "uid": 51,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "52": {
             "key": [
@@ -2617,7 +2677,12 @@
             "uid": 56,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "57": {
             "key": [
@@ -2662,7 +2727,12 @@
             "uid": 57,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "58": {
             "key": [
@@ -2707,7 +2777,12 @@
             "uid": 58,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "59": {
             "key": [
@@ -3396,7 +3471,12 @@
             "uid": 72,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "73": {
             "key": [],
@@ -3460,7 +3540,7 @@
             "addMemo": true,
             "order": 869,
             "position": 4,
-            "disable": false,
+            "disable": true,
             "excludeRecursion": false,
             "preventRecursion": false,
             "matchPersonaDescription": false,
@@ -3489,7 +3569,12 @@
             "uid": 74,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "75": {
             "key": [
@@ -3505,7 +3590,7 @@
             "addMemo": true,
             "order": 870,
             "position": 4,
-            "disable": false,
+            "disable": true,
             "excludeRecursion": false,
             "preventRecursion": false,
             "matchPersonaDescription": false,
@@ -3534,7 +3619,12 @@
             "uid": 75,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "76": {
             "key": [
@@ -3579,7 +3669,12 @@
             "uid": 76,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "77": {
             "key": [],
@@ -3720,7 +3815,12 @@
             "uid": 79,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "80": {
             "key": [],
@@ -3813,7 +3913,12 @@
             "uid": 81,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "82": {
             "key": [
@@ -3858,7 +3963,12 @@
             "uid": 82,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "83": {
             "key": [],
@@ -4151,7 +4261,12 @@
             "uid": 88,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "89": {
             "key": [],
@@ -4292,7 +4407,12 @@
             "uid": 91,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "92": {
             "key": [],
@@ -4385,7 +4505,12 @@
             "uid": 93,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "94": {
             "key": [
@@ -4580,7 +4705,12 @@
             "uid": 97,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "98": {
             "key": [
@@ -4625,7 +4755,12 @@
             "uid": 98,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "99": {
             "key": [
@@ -4670,7 +4805,12 @@
             "uid": 99,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "100": {
             "key": [
@@ -4765,7 +4905,12 @@
             "uid": 101,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "102": {
             "key": [
@@ -4810,7 +4955,12 @@
             "uid": 102,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "103": {
             "key": [
@@ -4855,7 +5005,12 @@
             "uid": 103,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "104": {
             "key": [],
@@ -4948,7 +5103,12 @@
             "uid": 105,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "106": {
             "key": [
@@ -4993,7 +5153,12 @@
             "uid": 106,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "109": {
             "key": [
@@ -5038,7 +5203,12 @@
             "uid": 109,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "110": {
             "key": [
@@ -5083,7 +5253,12 @@
             "uid": 110,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "111": {
             "key": [
@@ -5128,7 +5303,12 @@
             "uid": 111,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "112": {
             "key": [],
@@ -5171,7 +5351,12 @@
             "uid": 112,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "113": {
             "key": [],
@@ -5312,7 +5497,12 @@
             "uid": 125,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": []
+            "triggers": [],
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
+            }
         },
         "137": {
             "key": [
