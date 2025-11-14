@@ -4,7 +4,7 @@
         "__migrated": "1",
         "LNavOpened": "false",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}},\"1547467663366332\":{\"fieldsWarned\":{}}}}",
         "LNavLockOn": "false",
         "WINavOpened": "true",
@@ -256,7 +256,7 @@
         "avatar_style": 1,
         "chat_display": 2,
         "toastr_position": "toast-top-center",
-        "chat_width": 53,
+        "chat_width": 70,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
         "play_message_sound": false,
@@ -996,10 +996,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1232,
-                "LAST_RECEIVE_CHARS": 1648,
-                "LAST_SEND_TOKENS": 59017,
-                "LAST_SEND_CHARS": 88022,
+                "LAST_RECEIVE_TOKENS": 6961,
+                "LAST_RECEIVE_CHARS": 13663,
+                "LAST_SEND_TOKENS": 57320,
+                "LAST_SEND_CHARS": 84817,
                 "content": "继续"
             }
         },
@@ -1166,7 +1166,7 @@
                     },
                     {
                         "type": "script",
-                        "enabled": true,
+                        "enabled": false,
                         "name": "标签补全",
                         "id": "209f4ee4-3fd9-4ead-a7ca-bc5c0e02fad2",
                         "content": "$(()=>{toastr.success('思维链标签修复脚本已加载'),eventOn(tavern_events.MESSAGE_RECEIVED,async n=>{try{const e=getChatMessages(n);if(0===e.length)return;const i=e[0];if('assistant'!==i.role)return;let t=i.message;const s=t;t=function(n){if(!n.includes('<content>'))return n;let e=n;const i=(e.match(/<thinking>/g)||[]).length;if(0===i)e='<thinking>\\n'+e;else if(1===i){if(!e.trimStart().startsWith('<thinking>')){const n=e.indexOf('<thinking>'),i=e.slice(0,n).trimStart(),t=e.slice(n);e=t+(i?'\\n'+i:'')}}else if(e.trimStart().startsWith('<thinking>')){const n=e.indexOf('<thinking>'),i=e.slice(0,n+10),t=e.slice(n+10);e=i+t.replace(/<thinking>/g,'')}else e=e.replace(/<thinking>/g,''),e='<thinking>\\n'+e;const t=(e.match(/<\\/thinking>/g)||[]).length,s=e.indexOf('<content>');if(0===t)e=e.slice(0,s)+'</thinking>\\n'+e.slice(s);else if(1===t){if(e.indexOf('</thinking>')>s){e=e.replace('</thinking>','');const n=e.indexOf('<content>');e=e.slice(0,n)+'</thinking>\\n'+e.slice(n)}}else{const n=e.indexOf('</thinking>');if(n<s){const i=e.slice(0,n+11),t=e.slice(n+11);e=i+t.replace(/<\\/thinking>/g,'')}else{e=e.replace(/<\\/thinking>/g,'');const n=e.indexOf('<content>');e=e.slice(0,n)+'</thinking>\\n'+e.slice(n)}}const c=(e.match(/<thinking>/g)||[]).length,g=(e.match(/<\\/thinking>/g)||[]).length;if(1!==c||1!==g)return console.warn('[思维链标签修复] 修复后 thinking 标签数量不正确，保持原内容'),n;const l=e.indexOf('<thinking>'),o=e.indexOf('</thinking>'),r=e.indexOf('<content>');if(l>o||o>r)return console.warn('[思维链标签修复] 修复后标签顺序不正确，保持原内容'),n;return e}(t),t=function(n){const e=n.indexOf('<thinking>'),i=n.indexOf('</thinking>');if(-1===e||-1===i)return n;const t=n.slice(0,e+10),s=n.slice(e+10,i),c=n.slice(i),g=s.replace(/<[\\\\/]*UpdateVariable[\\\\/]*>/gi,'');return t+g+c}(t),t!==s&&(await setChatMessages([{message_id:n,message:t}],{refresh:'affected'}),console.log(`[思维链标签修复] 已修复第 ${n} 楼的标签`))}catch(n){console.error('[思维链标签修复] 处理消息时出错:',n)}}),console.log('[思维链标签修复] 脚本初始化完成')}),$(window).on('pagehide',()=>{console.log('[思维链标签修复] 脚本已卸载')});",
@@ -3670,7 +3670,7 @@
                     },
                     {
                         "identifier": "42d33c82-9953-4b47-a6a5-1efe916e243a",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "87ade5ee-d598-48e3-8dbf-86cf8adf7d93",
@@ -3686,11 +3686,11 @@
                     },
                     {
                         "identifier": "976e5165-5d22-4d1f-9b4c-bfd17f2b65ac",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "ffde20f1-808e-4c26-87aa-fb727e287033",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "f7505ab0-b3ce-4e0c-b56a-fcbcf5c908f5",
@@ -3750,7 +3750,7 @@
                     },
                     {
                         "identifier": "7b6f5320-093d-425b-8d8f-e5c016c3c445",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "d0d7cebf-54a8-40e8-8aaa-0039b0d935b3",
@@ -3778,7 +3778,7 @@
                     },
                     {
                         "identifier": "89049660-069d-4dbd-ad4f-d122f3439be9",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "2d15d3bb-85bb-4c25-99f3-3028e3020a2f",
@@ -3834,11 +3834,11 @@
                     },
                     {
                         "identifier": "8976f8f2-dad0-417e-86ab-b97678b568ab",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "94b712f9-2300-4296-b61e-2e026b014673",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "a2f48752-985c-4d3e-b3ad-0fc75f9ed6dd",
