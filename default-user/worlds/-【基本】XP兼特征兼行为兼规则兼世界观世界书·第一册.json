@@ -1384,7 +1384,7 @@
             "addMemo": true,
             "order": 528,
             "position": 0,
-            "disable": false,
+            "disable": true,
             "excludeRecursion": true,
             "preventRecursion": false,
             "matchPersonaDescription": false,
@@ -1413,12 +1413,7 @@
             "uid": 26,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "27": {
             "key": [
@@ -1782,12 +1777,7 @@
             "uid": 33,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "34": {
             "key": [
@@ -2969,12 +2959,7 @@
             "uid": 54,
             "ignoreBudget": false,
             "outletName": "",
-            "triggers": [],
-            "characterFilter": {
-                "isExclude": false,
-                "names": [],
-                "tags": []
-            }
+            "triggers": []
         },
         "55": {
             "key": [],
@@ -3552,7 +3537,7 @@
             "addMemo": true,
             "order": 564,
             "position": 0,
-            "disable": false,
+            "disable": true,
             "excludeRecursion": true,
             "preventRecursion": false,
             "matchPersonaDescription": false,
