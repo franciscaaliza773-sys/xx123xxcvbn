@@ -12,7 +12,7 @@
             "addMemo": true,
             "order": 998,
             "position": 4,
-            "disable": true,
+            "disable": false,
             "ignoreBudget": false,
             "excludeRecursion": true,
             "preventRecursion": true,
