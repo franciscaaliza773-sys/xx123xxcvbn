@@ -15,7 +15,7 @@
         "AlertWI_我的剑仙熟女美母恶堕了全新版.png": "true",
         "AlertWI_[反差婊]我认识的coser和福利姬们.png": "true",
         "AlertRegex_[反差婊]我认识的coser和福利姬们.png": "true",
-        "extension_update_nag": "Wed Nov 12 2025",
+        "extension_update_nag": "Fri Nov 14 2025",
         "response_linter_settings": "{\"enabled\":false,\"autoFix\":false,\"defaultAutoFixAction\":\"apply\",\"rules\":[{\"id\":\"thinking-content-demo\",\"name\":\"思维链与内容格式\",\"description\":\"确保AI回复包含思考过程和内容两个部分\",\"enabled\":true,\"requiredContent\":[\"<thinking>\",\"</thinking>\",\"<content>\",\"</content>\"],\"fixStrategy\":\"thinking-content\",\"createdAt\":\"2025-11-07T10:57:03.935Z\"},{\"id\":1762513235660.9443,\"name\":\"问答格式验证\",\"description\":\"验证问答回复包含问题和答案部分\",\"requiredContent\":[\"## 问题\",\"## 答案\"],\"fixStrategy\":\"positional\",\"positionalOptions\":{\"doubleNewline\":true},\"enabled\":true,\"createdAt\":\"2025-11-07T11:00:35.660Z\",\"updatedAt\":\"2025-11-07T11:00:35.660Z\"},{\"id\":1762513242396.4727,\"name\":\"思维链验证\",\"description\":\"验证AI回复包含正确的思考过程和内容格式\",\"requiredContent\":[\"<thinking>\",\"</thinking>\",\"<content>\",\"</content>\"],\"fixStrategy\":\"positional\",\"positionalOptions\":{\"doubleNewline\":true},\"enabled\":false,\"createdAt\":\"2025-11-07T11:00:42.396Z\",\"updatedAt\":\"2025-11-07T11:00:42.396Z\"},{\"id\":1762513243989.2322,\"name\":\"代码块验证\",\"description\":\"验证代码回复包含正确的代码块标记\",\"requiredContent\":[\"```\",\"```\"],\"fixStrategy\":\"add-missing-tags\",\"enabled\":false,\"createdAt\":\"2025-11-07T11:00:43.989Z\",\"updatedAt\":\"2025-11-07T11:00:43.989Z\"}],\"notifications\":{\"enabled\":true,\"duration\":5,\"showSuccess\":true},\"statistics\":{\"validations\":0,\"fixes\":0,\"successRate\":100}}",
         "AlertWI_角色生成.png": "true",
         "AlertRegex_openai_知识库": "true",
@@ -51,7 +51,7 @@
     },
     "currentVersion": "1.13.5",
     "username": "白云",
-    "active_character": "范静梅2.png",
+    "active_character": "{{char}}.png",
     "active_group": null,
     "user_avatar": "1762852293666-.png",
     "amount_gen": 350,
@@ -60,8 +60,12 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "范静梅",
-                "蓝灯__XP大全 v1.4"
+                "-【基本】XP兼特征兼行为兼规则兼世界观世界书·第二册",
+                "-【基本】XP兼特征兼行为兼规则兼世界观世界书·第三册",
+                "-【基本】XP兼特征兼行为兼规则兼世界观世界书·第一册",
+                "部位特写",
+                "范静梅2  乱星海篇",
+                "XP大全绿灯世界书-v1.4"
             ]
         },
         "world_info_depth": 2,
@@ -256,7 +260,7 @@
         "avatar_style": 1,
         "chat_display": 2,
         "toastr_position": "toast-top-center",
-        "chat_width": 53,
+        "chat_width": 48,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
         "play_message_sound": false,
@@ -266,7 +270,7 @@
         "sort_field": "name",
         "sort_order": "asc",
         "sort_rule": null,
-        "font_scale": 0.97,
+        "font_scale": 0.89,
         "blur_strength": 5,
         "shadow_width": 5,
         "main_text_color": "rgba(240, 240, 240, 1)",
@@ -692,6 +696,24 @@
                 "substituteRegex": 0,
                 "minDepth": 10,
                 "maxDepth": null
+            },
+            {
+                "id": "b16c3fbc-4b26-4172-9c1f-defd90cf1331",
+                "scriptName": "部位特写",
+                "findRegex": "/<font[^>]*>(.|\\n)*<\\/font>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": false,
+                "minDepth": 2,
+                "maxDepth": null
             }
         ],
         "regex_presets": [
@@ -996,10 +1018,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1629,
-                "LAST_RECEIVE_CHARS": 2183,
-                "LAST_SEND_TOKENS": 26289,
-                "LAST_SEND_CHARS": 38400,
+                "LAST_RECEIVE_TOKENS": 1641,
+                "LAST_RECEIVE_CHARS": 2185,
+                "LAST_SEND_TOKENS": 185557,
+                "LAST_SEND_CHARS": 285760,
                 "content": "继续"
             }
         },
@@ -1021,21 +1043,21 @@
             "chara": []
         },
         "quickReplyV2": {
-            "isEnabled": false,
+            "isEnabled": true,
             "isCombined": true,
             "isPopout": false,
             "showPopoutButton": true,
             "config": {
-                "setList": [
-                    {
-                        "set": "通用版",
-                        "isVisible": true
-                    }
-                ]
+                "setList": []
             },
             "characterConfigs": {
-                "范静梅2.png": {
-                    "setList": []
+                "{{char}}.png": {
+                    "setList": [
+                        {
+                            "set": "1",
+                            "isVisible": true
+                        }
+                    ]
                 }
             }
         },
@@ -1097,11 +1119,11 @@
                 "duration": 1000
             },
             "macro": {
-                "enabled": false
+                "enabled": true
             },
             "render": {
                 "enabled": true,
-                "collapse_code_block": "all",
+                "collapse_code_block": "frontend_only",
                 "use_blob_url": false,
                 "depth": 0
             },
@@ -1497,7 +1519,7 @@
             "contextMessages": 2,
             "promptPresets": [],
             "lastUsedPresetName": "",
-            "plotOpt_enabled": true,
+            "plotOpt_enabled": false,
             "plotOpt_max_tokens": 20000,
             "plotOpt_temperature": 0.7,
             "plotOpt_top_p": 0.95,
@@ -1509,7 +1531,7 @@
             "plotOpt_worldbookSource": "character",
             "plotOpt_worldbookCharLimit": 60000,
             "plotOpt_contextLimit": 4,
-            "plotOpt_ejsEnabled": true,
+            "plotOpt_ejsEnabled": false,
             "plotOpt_rateMain": 0.7,
             "plotOpt_ratePersonal": 0.1,
             "plotOpt_rateErotic": 0.2,
@@ -1538,7 +1560,7 @@
             "summarizeToMainWorldbook": true,
             "createChatLoreAsSub": false,
             "iconLocation": "topbar",
-            "autoHideEnabled": false,
+            "autoHideEnabled": true,
             "autoHideThreshold": 30,
             "tavernProfile": "",
             "show_table_in_chat": false,
@@ -1605,16 +1627,16 @@
             "novelChunkSize": "300000",
             "cwb_incremental_char_card_prompt": "\n您是一个专用于角色档案**增量更新**的AI。您的核心任务是：**融合**【旧档案】和【新对话】，生成一个**内容更丰富、更精确**的【新档案】。您必须严格遵循<数据格式化协议>和<增量更新协议>。\n\n<数据格式化协议 (绝对强制)>\n(此协议与标准模式完全相同，必须严格遵守)\n1.  **【档案结构】**: 您的输出必须且只能由数个角色档案块组成。每个块以 `[--Amily2::CHAR_START--]` 作为起始标记，并以 `[--Amily2::CHAR_END--]` 作为结束标记。\n2.  **【键值对】**: 在每个档案块内部，所有信息都必须采用 `[数据路径]:[数据值]` 的格式。每条信息必须独立成行。\n3.  **【键名规范】**: `数据路径` **必须**使用方括号 `[]` 完整包裹。\n4.  **【内容纯净性】**: 严禁在您的输出中包含任何说明、解释、评论或任何不属于角色档案块的文本。\n5.  **【空值处理】**: 如果某个字段没有可用的信息，请保持该字段的键存在，并将值留空。\n6.  **【格式唯一性】**: 绝对禁止使用YAML或任何其他格式。\n7.  **【内部纯净性】**: 在档案块标记之间，除了 `[key]:value` 数据外，**严禁**包含任何空行。\n</数据格式化协议>\n\n<增量更新协议 (核心任务指令)>\n1.  **【`[name]`字段绝对保留】**:`[name]`是角色的唯一标识符。在更新档案时，**必须**原样保留【旧档案】中的`[name]`字段。这是最高优先级的规则。\n2.  **【融合而非替换】**: 您的任务不是从头开始。您必须将【新对话】中体现的新信息（如新特质、新关系、变化的动机等）**智能地整合**到【旧档案】中。\n3.  **【修正与深化】**: 如果【新对话】中的信息与【旧档案】有出入，您需要根据**最新的情境**进行修正。例如，一个角色的“当前状态”或“动机”可能已经改变。\n4.  **【保留核心信息】**: 不要随意丢弃【旧档案】中的有效信息。只有当新信息明确覆盖或替代了旧信息时，才进行修改。\n5.  **【补完空缺】**: 利用【新对话】来填充【旧档案】中原先空白或不完整的字段。\n6.  **【输出完整性】**: 即使某个角色的档案没有变化，您也**必须**在最终输出中包含其完整的、未经修改的档案。输出必须包含所有在输入中提到的角色的完整档案。\n</增量更新协议>\n\n---\n**输入内容结构:**\n\n您将收到两部分信息：\n1.  **【旧档案】**: 一个或多个角色的现有数据档案。若久档案为空，则完全依据**完整示例**生成完整内容。\n2.  **【新对话】**: 角色之间最近发生的对话。\n\n---\n**【增量更新操作示例】**\n\n**输入 - 旧档案:**\n[--Amily2::CHAR_START--]\n[name]:塞拉斯\n[core_identity.archetype]:被放逐的星际探险家\n[core_identity.age]:约35岁\n[core_identity.current_status]:正在一颗废弃的矿业星球上修理飞船“流浪者号”，对偶遇的玩家保持着高度警惕。\n[psyche_profile.motivation]:修复飞船，离开这颗星球。\n[narrative_essence.key_relationships.0.name]:玩家\n[narrative_essence.key_relationships.0.summary]:一个意外的闯入者，可能是威胁。\n[--Amily2::CHAR_END--]\n\n**输入 - 新对话:**\n玩家: \"塞拉斯，五年不见，你看起来沧桑多了。没想到你成了'猩红彗星'佣兵团的团长。\"\n塞拉斯: \"废话少说。我现在只想找到我失散的女儿，'流浪者号'只是我达成目的的工具。\"\n玩家: \"我听说她最后出现在了天苑四星系。\"\n塞拉斯: \"天苑四...谢谢你。作为回报，这个能量核心你拿去用吧。\"\n\n**分析与操作:**\n1.  **修正**: \"[core_identity.age]\" 从 \"约35岁\" 变为 \"40岁\" (根据“五年不见”)。\n2.  **深化**: \"[core_identity.archetype]\" 从 \"被放逐的星际探险家\" 扩展为 \"前星际探险家，现为'猩红彗星'佣兵团团长\"。\n3.  **更新**: \"[psyche_profile.motivation]\" 的核心从 \"离开星球\" 变为 \"找到失散的女儿\"。\n4.  **补充**: \"[narrative_essence.key_relationships.0.summary]\" 中与玩家的关系，从单纯的 \"威胁\" 变为 \"提供了关键情报的旧识，关系有所缓和\"。\n\n**完美输出示例 (更新后的完整档案):**\n注意：\"[name]:\"为必须保留的字段，必须存在，否则视为错误输出。\n[--Amily2::CHAR_START--]\n[name]:塞拉斯\n[core_identity.archetype]:前星际探险家，现为'猩红彗星'佣兵团团长\n[core_identity.age]:40岁\n[core_identity.current_status]:在修理飞船的同时，从玩家处获得了关于女儿下落的关键线索，情绪混杂着惊讶和感激。\n[psyche_profile.motivation]:找到在天苑四星系失散的女儿。\n[narrative_essence.key_relationships.0.name]:玩家\n[narrative_essence.key_relationships.0.summary]:一位五年未见的旧识。对方不仅认出了他，还提供了关于他女儿下落的关键情报，使塞拉斯对玩家的态度从警惕转为合作。\n[--Amily2::CHAR_END--]\n---\n**任务开始：**\n请分析以下【旧档案】和【新对话】，严格遵循上述所有协议，生成纯粹的、更新后的数据档案。\n若旧档案为空，则完全依照**完整示例**生成完整内容，若旧档案不为空，则以旧档案为基准进行更新。\n其中无需变动的内容，可忽略，例如年龄无变化，则可以不输出[core_identity.age]条目。\n现在开始你的增量更新任务。",
             "collapsible_正文优化_collapsed": false,
-            "autoHideSummarizedEnabled": false,
+            "autoHideSummarizedEnabled": true,
             "ngmsEnabled": false,
-            "optEnabled": true,
+            "optEnabled": false,
             "plotOpt_amily2JqyhEnabled": true,
             "jqyhEnabled": true,
             "plotOpt_amily2JqyhApiMode": "sillytavern_preset",
             "jqyhApiMode": "sillytavern_preset",
             "plotOpt_amily2JqyhTavernProfile": "279e361d-ddd7-43b0-8d7d-1a4943bd4736",
             "jqyhTavernProfile": "279e361d-ddd7-43b0-8d7d-1a4943bd4736",
-            "optEjsEnabled": true
+            "optEjsEnabled": false
         },
         "hanlinyuan-rag-core": {
             "condensationHistory": {},
@@ -3667,7 +3689,7 @@
                     },
                     {
                         "identifier": "42d33c82-9953-4b47-a6a5-1efe916e243a",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "87ade5ee-d598-48e3-8dbf-86cf8adf7d93",
@@ -3683,11 +3705,11 @@
                     },
                     {
                         "identifier": "976e5165-5d22-4d1f-9b4c-bfd17f2b65ac",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "ffde20f1-808e-4c26-87aa-fb727e287033",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "f7505ab0-b3ce-4e0c-b56a-fcbcf5c908f5",
@@ -3747,7 +3769,7 @@
                     },
                     {
                         "identifier": "7b6f5320-093d-425b-8d8f-e5c016c3c445",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "d0d7cebf-54a8-40e8-8aaa-0039b0d935b3",
@@ -3759,7 +3781,7 @@
                     },
                     {
                         "identifier": "fa4b314b-ebf6-4c24-ad4a-c36445fa306c",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "bc34649e-9a32-46d0-83b3-404a1934ad6b",
@@ -3775,7 +3797,7 @@
                     },
                     {
                         "identifier": "89049660-069d-4dbd-ad4f-d122f3439be9",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "2d15d3bb-85bb-4c25-99f3-3028e3020a2f",
@@ -3783,11 +3805,11 @@
                     },
                     {
                         "identifier": "6bd48052-3934-41e6-b120-7fceb8986c11",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "e6a810a2-4fef-4640-849c-4950a17bf6e5",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "7bc08c3d-d6aa-4586-aff5-ffaf0caff06f",
@@ -3851,7 +3873,7 @@
                     },
                     {
                         "identifier": "d0471fba-de9c-4c48-9378-7af2d21ed11b",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "jailbreak",
@@ -4002,8 +4024,8 @@
         }
     },
     "background": {
-        "name": "cityscape medieval market.jpg",
-        "url": "url(\"backgrounds/cityscape%20medieval%20market.jpg\")",
+        "name": "2.jpg",
+        "url": "url(\"backgrounds/2.jpg\")",
         "fitting": "classic",
         "animation": false,
         "thumbnailColumns": 5
