@@ -60,8 +60,9 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
+                "部位特写",
                 "范静梅2  乱星海篇",
-                "蓝灯__XP大全 v1.4"
+                "XP大全绿灯世界书-v1.4"
             ]
         },
         "world_info_depth": 2,
@@ -256,7 +257,7 @@
         "avatar_style": 1,
         "chat_display": 2,
         "toastr_position": "toast-top-center",
-        "chat_width": 53,
+        "chat_width": 68,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
         "play_message_sound": false,
@@ -266,7 +267,7 @@
         "sort_field": "name",
         "sort_order": "asc",
         "sort_rule": null,
-        "font_scale": 0.97,
+        "font_scale": 0.68,
         "blur_strength": 5,
         "shadow_width": 5,
         "main_text_color": "rgba(240, 240, 240, 1)",
@@ -692,6 +693,24 @@
                 "substituteRegex": 0,
                 "minDepth": 10,
                 "maxDepth": null
+            },
+            {
+                "id": "b16c3fbc-4b26-4172-9c1f-defd90cf1331",
+                "scriptName": "部位特写",
+                "findRegex": "/<font[^>]*>(.|\\n)*<\\/font>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": false,
+                "minDepth": 2,
+                "maxDepth": null
             }
         ],
         "regex_presets": [
@@ -1021,24 +1040,21 @@
             "chara": []
         },
         "quickReplyV2": {
-            "isEnabled": false,
+            "isEnabled": true,
             "isCombined": true,
             "isPopout": false,
             "showPopoutButton": true,
             "config": {
-                "setList": [
-                    {
-                        "set": "通用版",
-                        "isVisible": true
-                    }
-                ]
+                "setList": []
             },
             "characterConfigs": {
-                "范静梅2.png": {
-                    "setList": []
-                },
                 "{{char}}.png": {
-                    "setList": []
+                    "setList": [
+                        {
+                            "set": "1",
+                            "isVisible": true
+                        }
+                    ]
                 }
             }
         },
