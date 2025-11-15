@@ -74,6 +74,11 @@
                 "triggers": [],
                 "outlet_name": "",
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "1": {
@@ -150,6 +155,11 @@
                 "triggers": [],
                 "outlet_name": "",
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "2": {
@@ -226,6 +236,11 @@
                 "triggers": [],
                 "outlet_name": "",
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "3": {
@@ -302,6 +317,11 @@
                 "triggers": [],
                 "outlet_name": "",
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "4": {
@@ -561,7 +581,7 @@
             "addMemo": true,
             "order": 20,
             "position": 1,
-            "disable": false,
+            "disable": true,
             "ignoreBudget": false,
             "excludeRecursion": false,
             "preventRecursion": false,
@@ -785,6 +805,11 @@
                 "triggers": [],
                 "outlet_name": "",
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "10": {
@@ -1104,6 +1129,11 @@
                 "triggers": [],
                 "outlet_name": "",
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "14": {
@@ -1180,6 +1210,11 @@
                 "triggers": [],
                 "outlet_name": "",
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "15": {
@@ -1256,6 +1291,11 @@
                 "triggers": [],
                 "outlet_name": "",
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "16": {
@@ -1332,6 +1372,11 @@
                 "triggers": [],
                 "outlet_name": "",
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "17": {
@@ -1408,6 +1453,11 @@
                 "triggers": [],
                 "outlet_name": "",
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "18": {
@@ -1484,6 +1534,11 @@
                 "triggers": [],
                 "outlet_name": "",
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "19": {
@@ -1641,6 +1696,11 @@
                 "triggers": [],
                 "outlet_name": "",
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "21": {
@@ -2203,6 +2263,11 @@
                 "triggers": [],
                 "outlet_name": "",
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "28": {
@@ -2462,7 +2527,7 @@
             "addMemo": true,
             "order": 30,
             "position": 1,
-            "disable": false,
+            "disable": true,
             "ignoreBudget": false,
             "excludeRecursion": false,
             "preventRecursion": false,
@@ -2543,7 +2608,7 @@
             "addMemo": true,
             "order": 40,
             "position": 1,
-            "disable": false,
+            "disable": true,
             "ignoreBudget": false,
             "excludeRecursion": false,
             "preventRecursion": false,
@@ -2605,6 +2670,11 @@
                 "triggers": [],
                 "outlet_name": "",
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         },
         "33": {
@@ -3005,6 +3075,11 @@
                 "triggers": [],
                 "outlet_name": "",
                 "ignore_budget": false
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": []
             }
         }
     },
