@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertRegex_kobold_【MoM】梦梦DS1.1.11p丨喵喵电波@ameng": "true",
         "NavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"3090278210222208\":{\"fieldsWarned\":{}},\"1547467663366332\":{\"fieldsWarned\":{}}}}",
@@ -47,7 +47,8 @@
         "AlertRegex_{{char}}.png": "true",
         "AlertWI_温知夏.png": "true",
         "AlertRegex_温知夏.png": "true",
-        "AlertTasks_温知夏.png": "true"
+        "AlertTasks_温知夏.png": "true",
+        "AlertWI_S15的状态栏.png": "true"
     },
     "currentVersion": "1.13.5",
     "username": "白云",
@@ -472,7 +473,8 @@
             "third-party/st-immersive-sound",
             "third-party/Response-Linter",
             "translate",
-            "tts"
+            "tts",
+            "third-party/quick-response-force"
         ],
         "expressionOverrides": [],
         "memory": {
@@ -1104,10 +1106,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2,
-                "LAST_RECEIVE_CHARS": 1,
-                "LAST_SEND_TOKENS": 148321,
-                "LAST_SEND_CHARS": 232060,
+                "LAST_RECEIVE_TOKENS": 367,
+                "LAST_RECEIVE_CHARS": 1406,
+                "LAST_SEND_TOKENS": 198732,
+                "LAST_SEND_CHARS": 306904,
                 "content": "继续"
             }
         },
@@ -1144,6 +1146,18 @@
                             "isVisible": true
                         }
                     ]
+                },
+                "范静梅.png": {
+                    "setList": []
+                },
+                "S15的状态栏.png": {
+                    "setList": []
+                },
+                "范静梅2.png": {
+                    "setList": []
+                },
+                "斗罗大陆.png": {
+                    "setList": []
                 }
             }
         },
@@ -1208,8 +1222,8 @@
                 "enabled": true
             },
             "render": {
-                "enabled": true,
-                "collapse_code_block": "frontend_only",
+                "enabled": false,
+                "collapse_code_block": "all",
                 "use_blob_url": false,
                 "depth": 0
             },
@@ -1606,7 +1620,7 @@
             "contextMessages": 2,
             "promptPresets": [],
             "lastUsedPresetName": "",
-            "plotOpt_enabled": false,
+            "plotOpt_enabled": true,
             "plotOpt_max_tokens": 20000,
             "plotOpt_temperature": 0.7,
             "plotOpt_top_p": 0.95,
@@ -1618,7 +1632,7 @@
             "plotOpt_worldbookSource": "character",
             "plotOpt_worldbookCharLimit": 60000,
             "plotOpt_contextLimit": 4,
-            "plotOpt_ejsEnabled": false,
+            "plotOpt_ejsEnabled": true,
             "plotOpt_rateMain": 0.7,
             "plotOpt_ratePersonal": 0.1,
             "plotOpt_rateErotic": 0.2,
@@ -1635,7 +1649,7 @@
             "suppressToast": false,
             "optimizationMode": "intercept",
             "optimizationTargetTag": "content",
-            "optimizationEnabled": false,
+            "optimizationEnabled": true,
             "optimizationExclusionEnabled": false,
             "optimizationExclusionRules": [],
             "greetingOptimizationEnabled": false,
@@ -1715,21 +1729,24 @@
             "cwb_incremental_char_card_prompt": "\n您是一个专用于角色档案**增量更新**的AI。您的核心任务是：**融合**【旧档案】和【新对话】，生成一个**内容更丰富、更精确**的【新档案】。您必须严格遵循<数据格式化协议>和<增量更新协议>。\n\n<数据格式化协议 (绝对强制)>\n(此协议与标准模式完全相同，必须严格遵守)\n1.  **【档案结构】**: 您的输出必须且只能由数个角色档案块组成。每个块以 `[--Amily2::CHAR_START--]` 作为起始标记，并以 `[--Amily2::CHAR_END--]` 作为结束标记。\n2.  **【键值对】**: 在每个档案块内部，所有信息都必须采用 `[数据路径]:[数据值]` 的格式。每条信息必须独立成行。\n3.  **【键名规范】**: `数据路径` **必须**使用方括号 `[]` 完整包裹。\n4.  **【内容纯净性】**: 严禁在您的输出中包含任何说明、解释、评论或任何不属于角色档案块的文本。\n5.  **【空值处理】**: 如果某个字段没有可用的信息，请保持该字段的键存在，并将值留空。\n6.  **【格式唯一性】**: 绝对禁止使用YAML或任何其他格式。\n7.  **【内部纯净性】**: 在档案块标记之间，除了 `[key]:value` 数据外，**严禁**包含任何空行。\n</数据格式化协议>\n\n<增量更新协议 (核心任务指令)>\n1.  **【`[name]`字段绝对保留】**:`[name]`是角色的唯一标识符。在更新档案时，**必须**原样保留【旧档案】中的`[name]`字段。这是最高优先级的规则。\n2.  **【融合而非替换】**: 您的任务不是从头开始。您必须将【新对话】中体现的新信息（如新特质、新关系、变化的动机等）**智能地整合**到【旧档案】中。\n3.  **【修正与深化】**: 如果【新对话】中的信息与【旧档案】有出入，您需要根据**最新的情境**进行修正。例如，一个角色的“当前状态”或“动机”可能已经改变。\n4.  **【保留核心信息】**: 不要随意丢弃【旧档案】中的有效信息。只有当新信息明确覆盖或替代了旧信息时，才进行修改。\n5.  **【补完空缺】**: 利用【新对话】来填充【旧档案】中原先空白或不完整的字段。\n6.  **【输出完整性】**: 即使某个角色的档案没有变化，您也**必须**在最终输出中包含其完整的、未经修改的档案。输出必须包含所有在输入中提到的角色的完整档案。\n</增量更新协议>\n\n---\n**输入内容结构:**\n\n您将收到两部分信息：\n1.  **【旧档案】**: 一个或多个角色的现有数据档案。若久档案为空，则完全依据**完整示例**生成完整内容。\n2.  **【新对话】**: 角色之间最近发生的对话。\n\n---\n**【增量更新操作示例】**\n\n**输入 - 旧档案:**\n[--Amily2::CHAR_START--]\n[name]:塞拉斯\n[core_identity.archetype]:被放逐的星际探险家\n[core_identity.age]:约35岁\n[core_identity.current_status]:正在一颗废弃的矿业星球上修理飞船“流浪者号”，对偶遇的玩家保持着高度警惕。\n[psyche_profile.motivation]:修复飞船，离开这颗星球。\n[narrative_essence.key_relationships.0.name]:玩家\n[narrative_essence.key_relationships.0.summary]:一个意外的闯入者，可能是威胁。\n[--Amily2::CHAR_END--]\n\n**输入 - 新对话:**\n玩家: \"塞拉斯，五年不见，你看起来沧桑多了。没想到你成了'猩红彗星'佣兵团的团长。\"\n塞拉斯: \"废话少说。我现在只想找到我失散的女儿，'流浪者号'只是我达成目的的工具。\"\n玩家: \"我听说她最后出现在了天苑四星系。\"\n塞拉斯: \"天苑四...谢谢你。作为回报，这个能量核心你拿去用吧。\"\n\n**分析与操作:**\n1.  **修正**: \"[core_identity.age]\" 从 \"约35岁\" 变为 \"40岁\" (根据“五年不见”)。\n2.  **深化**: \"[core_identity.archetype]\" 从 \"被放逐的星际探险家\" 扩展为 \"前星际探险家，现为'猩红彗星'佣兵团团长\"。\n3.  **更新**: \"[psyche_profile.motivation]\" 的核心从 \"离开星球\" 变为 \"找到失散的女儿\"。\n4.  **补充**: \"[narrative_essence.key_relationships.0.summary]\" 中与玩家的关系，从单纯的 \"威胁\" 变为 \"提供了关键情报的旧识，关系有所缓和\"。\n\n**完美输出示例 (更新后的完整档案):**\n注意：\"[name]:\"为必须保留的字段，必须存在，否则视为错误输出。\n[--Amily2::CHAR_START--]\n[name]:塞拉斯\n[core_identity.archetype]:前星际探险家，现为'猩红彗星'佣兵团团长\n[core_identity.age]:40岁\n[core_identity.current_status]:在修理飞船的同时，从玩家处获得了关于女儿下落的关键线索，情绪混杂着惊讶和感激。\n[psyche_profile.motivation]:找到在天苑四星系失散的女儿。\n[narrative_essence.key_relationships.0.name]:玩家\n[narrative_essence.key_relationships.0.summary]:一位五年未见的旧识。对方不仅认出了他，还提供了关于他女儿下落的关键情报，使塞拉斯对玩家的态度从警惕转为合作。\n[--Amily2::CHAR_END--]\n---\n**任务开始：**\n请分析以下【旧档案】和【新对话】，严格遵循上述所有协议，生成纯粹的、更新后的数据档案。\n若旧档案为空，则完全依照**完整示例**生成完整内容，若旧档案不为空，则以旧档案为基准进行更新。\n其中无需变动的内容，可忽略，例如年龄无变化，则可以不输出[core_identity.age]条目。\n现在开始你的增量更新任务。",
             "collapsible_正文优化_collapsed": false,
             "autoHideSummarizedEnabled": true,
-            "ngmsEnabled": false,
-            "optEnabled": false,
+            "ngmsEnabled": true,
+            "optEnabled": true,
             "plotOpt_amily2JqyhEnabled": true,
             "jqyhEnabled": true,
             "plotOpt_amily2JqyhApiMode": "sillytavern_preset",
             "jqyhApiMode": "sillytavern_preset",
             "plotOpt_amily2JqyhTavernProfile": "279e361d-ddd7-43b0-8d7d-1a4943bd4736",
             "jqyhTavernProfile": "279e361d-ddd7-43b0-8d7d-1a4943bd4736",
-            "optEjsEnabled": false
+            "optEjsEnabled": true,
+            "ngmsApiMode": "sillytavern_preset",
+            "ngmsTavernProfile": "279e361d-ddd7-43b0-8d7d-1a4943bd4736"
         },
         "hanlinyuan-rag-core": {
             "condensationHistory": {},
             "knowledgeBases": {
                 "__char__": {},
-                "_global": {}
+                "_global": {},
+                "斗罗大陆": {}
             },
             "queryPreprocessing": {
                 "enabled": false,
@@ -1739,13 +1756,13 @@
             },
             "retrieval": {
                 "enabled": false,
-                "apiEndpoint": "openai",
+                "apiEndpoint": "google_direct",
                 "customApiUrl": "https://api.siliconflow.cn/v1",
-                "apiKey": "",
+                "apiKey": "gg-gcli-_lM3Fg99HLxyFduxd56nUtVBM0xWA-kAM0hXwlQBuIs",
                 "embeddingModel": "text-embedding-3-small",
                 "notify": true,
                 "batchSize": 50,
-                "independentChatMemoryEnabled": false
+                "independentChatMemoryEnabled": true
             },
             "advanced": {
                 "chunkSize": 768,
@@ -1794,12 +1811,12 @@
             "rerank": {
                 "enabled": false,
                 "url": "https://api.siliconflow.cn/v1",
-                "apiKey": "",
+                "apiKey": "gg-gcli-_lM3Fg99HLxyFduxd56nUtVBM0xWA-kAM0hXwlQBuIs",
                 "model": "Pro/BAAI/bge-reranker-v2-m3",
                 "top_n": 5,
                 "hybrid_alpha": 0.7,
                 "notify": true,
-                "superSortEnabled": false,
+                "superSortEnabled": true,
                 "priorityRetrieval": {
                     "enabled": false,
                     "sources": {
@@ -1820,7 +1837,8 @@
                             "count": 5
                         }
                     }
-                }
+                },
+                "apiMode": "custom"
             },
             "settingsVersion": 2
         },
@@ -2587,7 +2605,7 @@
         "repetition_penalty_openai": 1,
         "stream_openai": true,
         "openai_max_context": 377990,
-        "openai_max_tokens": 8192,
+        "openai_max_tokens": 8190,
         "wrap_in_quotes": false,
         "prompts": [
             {
