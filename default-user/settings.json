@@ -65,7 +65,8 @@
                 "-【基本】XP兼特征兼行为兼规则兼世界观世界书·第三册",
                 "-【基本】XP兼特征兼行为兼规则兼世界观世界书·第一册",
                 "[S15的状态栏 1107]",
-                "适用于对抗路拉扯与情感渐进的Gemini世界书v2 by Capybara"
+                "适用于对抗路拉扯与情感渐进的Gemini世界书v2 by Capybara",
+                "XP大全绿灯世界书-v1.4"
             ]
         },
         "world_info_depth": 2,
@@ -1106,10 +1107,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 959,
-                "LAST_RECEIVE_CHARS": 1316,
-                "LAST_SEND_TOKENS": 204045,
-                "LAST_SEND_CHARS": 314302,
+                "LAST_RECEIVE_TOKENS": 16627,
+                "LAST_RECEIVE_CHARS": 54201,
+                "LAST_SEND_TOKENS": 212862,
+                "LAST_SEND_CHARS": 327472,
                 "content": "继续"
             }
         },
